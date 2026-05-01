@@ -1,33 +1,45 @@
-# LSC research code dependencies, grouped by modality.
-# Comment out sections you don't need; the video stack in particular pulls
-# in heavyweight libraries (torch, transformers, av, decord).
+# LSC50 — runtime dependencies, grouped by modality.
+#
+# Versions are pinned to the originals used in the analysis (extracted from the
+# project's pip freeze). Comment out sections you don't need; the video stack in
+# particular pulls in heavyweight libraries (torch, transformers, av).
+#
+# Note on torch: the analysis was run against `torch==2.0.1+cu117` on a
+# CUDA 11.7 GPU. Below we pin the public version (2.0.1) so the install works
+# on CPU / different CUDA setups; for the exact original wheel, run:
+#     pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 \
+#         --index-url https://download.pytorch.org/whl/cu117
 
 # -------- Core (used by every modality) --------
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-tqdm
-openpyxl                     # for IMU .xlsx volunteer files
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.2
+matplotlib==3.9.2
+seaborn==0.13.2
+tqdm==4.66.5
+openpyxl==3.1.5                  # IMU .xlsx volunteer files
+tabulate==0.9.0                  # results_analysis notebooks
 
 # -------- IMU pipeline --------
-tsfel                        # time-series feature extraction
-# chronos-forecasting        # for the Chronos embeddings notebook (uncomment if needed)
+tsfel==0.1.9                     # time-series feature extraction
+chronos-forecasting==1.5.3       # IMU & landmark Chronos embedding notebooks
 
 # -------- LANDMARKS pipeline --------
-# Same core stack; landmark feature CSVs are consumed by the shared grid search.
-# Notebooks additionally use:
-# pycirclize
-# plotly
+mediapipe                        # Analisis.ipynb (no pin — wheels are Python-version-sensitive)
+opencv-python==4.10.0.84         # Analisis.ipynb, videos/notebooks/init_expl.ipynb
+
+# -------- Notebook visualization extras --------
+pyCirclize==1.10.0               # IMU + LANDMARKS sankey/circos notebooks, videos circle_diagram
+plotly==6.3.0
 
 # -------- VIDEOS pipeline (heavy) --------
-torch
-transformers
-datasets
-av                           # PyAV for frame decoding
-# decord                     # alternative video backend used by some notebooks
-huggingface-hub
+torch==2.0.1                     # see header note re: cu117 wheels
+torchvision==0.15.2
+torchaudio==2.0.2
+transformers==4.55.0
+datasets==3.1.0
+av==14.1.0                       # PyAV for frame decoding
+huggingface-hub==0.34.4
 
 # -------- Notebook/analysis extras (optional) --------
 # jupyter
