@@ -1,0 +1,35 @@
+# LSC research code dependencies, grouped by modality.
+# Comment out sections you don't need; the video stack in particular pulls
+# in heavyweight libraries (torch, transformers, av, decord).
+
+# -------- Core (used by every modality) --------
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+openpyxl                     # for IMU .xlsx volunteer files
+
+# -------- IMU pipeline --------
+tsfel                        # time-series feature extraction
+# chronos-forecasting        # for the Chronos embeddings notebook (uncomment if needed)
+
+# -------- LANDMARKS pipeline --------
+# Same core stack; landmark feature CSVs are consumed by the shared grid search.
+# Notebooks additionally use:
+# pycirclize
+# plotly
+
+# -------- VIDEOS pipeline (heavy) --------
+torch
+transformers
+datasets
+av                           # PyAV for frame decoding
+# decord                     # alternative video backend used by some notebooks
+huggingface-hub
+
+# -------- Notebook/analysis extras (optional) --------
+# jupyter
+# ipykernel
+# notebook
