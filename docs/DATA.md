@@ -1,9 +1,15 @@
 # Expected data layout
 
-The original data tree was deleted, but the scripts in this repo still expect
-specific directory structures and file conventions. Recreate them under any
-prefix you like and pass the prefix to the CLIs (most accept
-`--base-route`, `--signs-dir`, `--features-csv`, or `--video-dir`).
+The companion dataset is published on figshare:
+
+> **LSC50: Colombian Sign Language Video and Inertial Measurement Dataset**
+> <https://figshare.com/articles/dataset/LSC50_Colombian_Sign_Language_Video_and_Inertial_Measurement_Dataset/27383016>
+
+The scripts in this repo expect specific directory structures and file
+conventions (the layout the data has when decompressed from figshare). The
+sections below describe each modality's expected tree; arrange your local
+copy accordingly and pass the prefix to the CLIs (most accept `--base-route`,
+`--signs-dir`, `--features-csv`, or `--video-dir`).
 
 ## IMU
 

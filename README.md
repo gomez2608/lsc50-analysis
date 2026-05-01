@@ -10,9 +10,19 @@ and a known dataset-split bug fixed in the video pipeline.
 
 Released under the Apache License 2.0 — see [`LICENSE`](LICENSE).
 
-The actual data files (CSV feature tables, OpenSim motion files, video
-clips, model checkpoints) are *not* part of this repo — see
-`docs/DATA.md` for the expected directory schema.
+## Dataset
+
+The companion **LSC50** dataset (raw videos, IMU recordings, landmark
+extracts, and metadata) is published on figshare:
+
+> *LSC50: Colombian Sign Language Video and Inertial Measurement Dataset* —
+> <https://figshare.com/articles/dataset/LSC50_Colombian_Sign_Language_Video_and_Inertial_Measurement_Dataset/27383016>
+
+The data files (CSV feature tables, OpenSim motion files, video clips,
+model checkpoints) are *not* part of this repo. Download the dataset,
+arrange the contents according to [`docs/DATA.md`](docs/DATA.md), then
+point the CLI scripts at your local copy via `--video-dir`,
+`--signs-dir`, `--features-csv`, etc.
 
 ## Layout
 
