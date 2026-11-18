@@ -1,0 +1,20 @@
+slowfast-loso-s0-seed0|~/lsc-revision/slowfast_v2/results|--split loso --subject 0 --seed 0 --lr 0.003
+slowfast-loso-s1-seed0|~/lsc-revision/slowfast_v2/results|--split loso --subject 1 --seed 0 --lr 0.003
+slowfast-loso-s2-seed0|~/lsc-revision/slowfast_v2/results|--split loso --subject 2 --seed 0 --lr 0.003
+slowfast-loso-s3-seed0|~/lsc-revision/slowfast_v2/results|--split loso --subject 3 --seed 0 --lr 0.003
+slowfast-loso-s4-seed0|~/lsc-revision/slowfast_v2/results|--split loso --subject 4 --seed 0 --lr 0.003
+slowfast-8020-seed0|~/lsc-revision/slowfast_v2/results|--split 8020 --seed 0 --lr 0.003
+slowfast-loso-s0-seed1|~/lsc-revision/slowfast_v2/results|--split loso --subject 0 --seed 1 --lr 0.003
+slowfast-loso-s1-seed1|~/lsc-revision/slowfast_v2/results|--split loso --subject 1 --seed 1 --lr 0.003
+slowfast-loso-s2-seed1|~/lsc-revision/slowfast_v2/results|--split loso --subject 2 --seed 1 --lr 0.003
+slowfast-loso-s3-seed1|~/lsc-revision/slowfast_v2/results|--split loso --subject 3 --seed 1 --lr 0.003
+slowfast-loso-s4-seed1|~/lsc-revision/slowfast_v2/results|--split loso --subject 4 --seed 1 --lr 0.003
+slowfast-8020-seed1|~/lsc-revision/slowfast_v2/results|--split 8020 --seed 1 --lr 0.003
+slowfast-loso-s0-seed2|~/lsc-revision/slowfast_v2/results|--split loso --subject 0 --seed 2 --lr 0.003
+slowfast-loso-s1-seed2|~/lsc-revision/slowfast_v2/results|--split loso --subject 1 --seed 2 --lr 0.003
+slowfast-loso-s2-seed2|~/lsc-revision/slowfast_v2/results|--split loso --subject 2 --seed 2 --lr 0.003
+slowfast-loso-s3-seed2|~/lsc-revision/slowfast_v2/results|--split loso --subject 3 --seed 2 --lr 0.003
+slowfast-loso-s4-seed2|~/lsc-revision/slowfast_v2/results|--split loso --subject 4 --seed 2 --lr 0.003
+slowfast-8020-seed2|~/lsc-revision/slowfast_v2/results|--split 8020 --seed 2 --lr 0.003
+slowfast-loso-s0-seed0-shuffled|~/lsc-revision/slowfast_v2/results|--split loso --subject 0 --seed 0 --lr 0.003 --shuffle-labels
+slowfast-8020-seed0-shuffled|~/lsc-revision/slowfast_v2/results|--split 8020 --seed 0 --lr 0.003 --shuffle-labels

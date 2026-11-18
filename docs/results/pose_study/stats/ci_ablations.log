@@ -1,0 +1,17 @@
+                          model_a                    model_b  diff_V1  diff_V2  diff_V3  diff_V4  diff_V5  mean_diff  sd_diff  ci_t_low  ci_t_high  a_better_in  p_paired_t  p_sign_flip  p_paired_t_holm
+               A1_no_augmentation     Default, body-relative  -0.0787  -0.0164  -0.1687  -0.1108  -0.0847    -0.0918   0.0552   -0.1604    -0.0233            0      0.0205       0.0625           0.1023
+            A2_no_label_smoothing     Default, body-relative  -0.0244  -0.0222  -0.0309  -0.0274  -0.0341    -0.0278   0.0048   -0.0338    -0.0219            0      0.0002       0.0625           0.0014
+                  A3_plain_recipe     Default, body-relative  -0.0834  -0.0034  -0.1976  -0.1446  -0.1546    -0.1167   0.0754   -0.2103    -0.0231            0      0.0257       0.0625           0.1030
+                  A4_mean_pooling     Default, body-relative  -0.0441   0.0114  -0.0008  -0.0016   0.0006    -0.0069   0.0214   -0.0335     0.0197            2      0.5110       0.6250           1.0000
+                    A5_hands_only     Default, body-relative   0.0515   0.0465   0.1900   0.0678   0.0981     0.0908   0.0590    0.0175     0.1641            5      0.0263       0.0625           0.1030
+                     A6_body_only     Default, body-relative  -0.1919  -0.1199  -0.2610  -0.3568  -0.3453    -0.2550   0.1010   -0.3804    -0.1296            0      0.0048       0.0625           0.0291
+A7_image_rotation_about_shoulders Default, image coordinates   0.0090   0.0430  -0.0112  -0.0112  -0.0095     0.0040   0.0234   -0.0250     0.0330            2      0.7215       0.9375           1.0000
+Default, body-relative                           seeds 5: 0.540  hierarchical 95% CI [0.372, 0.700]  t-interval [0.277, 0.802]  per signer 0.40 0.26 0.56 0.75 0.73
+Default, image coordinates                       seeds 5: 0.568  hierarchical 95% CI [0.371, 0.746]  t-interval [0.276, 0.860]  per signer 0.40 0.25 0.66 0.75 0.78
+A1_no_augmentation                               seeds 5: 0.448  hierarchical 95% CI [0.311, 0.596]  t-interval [0.218, 0.677]  per signer 0.32 0.24 0.39 0.64 0.65
+A2_no_label_smoothing                            seeds 5: 0.512  hierarchical 95% CI [0.350, 0.674]  t-interval [0.254, 0.769]  per signer 0.38 0.24 0.53 0.72 0.70
+A3_plain_recipe                                  seeds 5: 0.423  hierarchical 95% CI [0.303, 0.549]  t-interval [0.227, 0.619]  per signer 0.32 0.26 0.36 0.61 0.58
+A4_mean_pooling                                  seeds 5: 0.533  hierarchical 95% CI [0.356, 0.690]  t-interval [0.265, 0.800]  per signer 0.36 0.27 0.56 0.75 0.73
+A5_hands_only                                    seeds 5: 0.630  hierarchical 95% CI [0.437, 0.805]  t-interval [0.336, 0.925]  per signer 0.45 0.31 0.75 0.82 0.83
+A6_body_only                                     seeds 5: 0.285  hierarchical 95% CI [0.191, 0.371]  t-interval [0.148, 0.421]  per signer 0.21 0.14 0.30 0.39 0.39
+A7_image_rotation_about_shoulders                seeds 5: 0.572  hierarchical 95% CI [0.396, 0.735]  t-interval [0.307, 0.837]  per signer 0.41 0.29 0.65 0.74 0.77

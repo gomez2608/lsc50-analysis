@@ -1,0 +1,76 @@
+metric                                         accuracy  f1_weighted  f1_macro  precision_macro  recall_macro
+model                                   split                                                                
+Frozen ViViT CLS + KNN                  8020      0.493        0.486     0.486            0.531         0.493
+                                        loso      0.070        0.039     0.039            0.042         0.070
+Frozen ViViT CLS + RF                   8020      0.475        0.468     0.468            0.506         0.475
+                                        loso      0.076        0.049     0.049            0.054         0.076
+Frozen ViViT CLS + SVM                  8020      0.561        0.557     0.557            0.615         0.561
+                                        loso      0.093        0.071     0.071            0.102         0.093
+IMU Chronos + KNN                       8020      0.048        0.033     0.033            0.027         0.048
+                                        loso      0.092        0.062     0.062            0.054         0.092
+IMU Chronos + RF                        8020      0.060        0.046     0.046            0.040         0.060
+                                        loso      0.058        0.035     0.035            0.029         0.058
+IMU Chronos + SVM                       8020      0.048        0.031     0.031            0.026         0.048
+                                        loso      0.052        0.030     0.030            0.024         0.052
+IMU TSFEL + KNN                         8020      0.056        0.033     0.033            0.027         0.056
+                                        loso      0.148        0.108     0.108            0.096         0.148
+IMU TSFEL + RF                          8020      0.132        0.099     0.099            0.085         0.132
+                                        loso      0.242        0.181     0.181            0.159         0.242
+IMU TSFEL + SVM                         8020      0.068        0.052     0.052            0.047         0.068
+                                        loso      0.192        0.145     0.145            0.129         0.192
+Landmarks Chronos + KNN                 8020      0.482        0.471     0.471            0.509         0.482
+                                        loso      0.209        0.187     0.186            0.209         0.208
+Landmarks Chronos + RF                  8020      0.463        0.443     0.443            0.469         0.463
+                                        loso      0.241        0.201     0.201            0.210         0.240
+Landmarks Chronos + SVM                 8020      0.576        0.570     0.570            0.612         0.576
+                                        loso      0.264        0.232     0.231            0.251         0.263
+Landmarks TSFEL body-relative + KNN     8020      0.616        0.615     0.615            0.669         0.616
+                                        loso      0.249        0.220     0.219            0.260         0.248
+Landmarks TSFEL body-relative + RF      8020      0.693        0.684     0.684            0.733         0.693
+                                        loso      0.333        0.287     0.288            0.311         0.333
+Landmarks TSFEL body-relative + SVM     8020      0.651        0.646     0.646            0.691         0.651
+                                        loso      0.302        0.263     0.262            0.299         0.301
+Landmarks TSFEL image coordinates + KNN 8020      0.554        0.552     0.552            0.616         0.554
+                                        loso      0.185        0.160     0.160            0.208         0.184
+Landmarks TSFEL image coordinates + RF  8020      0.630        0.619     0.619            0.665         0.630
+                                        loso      0.296        0.249     0.249            0.272         0.296
+Landmarks TSFEL image coordinates + SVM 8020      0.595        0.594     0.594            0.639         0.595
+                                        loso      0.264        0.231     0.230            0.273         0.263
+Late fusion SlowFast + SPOTER           8020      0.928        0.921     0.921            0.930         0.928
+                                        loso      0.658        0.620     0.620            0.655         0.658
+Official SPOTER                         8020      0.899        0.898     0.898            0.916         0.899
+                                        loso      0.525        0.486     0.487            0.522         0.526
+Pose transformer, body-relative         8020      0.944        0.943     0.943            0.957         0.944
+                                        loso      0.584        0.540     0.540            0.570         0.585
+Pose transformer, image coordinates     8020      0.936        0.935     0.935            0.948         0.936
+                                        loso      0.606        0.568     0.569            0.602         0.606
+ST-GCN, body-relative                   8020      0.705        0.694     0.694            0.742         0.705
+                                        loso      0.361        0.324     0.323            0.354         0.361
+ST-GCN, image coordinates               8020      0.641        0.626     0.626            0.674         0.641
+                                        loso      0.292        0.258     0.258            0.290         0.292
+SlowFast R50                            8020      0.893        0.887     0.887            0.904         0.893
+                                        loso      0.603        0.565     0.565            0.611         0.603
+ViViT fine-tuned, 80/20 recipe          8020      0.603        0.582     0.582            0.607         0.603
+ViViT fine-tuned, protocol A            loso      0.155        0.117     0.117            0.134         0.155
+ViViT fine-tuned, protocol B            loso      0.261        0.215     0.215            0.246         0.261
+                             model   true_sign predicted_as  count  share_of_row
+     Late fusion SlowFast + SPOTER Buenos Dias        Vivir  5.667         0.283
+     Late fusion SlowFast + SPOTER     Ustedes       Perdon  5.333         0.267
+     Late fusion SlowFast + SPOTER   ¿Por que?       Nombre  5.333         0.267
+     Late fusion SlowFast + SPOTER          Yo        Todos  5.000         0.250
+     Late fusion SlowFast + SPOTER   ¿Por que?        ¿Que?  5.000         0.250
+                      SlowFast R50       Comer    Con Gusto  7.333         0.367
+                      SlowFast R50 Buenos Dias        Vivir  7.000         0.350
+                      SlowFast R50          Yo        Todos  6.667         0.333
+                      SlowFast R50     Ustedes       Perdon  6.333         0.317
+                      SlowFast R50 Mas o menos       Abuelo  5.667         0.283
+                   Official SPOTER   ¿Por que?       Nombre  8.000         0.400
+                   Official SPOTER      ¿Como?         Niño  6.600         0.330
+                   Official SPOTER      Abuelo  Mas o menos  6.600         0.347
+                   Official SPOTER    ¿Cuando?        Feliz  5.600         0.280
+                   Official SPOTER      ¿Como?        ¿Que?  5.200         0.260
+Landmarks TSFEL body-relative + RF      ¿Como?        ¿Que?  5.600         0.280
+Landmarks TSFEL body-relative + RF        Hola         Poco  5.400         0.270
+Landmarks TSFEL body-relative + RF   Por favor      ¿Quien?  5.200         0.260
+Landmarks TSFEL body-relative + RF    Contento       Abuelo  5.000         0.250
+Landmarks TSFEL body-relative + RF Buenos Dias        Vivir  5.000         0.250

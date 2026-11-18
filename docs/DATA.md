@@ -1,5 +1,8 @@
 # Expected data layout
 
+> **Note (2026-10-20):** this file describes the *original* pipeline. The revision for PLOS One (leakage fixes, reruns, new baselines and analyses) is documented in [`README_REVISION.md`](README_REVISION.md) and the files it indexes.
+
+
 The companion dataset is published on figshare:
 
 > **LSC50: Colombian Sign Language Video and Inertial Measurement Dataset**

@@ -1,0 +1,13 @@
+volunteer                       mapping  spearman_rho  p_perm_one_sided  null_rho_95  rho_min  rho_max
+        1           correspondance.json         0.011             0.463        0.238      NaN      NaN
+        1                  alphabetical         0.100             0.240        0.236      NaN      NaN
+        2           correspondance.json        -0.072             0.694        0.239      NaN      NaN
+        2                  alphabetical        -0.137             0.836        0.233      NaN      NaN
+        3           correspondance.json         0.024             0.429        0.237      NaN      NaN
+        3                  alphabetical         0.076             0.295        0.233      NaN      NaN
+        4           correspondance.json        -0.156             0.855        0.237      NaN      NaN
+        4                  alphabetical        -0.044             0.621        0.235      NaN      NaN
+        5           correspondance.json        -0.201             0.916        0.234      NaN      NaN
+        5                  alphabetical         0.156             0.140        0.239      NaN      NaN
+all pairs  within video, across signers         0.096               NaN          NaN   -0.364    0.513
+all pairs within IMU, across volunteers         0.046               NaN          NaN   -0.208    0.195

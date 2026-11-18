@@ -22,10 +22,21 @@ language clips. The base checkpoint is
 | --------------------- | ------------------------------------- | ---------------------------------------------------- |
 | `build_dataset.py`    | `VIDEOS/dataset_generation.py`        | Random per-class train/test split                    |
 | `build_dataset_cv.py` | `VIDEOS/dataset_generation_cross_v.py` | Per-subject LOSO dataset (`--subject N`)             |
+| `build_dataset_all.py` | (revision)                           | Full clip table with sign/signer/rep columns, used with `--dataset` |
 | `train.py`            | `VIDEOS/model_train.py`               | Fine-tune ViViT on the general split                 |
 | `train_cv.py`         | `VIDEOS/model_train_custom.py`        | Per-subject fine-tune (`--subject N`, `--resume`)    |
 | `evaluate.py`         | `VIDEOS/inference_cm.py`              | Single-pass CM on `test_dataset_v2`                  |
 | `evaluate_cv.py`      | `VIDEOS/inference.py`                 | Per-subject streamed CM (auto-discovers best ckpt)   |
+
+### Revision runs (P13, P14)
+
+`train.py --dataset clips_all --seed S` and `train_cv.py --dataset clips_all --subject N --seed S`
+split the full clip table themselves, choose the checkpoint on a validation split drawn from the
+training data (one training signer for LOSO, 10% of training rows for 80/20), then score the test
+split once and write `results.json` (accuracy, weighted/macro F1, predictions) in the output
+directory. The legacy dataset paths still work, but they also use a validation split now; the test
+split is never used for checkpoint selection. `scripts/revision/run_vivit.sh` runs the whole set on
+a CUDA machine and `scripts/revision/vivit_summary.py` summarizes it.
 
 ## `scripts/legacy/`
 

@@ -1,5 +1,8 @@
 # Pipeline overview
 
+> **Note (2026-10-20):** this file describes the *original* pipeline. The revision for PLOS One (leakage fixes, reruns, new baselines and analyses) is documented in [`README_REVISION.md`](README_REVISION.md) and the files it indexes.
+
+
 Each modality has the same conceptual flow: raw input → features → train/
 evaluate. The shapes differ; the abstractions in `common/` (splits, grid
 search, evaluation) are shared by IMU and LANDMARKS because both end up as

@@ -1,0 +1,700 @@
+model,split,subject,seed,n_test,file,accuracy,f1_weighted,f1_macro,precision_macro,recall_macro
+Landmarks TSFEL body-relative + KNN,loso,0.0,0,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.155,0.11170396423499872,0.11170396423499872,0.13655155993431856,0.155
+Landmarks TSFEL body-relative + KNN,loso,1.0,0,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.1708542713567839,0.1249843694170592,0.1243594475699739,0.12295995670995671,0.17
+Landmarks TSFEL body-relative + KNN,loso,2.0,0,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.3282828282828283,0.3324761658094991,0.33026251526251527,0.4282727272727273,0.32666666666666666
+Landmarks TSFEL body-relative + KNN,loso,3.0,0,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.27,0.24967085692085692,0.24967085692085692,0.3045,0.27
+Landmarks TSFEL body-relative + KNN,loso,4.0,0,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.32,0.281059163059163,0.281059163059163,0.30808441558441557,0.32
+Landmarks TSFEL body-relative + KNN,loso,0.0,1,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.155,0.11170396423499872,0.11170396423499872,0.13655155993431856,0.155
+Landmarks TSFEL body-relative + KNN,loso,1.0,1,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.1708542713567839,0.1249843694170592,0.1243594475699739,0.12295995670995671,0.17
+Landmarks TSFEL body-relative + KNN,loso,2.0,1,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.3282828282828283,0.3324761658094991,0.33026251526251527,0.4282727272727273,0.32666666666666666
+Landmarks TSFEL body-relative + KNN,loso,3.0,1,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.27,0.24967085692085692,0.24967085692085692,0.3045,0.27
+Landmarks TSFEL body-relative + KNN,loso,4.0,1,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.32,0.281059163059163,0.281059163059163,0.30808441558441557,0.32
+Landmarks TSFEL body-relative + KNN,loso,0.0,2,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.155,0.11170396423499872,0.11170396423499872,0.13655155993431856,0.155
+Landmarks TSFEL body-relative + KNN,loso,1.0,2,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.1708542713567839,0.1249843694170592,0.1243594475699739,0.12295995670995671,0.17
+Landmarks TSFEL body-relative + KNN,loso,2.0,2,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.3282828282828283,0.3324761658094991,0.33026251526251527,0.4282727272727273,0.32666666666666666
+Landmarks TSFEL body-relative + KNN,loso,3.0,2,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.27,0.24967085692085692,0.24967085692085692,0.3045,0.27
+Landmarks TSFEL body-relative + KNN,loso,4.0,2,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.32,0.281059163059163,0.281059163059163,0.30808441558441557,0.32
+Landmarks TSFEL body-relative + KNN,loso,0.0,3,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.155,0.11170396423499872,0.11170396423499872,0.13655155993431856,0.155
+Landmarks TSFEL body-relative + KNN,loso,1.0,3,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.1708542713567839,0.1249843694170592,0.1243594475699739,0.12295995670995671,0.17
+Landmarks TSFEL body-relative + KNN,loso,2.0,3,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.3282828282828283,0.3324761658094991,0.33026251526251527,0.4282727272727273,0.32666666666666666
+Landmarks TSFEL body-relative + KNN,loso,3.0,3,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.27,0.24967085692085692,0.24967085692085692,0.3045,0.27
+Landmarks TSFEL body-relative + KNN,loso,4.0,3,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.32,0.281059163059163,0.281059163059163,0.30808441558441557,0.32
+Landmarks TSFEL body-relative + KNN,loso,0.0,4,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.155,0.11170396423499872,0.11170396423499872,0.13655155993431856,0.155
+Landmarks TSFEL body-relative + KNN,loso,1.0,4,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.1708542713567839,0.1249843694170592,0.1243594475699739,0.12295995670995671,0.17
+Landmarks TSFEL body-relative + KNN,loso,2.0,4,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.3282828282828283,0.3324761658094991,0.33026251526251527,0.4282727272727273,0.32666666666666666
+Landmarks TSFEL body-relative + KNN,loso,3.0,4,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.27,0.24967085692085692,0.24967085692085692,0.3045,0.27
+Landmarks TSFEL body-relative + KNN,loso,4.0,4,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.32,0.281059163059163,0.281059163059163,0.30808441558441557,0.32
+Landmarks TSFEL body-relative + KNN,8020,,0,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed0.pkl,0.615,0.6188363858363858,0.6188363858363858,0.6822777777777778,0.615
+Landmarks TSFEL body-relative + KNN,8020,,1,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed1.pkl,0.585,0.5889249639249639,0.5889249639249639,0.6611666666666668,0.585
+Landmarks TSFEL body-relative + KNN,8020,,2,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed2.pkl,0.555,0.54497002997003,0.54497002997003,0.5927460317460318,0.555
+Landmarks TSFEL body-relative + KNN,8020,,3,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed3.pkl,0.67,0.6715555555555555,0.6715555555555555,0.714,0.67
+Landmarks TSFEL body-relative + KNN,8020,,4,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed4.pkl,0.655,0.6519696969696969,0.6519696969696969,0.6931904761904762,0.655
+Landmarks TSFEL body-relative + SVM,loso,0.0,0,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.03,0.019825396825396826,0.019825396825396826,0.03436585365853659,0.03
+Landmarks TSFEL body-relative + SVM,loso,1.0,0,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.20100502512562815,0.13983365351412486,0.13913448524655422,0.1518428571428571,0.2
+Landmarks TSFEL body-relative + SVM,loso,2.0,0,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.43434343434343436,0.3934495358737783,0.38951504051504054,0.432719339909877,0.43
+Landmarks TSFEL body-relative + SVM,loso,3.0,0,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.41,0.37819953959084396,0.37819953959084396,0.4249624060150376,0.41
+Landmarks TSFEL body-relative + SVM,loso,4.0,0,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.435,0.38349573285331795,0.38349573285331795,0.45237057387057383,0.435
+Landmarks TSFEL body-relative + SVM,loso,0.0,1,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.03,0.019825396825396826,0.019825396825396826,0.03436585365853659,0.03
+Landmarks TSFEL body-relative + SVM,loso,1.0,1,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.20100502512562815,0.13983365351412486,0.13913448524655422,0.1518428571428571,0.2
+Landmarks TSFEL body-relative + SVM,loso,2.0,1,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.43434343434343436,0.3934495358737783,0.38951504051504054,0.432719339909877,0.43
+Landmarks TSFEL body-relative + SVM,loso,3.0,1,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.41,0.37819953959084396,0.37819953959084396,0.4249624060150376,0.41
+Landmarks TSFEL body-relative + SVM,loso,4.0,1,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.435,0.38349573285331795,0.38349573285331795,0.45237057387057383,0.435
+Landmarks TSFEL body-relative + SVM,loso,0.0,2,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.03,0.019825396825396826,0.019825396825396826,0.03436585365853659,0.03
+Landmarks TSFEL body-relative + SVM,loso,1.0,2,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.20100502512562815,0.13983365351412486,0.13913448524655422,0.1518428571428571,0.2
+Landmarks TSFEL body-relative + SVM,loso,2.0,2,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.43434343434343436,0.3934495358737783,0.38951504051504054,0.432719339909877,0.43
+Landmarks TSFEL body-relative + SVM,loso,3.0,2,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.41,0.37819953959084396,0.37819953959084396,0.4249624060150376,0.41
+Landmarks TSFEL body-relative + SVM,loso,4.0,2,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.435,0.38349573285331795,0.38349573285331795,0.45237057387057383,0.435
+Landmarks TSFEL body-relative + SVM,loso,0.0,3,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.03,0.019825396825396826,0.019825396825396826,0.03436585365853659,0.03
+Landmarks TSFEL body-relative + SVM,loso,1.0,3,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.20100502512562815,0.13983365351412486,0.13913448524655422,0.1518428571428571,0.2
+Landmarks TSFEL body-relative + SVM,loso,2.0,3,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.43434343434343436,0.3934495358737783,0.38951504051504054,0.432719339909877,0.43
+Landmarks TSFEL body-relative + SVM,loso,3.0,3,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.41,0.37819953959084396,0.37819953959084396,0.4249624060150376,0.41
+Landmarks TSFEL body-relative + SVM,loso,4.0,3,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.435,0.38349573285331795,0.38349573285331795,0.45237057387057383,0.435
+Landmarks TSFEL body-relative + SVM,loso,0.0,4,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.03,0.019825396825396826,0.019825396825396826,0.03436585365853659,0.03
+Landmarks TSFEL body-relative + SVM,loso,1.0,4,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.20100502512562815,0.13983365351412486,0.13913448524655422,0.1518428571428571,0.2
+Landmarks TSFEL body-relative + SVM,loso,2.0,4,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.43434343434343436,0.3934495358737783,0.38951504051504054,0.432719339909877,0.43
+Landmarks TSFEL body-relative + SVM,loso,3.0,4,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.41,0.37819953959084396,0.37819953959084396,0.4249624060150376,0.41
+Landmarks TSFEL body-relative + SVM,loso,4.0,4,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.435,0.38349573285331795,0.38349573285331795,0.45237057387057383,0.435
+Landmarks TSFEL body-relative + SVM,8020,,0,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed0.pkl,0.585,0.581068709068709,0.581068709068709,0.6489444444444444,0.585
+Landmarks TSFEL body-relative + SVM,8020,,1,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed1.pkl,0.65,0.6356077256077256,0.6356077256077256,0.6888174603174602,0.65
+Landmarks TSFEL body-relative + SVM,8020,,2,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed2.pkl,0.665,0.6623838383838383,0.6623838383838383,0.7037142857142856,0.665
+Landmarks TSFEL body-relative + SVM,8020,,3,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed3.pkl,0.665,0.6602929292929293,0.6602929292929293,0.689952380952381,0.665
+Landmarks TSFEL body-relative + SVM,8020,,4,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed4.pkl,0.69,0.6907070707070706,0.6907070707070706,0.7251428571428572,0.69
+Landmarks TSFEL body-relative + RF,loso,0.0,0,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.085,0.04799545534556976,0.04799545534556976,0.04810738968633706,0.085
+Landmarks TSFEL body-relative + RF,loso,1.0,0,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.19095477386934673,0.15532523974735032,0.15854861354861355,0.18491125541125544,0.19333333333333333
+Landmarks TSFEL body-relative + RF,loso,2.0,0,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.4494949494949495,0.406194396306039,0.40546578567631203,0.4485205254515599,0.45
+Landmarks TSFEL body-relative + RF,loso,3.0,0,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.505,0.4562299465240641,0.4562299465240641,0.48465944839474245,0.505
+Landmarks TSFEL body-relative + RF,loso,4.0,0,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed0.pkl,0.48,0.410520397730924,0.410520397730924,0.4207619047619048,0.48
+Landmarks TSFEL body-relative + RF,loso,0.0,1,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.1,0.0545559551051542,0.0545559551051542,0.06620782726045885,0.1
+Landmarks TSFEL body-relative + RF,loso,1.0,1,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.19095477386934673,0.15947658089948488,0.16267919799498748,0.1855,0.19333333333333333
+Landmarks TSFEL body-relative + RF,loso,2.0,1,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.43434343434343436,0.40195748003234627,0.4022236195177371,0.4636056314656721,0.435
+Landmarks TSFEL body-relative + RF,loso,3.0,1,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.46,0.4191379205589732,0.4191379205589732,0.4726212121212121,0.46
+Landmarks TSFEL body-relative + RF,loso,4.0,1,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed1.pkl,0.45,0.39228189457601226,0.39228189457601226,0.42044388944388944,0.45
+Landmarks TSFEL body-relative + RF,loso,0.0,2,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.105,0.061500328856175374,0.061500328856175374,0.060934054834054834,0.105
+Landmarks TSFEL body-relative + RF,loso,1.0,2,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.1658291457286432,0.127836683021008,0.12719749960590296,0.15345263233498524,0.165
+Landmarks TSFEL body-relative + RF,loso,2.0,2,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.46464646464646464,0.4123434287176977,0.411553327763854,0.4314176548089591,0.465
+Landmarks TSFEL body-relative + RF,loso,3.0,2,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.48,0.4312016969958147,0.4312016969958147,0.44684432234432236,0.48
+Landmarks TSFEL body-relative + RF,loso,4.0,2,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed2.pkl,0.445,0.3818902336054038,0.3818902336054038,0.38479250161603096,0.445
+Landmarks TSFEL body-relative + RF,loso,0.0,3,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.085,0.052529327853462995,0.052529327853462995,0.06146540181524702,0.085
+Landmarks TSFEL body-relative + RF,loso,1.0,3,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.18090452261306533,0.14047626664492505,0.14377388531170043,0.14642612942612943,0.18333333333333332
+Landmarks TSFEL body-relative + RF,loso,2.0,3,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.4595959595959596,0.407480610588415,0.40640580448253083,0.4344035881559102,0.46
+Landmarks TSFEL body-relative + RF,loso,3.0,3,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.51,0.47981225310637077,0.47981225310637077,0.5584337884337884,0.51
+Landmarks TSFEL body-relative + RF,loso,4.0,3,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed3.pkl,0.465,0.40351365937124456,0.40351365937124456,0.4162965367965368,0.465
+Landmarks TSFEL body-relative + RF,loso,0.0,4,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.065,0.03577833864023122,0.03577833864023122,0.030933851236482814,0.065
+Landmarks TSFEL body-relative + RF,loso,1.0,4,199,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.1708542713567839,0.12082627137903519,0.12022214002214002,0.11625706843547924,0.17
+Landmarks TSFEL body-relative + RF,loso,2.0,4,198,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.40404040404040403,0.35261214655154055,0.351943167943168,0.3730649350649351,0.40333333333333327
+Landmarks TSFEL body-relative + RF,loso,3.0,4,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.49,0.45013108528898,0.45013108528898,0.5126428571428572,0.49
+Landmarks TSFEL body-relative + RF,loso,4.0,4,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_groupcv_seed4.pkl,0.49,0.42175737595737595,0.42175737595737595,0.4454444444444444,0.49
+Landmarks TSFEL body-relative + RF,8020,,0,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed0.pkl,0.64,0.6318228438228438,0.6318228438228438,0.6685079365079364,0.64
+Landmarks TSFEL body-relative + RF,8020,,1,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed1.pkl,0.73,0.7239325119325117,0.7239325119325117,0.7596507936507935,0.73
+Landmarks TSFEL body-relative + RF,8020,,2,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed2.pkl,0.705,0.6967373737373737,0.6967373737373737,0.7480476190476191,0.705
+Landmarks TSFEL body-relative + RF,8020,,3,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed3.pkl,0.705,0.6954144744144743,0.6954144744144743,0.756079365079365,0.705
+Landmarks TSFEL body-relative + RF,8020,,4,200,bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed4.pkl,0.685,0.6737950937950937,0.6737950937950937,0.7342857142857143,0.685
+Landmarks TSFEL image coordinates + KNN,loso,0.0,0,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.095,0.06605743172816343,0.06605743172816343,0.08195104895104893,0.095
+Landmarks TSFEL image coordinates + KNN,loso,1.0,0,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.1407035175879397,0.0999106033189494,0.09941105030235464,0.1011025388706877,0.14
+Landmarks TSFEL image coordinates + KNN,loso,2.0,0,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.20202020202020202,0.21140772807439473,0.21040476190476187,0.30879768270944746,0.20166666666666663
+Landmarks TSFEL image coordinates + KNN,loso,3.0,0,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.225,0.19565130294542063,0.19565130294542063,0.2686925046279885,0.225
+Landmarks TSFEL image coordinates + KNN,loso,4.0,0,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.26,0.22809203930256566,0.22809203930256566,0.2805842458195399,0.26
+Landmarks TSFEL image coordinates + KNN,loso,0.0,1,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.095,0.06605743172816343,0.06605743172816343,0.08195104895104893,0.095
+Landmarks TSFEL image coordinates + KNN,loso,1.0,1,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.1407035175879397,0.0999106033189494,0.09941105030235464,0.1011025388706877,0.14
+Landmarks TSFEL image coordinates + KNN,loso,2.0,1,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.20202020202020202,0.21140772807439473,0.21040476190476187,0.30879768270944746,0.20166666666666663
+Landmarks TSFEL image coordinates + KNN,loso,3.0,1,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.225,0.19565130294542063,0.19565130294542063,0.2686925046279885,0.225
+Landmarks TSFEL image coordinates + KNN,loso,4.0,1,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.26,0.22809203930256566,0.22809203930256566,0.2805842458195399,0.26
+Landmarks TSFEL image coordinates + KNN,loso,0.0,2,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.095,0.06605743172816343,0.06605743172816343,0.08195104895104893,0.095
+Landmarks TSFEL image coordinates + KNN,loso,1.0,2,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.1407035175879397,0.0999106033189494,0.09941105030235464,0.1011025388706877,0.14
+Landmarks TSFEL image coordinates + KNN,loso,2.0,2,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.20202020202020202,0.21140772807439473,0.21040476190476187,0.30879768270944746,0.20166666666666663
+Landmarks TSFEL image coordinates + KNN,loso,3.0,2,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.225,0.19565130294542063,0.19565130294542063,0.2686925046279885,0.225
+Landmarks TSFEL image coordinates + KNN,loso,4.0,2,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.26,0.22809203930256566,0.22809203930256566,0.2805842458195399,0.26
+Landmarks TSFEL image coordinates + KNN,loso,0.0,3,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.095,0.06605743172816343,0.06605743172816343,0.08195104895104893,0.095
+Landmarks TSFEL image coordinates + KNN,loso,1.0,3,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.1407035175879397,0.0999106033189494,0.09941105030235464,0.1011025388706877,0.14
+Landmarks TSFEL image coordinates + KNN,loso,2.0,3,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.20202020202020202,0.21140772807439473,0.21040476190476187,0.30879768270944746,0.20166666666666663
+Landmarks TSFEL image coordinates + KNN,loso,3.0,3,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.225,0.19565130294542063,0.19565130294542063,0.2686925046279885,0.225
+Landmarks TSFEL image coordinates + KNN,loso,4.0,3,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.26,0.22809203930256566,0.22809203930256566,0.2805842458195399,0.26
+Landmarks TSFEL image coordinates + KNN,loso,0.0,4,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.095,0.06605743172816343,0.06605743172816343,0.08195104895104893,0.095
+Landmarks TSFEL image coordinates + KNN,loso,1.0,4,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.1407035175879397,0.0999106033189494,0.09941105030235464,0.1011025388706877,0.14
+Landmarks TSFEL image coordinates + KNN,loso,2.0,4,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.20202020202020202,0.21140772807439473,0.21040476190476187,0.30879768270944746,0.20166666666666663
+Landmarks TSFEL image coordinates + KNN,loso,3.0,4,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.225,0.19565130294542063,0.19565130294542063,0.2686925046279885,0.225
+Landmarks TSFEL image coordinates + KNN,loso,4.0,4,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.26,0.22809203930256566,0.22809203930256566,0.2805842458195399,0.26
+Landmarks TSFEL image coordinates + KNN,8020,,0,200,landmarks/grid_search_results_temporal_features_chronos_seed0.pkl,0.555,0.5489307359307359,0.5489307359307359,0.5963333333333334,0.555
+Landmarks TSFEL image coordinates + KNN,8020,,1,200,landmarks/grid_search_results_temporal_features_chronos_seed1.pkl,0.52,0.5127288267288267,0.5127288267288267,0.5731746031746031,0.52
+Landmarks TSFEL image coordinates + KNN,8020,,2,200,landmarks/grid_search_results_temporal_features_chronos_seed2.pkl,0.515,0.5189320679320679,0.5189320679320679,0.6110822510822511,0.515
+Landmarks TSFEL image coordinates + KNN,8020,,3,200,landmarks/grid_search_results_temporal_features_chronos_seed3.pkl,0.595,0.5982678432678433,0.5982678432678433,0.6606587301587302,0.595
+Landmarks TSFEL image coordinates + KNN,8020,,4,200,landmarks/grid_search_results_temporal_features_chronos_seed4.pkl,0.585,0.582017316017316,0.582017316017316,0.6369523809523809,0.585
+Landmarks TSFEL image coordinates + SVM,loso,0.0,0,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.025,0.008842105263157896,0.008842105263157896,0.02043010752688172,0.025
+Landmarks TSFEL image coordinates + SVM,loso,1.0,0,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.18090452261306533,0.11341196757063275,0.1128449077327796,0.11019978705505024,0.18
+Landmarks TSFEL image coordinates + SVM,loso,2.0,0,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.3939393939393939,0.3604715084215976,0.35686679333738164,0.42456776556776554,0.39
+Landmarks TSFEL image coordinates + SVM,loso,3.0,0,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.28,0.2689029930642834,0.2689029930642834,0.32782010582010584,0.28
+Landmarks TSFEL image coordinates + SVM,loso,4.0,0,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.44,0.4019073441178705,0.4019073441178705,0.4840238095238095,0.44
+Landmarks TSFEL image coordinates + SVM,loso,0.0,1,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.025,0.008842105263157896,0.008842105263157896,0.02043010752688172,0.025
+Landmarks TSFEL image coordinates + SVM,loso,1.0,1,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.18090452261306533,0.11341196757063275,0.1128449077327796,0.11019978705505024,0.18
+Landmarks TSFEL image coordinates + SVM,loso,2.0,1,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.3939393939393939,0.3604715084215976,0.35686679333738164,0.42456776556776554,0.39
+Landmarks TSFEL image coordinates + SVM,loso,3.0,1,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.28,0.2689029930642834,0.2689029930642834,0.32782010582010584,0.28
+Landmarks TSFEL image coordinates + SVM,loso,4.0,1,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.44,0.4019073441178705,0.4019073441178705,0.4840238095238095,0.44
+Landmarks TSFEL image coordinates + SVM,loso,0.0,2,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.025,0.008842105263157896,0.008842105263157896,0.02043010752688172,0.025
+Landmarks TSFEL image coordinates + SVM,loso,1.0,2,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.18090452261306533,0.11341196757063275,0.1128449077327796,0.11019978705505024,0.18
+Landmarks TSFEL image coordinates + SVM,loso,2.0,2,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.3939393939393939,0.3604715084215976,0.35686679333738164,0.42456776556776554,0.39
+Landmarks TSFEL image coordinates + SVM,loso,3.0,2,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.28,0.2689029930642834,0.2689029930642834,0.32782010582010584,0.28
+Landmarks TSFEL image coordinates + SVM,loso,4.0,2,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.44,0.4019073441178705,0.4019073441178705,0.4840238095238095,0.44
+Landmarks TSFEL image coordinates + SVM,loso,0.0,3,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.025,0.008842105263157896,0.008842105263157896,0.02043010752688172,0.025
+Landmarks TSFEL image coordinates + SVM,loso,1.0,3,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.18090452261306533,0.11341196757063275,0.1128449077327796,0.11019978705505024,0.18
+Landmarks TSFEL image coordinates + SVM,loso,2.0,3,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.3939393939393939,0.3604715084215976,0.35686679333738164,0.42456776556776554,0.39
+Landmarks TSFEL image coordinates + SVM,loso,3.0,3,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.28,0.2689029930642834,0.2689029930642834,0.32782010582010584,0.28
+Landmarks TSFEL image coordinates + SVM,loso,4.0,3,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.44,0.4019073441178705,0.4019073441178705,0.4840238095238095,0.44
+Landmarks TSFEL image coordinates + SVM,loso,0.0,4,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.025,0.008842105263157896,0.008842105263157896,0.02043010752688172,0.025
+Landmarks TSFEL image coordinates + SVM,loso,1.0,4,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.18090452261306533,0.11341196757063275,0.1128449077327796,0.11019978705505024,0.18
+Landmarks TSFEL image coordinates + SVM,loso,2.0,4,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.3939393939393939,0.3604715084215976,0.35686679333738164,0.42456776556776554,0.39
+Landmarks TSFEL image coordinates + SVM,loso,3.0,4,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.28,0.2689029930642834,0.2689029930642834,0.32782010582010584,0.28
+Landmarks TSFEL image coordinates + SVM,loso,4.0,4,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.44,0.4019073441178705,0.4019073441178705,0.4840238095238095,0.44
+Landmarks TSFEL image coordinates + SVM,8020,,0,200,landmarks/grid_search_results_temporal_features_chronos_seed0.pkl,0.535,0.5378672438672438,0.5378672438672438,0.6045,0.535
+Landmarks TSFEL image coordinates + SVM,8020,,1,200,landmarks/grid_search_results_temporal_features_chronos_seed1.pkl,0.595,0.5829653679653679,0.5829653679653679,0.6180476190476191,0.595
+Landmarks TSFEL image coordinates + SVM,8020,,2,200,landmarks/grid_search_results_temporal_features_chronos_seed2.pkl,0.62,0.6201183261183261,0.6201183261183261,0.6669523809523809,0.62
+Landmarks TSFEL image coordinates + SVM,8020,,3,200,landmarks/grid_search_results_temporal_features_chronos_seed3.pkl,0.615,0.6113189033189034,0.6113189033189034,0.645690476190476,0.615
+Landmarks TSFEL image coordinates + SVM,8020,,4,200,landmarks/grid_search_results_temporal_features_chronos_seed4.pkl,0.61,0.6177835497835498,0.6177835497835498,0.6619285714285715,0.61
+Landmarks TSFEL image coordinates + RF,loso,0.0,0,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.07,0.04109891633421045,0.04109891633421045,0.05218647342995169,0.07
+Landmarks TSFEL image coordinates + RF,loso,1.0,0,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.17587939698492464,0.13370505410115224,0.13553652883064649,0.14326495726495725,0.17666666666666664
+Landmarks TSFEL image coordinates + RF,loso,2.0,0,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.43434343434343436,0.3738856179141384,0.37214676173499706,0.38655661005661,0.4333333333333333
+Landmarks TSFEL image coordinates + RF,loso,3.0,0,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.345,0.30861674926380805,0.30861674926380805,0.3706014806449589,0.345
+Landmarks TSFEL image coordinates + RF,loso,4.0,0,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed0.pkl,0.455,0.408031302031302,0.408031302031302,0.436497113997114,0.455
+Landmarks TSFEL image coordinates + RF,loso,0.0,1,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.07,0.042232564372152476,0.042232564372152476,0.06451318856582015,0.07
+Landmarks TSFEL image coordinates + RF,loso,1.0,1,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.18592964824120603,0.13951922707897704,0.14382163094358216,0.1477812097812098,0.19
+Landmarks TSFEL image coordinates + RF,loso,2.0,1,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.43434343434343436,0.3878244457757757,0.3857643831361998,0.43528042328042327,0.4333333333333333
+Landmarks TSFEL image coordinates + RF,loso,3.0,1,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.35,0.31258796758796753,0.31258796758796753,0.36596825396825394,0.35
+Landmarks TSFEL image coordinates + RF,loso,4.0,1,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed1.pkl,0.44,0.38685843624974064,0.38685843624974064,0.3950651137648042,0.44
+Landmarks TSFEL image coordinates + RF,loso,0.0,2,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.07,0.033968049020680596,0.033968049020680596,0.03404874213836478,0.07
+Landmarks TSFEL image coordinates + RF,loso,1.0,2,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.19095477386934673,0.14395444334268892,0.14573467112597546,0.15402597402597404,0.19166666666666665
+Landmarks TSFEL image coordinates + RF,loso,2.0,2,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.4393939393939394,0.374428153216032,0.3741124431124432,0.39558730158730154,0.44
+Landmarks TSFEL image coordinates + RF,loso,3.0,2,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.355,0.30221245421245424,0.30221245421245424,0.3265450937950938,0.355
+Landmarks TSFEL image coordinates + RF,loso,4.0,2,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed2.pkl,0.43,0.36412328251458687,0.36412328251458687,0.37487799043062203,0.43
+Landmarks TSFEL image coordinates + RF,loso,0.0,3,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.065,0.030624662912369115,0.030624662912369115,0.040063492063492065,0.065
+Landmarks TSFEL image coordinates + RF,loso,1.0,3,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.18090452261306533,0.14134695664795813,0.14439022186471834,0.17022378218796128,0.185
+Landmarks TSFEL image coordinates + RF,loso,2.0,3,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.40404040404040403,0.3342238668441877,0.3326998099939276,0.3435867465867466,0.40333333333333327
+Landmarks TSFEL image coordinates + RF,loso,3.0,3,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.33,0.2870961775067038,0.2870961775067038,0.30834632034632037,0.33
+Landmarks TSFEL image coordinates + RF,loso,4.0,3,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed3.pkl,0.445,0.3872098457098457,0.3872098457098457,0.4041624649859944,0.445
+Landmarks TSFEL image coordinates + RF,loso,0.0,4,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.08,0.050183271630330456,0.050183271630330456,0.07492857142857143,0.08
+Landmarks TSFEL image coordinates + RF,loso,1.0,4,199,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.20100502512562815,0.15852208767950263,0.16272947724110512,0.171990675990676,0.205
+Landmarks TSFEL image coordinates + RF,loso,2.0,4,198,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.4393939393939394,0.37495187192156887,0.3732023532023532,0.4174042950513538,0.4383333333333333
+Landmarks TSFEL image coordinates + RF,loso,3.0,4,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.345,0.3088264284734873,0.3088264284734873,0.35862301587301587,0.345
+Landmarks TSFEL image coordinates + RF,loso,4.0,4,200,landmarks/grid_search_results_temporal_features_chronos_groupcv_seed4.pkl,0.455,0.3971404151404151,0.3971404151404151,0.42294191919191915,0.455
+Landmarks TSFEL image coordinates + RF,8020,,0,200,landmarks/grid_search_results_temporal_features_chronos_seed0.pkl,0.58,0.5766695526695527,0.5766695526695527,0.6369761904761905,0.58
+Landmarks TSFEL image coordinates + RF,8020,,1,200,landmarks/grid_search_results_temporal_features_chronos_seed1.pkl,0.66,0.6483607503607502,0.6483607503607502,0.69612987012987,0.66
+Landmarks TSFEL image coordinates + RF,8020,,2,200,landmarks/grid_search_results_temporal_features_chronos_seed2.pkl,0.63,0.6176565656565657,0.6176565656565657,0.658095238095238,0.63
+Landmarks TSFEL image coordinates + RF,8020,,3,200,landmarks/grid_search_results_temporal_features_chronos_seed3.pkl,0.645,0.636887334887335,0.636887334887335,0.6755952380952381,0.645
+Landmarks TSFEL image coordinates + RF,8020,,4,200,landmarks/grid_search_results_temporal_features_chronos_seed4.pkl,0.635,0.6152366522366521,0.6152366522366521,0.6602380952380952,0.635
+Landmarks Chronos + KNN,loso,0.0,0,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.05,0.03917690417690417,0.03917690417690417,0.04201774042950513,0.05
+Landmarks Chronos + KNN,loso,1.0,0,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.19095477386934673,0.15081156568002563,0.1500575078516255,0.1729073475544064,0.19
+Landmarks Chronos + KNN,loso,2.0,0,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.2727272727272727,0.2675675944838155,0.26489191853897737,0.32279120879120876,0.27
+Landmarks Chronos + KNN,loso,3.0,0,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.26,0.22852813852813852,0.22852813852813852,0.24279781003310416,0.26
+Landmarks Chronos + KNN,loso,4.0,0,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.27,0.24732187987451146,0.24732187987451146,0.26556349206349206,0.27
+Landmarks Chronos + KNN,loso,0.0,1,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.05,0.03917690417690417,0.03917690417690417,0.04201774042950513,0.05
+Landmarks Chronos + KNN,loso,1.0,1,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.19095477386934673,0.15081156568002563,0.1500575078516255,0.1729073475544064,0.19
+Landmarks Chronos + KNN,loso,2.0,1,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.2727272727272727,0.2675675944838155,0.26489191853897737,0.32279120879120876,0.27
+Landmarks Chronos + KNN,loso,3.0,1,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.26,0.22852813852813852,0.22852813852813852,0.24279781003310416,0.26
+Landmarks Chronos + KNN,loso,4.0,1,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.27,0.24732187987451146,0.24732187987451146,0.26556349206349206,0.27
+Landmarks Chronos + KNN,loso,0.0,2,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.05,0.03917690417690417,0.03917690417690417,0.04201774042950513,0.05
+Landmarks Chronos + KNN,loso,1.0,2,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.19095477386934673,0.15081156568002563,0.1500575078516255,0.1729073475544064,0.19
+Landmarks Chronos + KNN,loso,2.0,2,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.2727272727272727,0.2675675944838155,0.26489191853897737,0.32279120879120876,0.27
+Landmarks Chronos + KNN,loso,3.0,2,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.26,0.22852813852813852,0.22852813852813852,0.24279781003310416,0.26
+Landmarks Chronos + KNN,loso,4.0,2,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.27,0.24732187987451146,0.24732187987451146,0.26556349206349206,0.27
+Landmarks Chronos + KNN,loso,0.0,3,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.05,0.03917690417690417,0.03917690417690417,0.04201774042950513,0.05
+Landmarks Chronos + KNN,loso,1.0,3,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.19095477386934673,0.15081156568002563,0.1500575078516255,0.1729073475544064,0.19
+Landmarks Chronos + KNN,loso,2.0,3,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.2727272727272727,0.2675675944838155,0.26489191853897737,0.32279120879120876,0.27
+Landmarks Chronos + KNN,loso,3.0,3,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.26,0.22852813852813852,0.22852813852813852,0.24279781003310416,0.26
+Landmarks Chronos + KNN,loso,4.0,3,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.27,0.24732187987451146,0.24732187987451146,0.26556349206349206,0.27
+Landmarks Chronos + KNN,loso,0.0,4,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.05,0.03917690417690417,0.03917690417690417,0.04201774042950513,0.05
+Landmarks Chronos + KNN,loso,1.0,4,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.19095477386934673,0.15081156568002563,0.1500575078516255,0.1729073475544064,0.19
+Landmarks Chronos + KNN,loso,2.0,4,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.2727272727272727,0.2675675944838155,0.26489191853897737,0.32279120879120876,0.27
+Landmarks Chronos + KNN,loso,3.0,4,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.26,0.22852813852813852,0.22852813852813852,0.24279781003310416,0.26
+Landmarks Chronos + KNN,loso,4.0,4,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.27,0.24732187987451146,0.24732187987451146,0.26556349206349206,0.27
+Landmarks Chronos + KNN,8020,,0,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed0.pkl,0.435,0.4294184704184704,0.4294184704184704,0.4672619047619048,0.435
+Landmarks Chronos + KNN,8020,,1,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed1.pkl,0.515,0.5015270285270286,0.5015270285270286,0.5457698412698413,0.515
+Landmarks Chronos + KNN,8020,,2,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed2.pkl,0.45,0.438041847041847,0.438041847041847,0.4603333333333333,0.45
+Landmarks Chronos + KNN,8020,,3,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed3.pkl,0.465,0.44196103896103894,0.44196103896103894,0.4713095238095238,0.465
+Landmarks Chronos + KNN,8020,,4,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed4.pkl,0.545,0.5456305916305916,0.5456305916305916,0.5978571428571428,0.545
+Landmarks Chronos + SVM,loso,0.0,0,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.055,0.054534844240726604,0.054534844240726604,0.09676348039215688,0.055
+Landmarks Chronos + SVM,loso,1.0,0,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.21608040201005024,0.1805670599640449,0.1796642246642247,0.16479797979797983,0.215
+Landmarks Chronos + SVM,loso,2.0,0,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.3686868686868687,0.32350602127785727,0.3202709610650787,0.35081401931401934,0.365
+Landmarks Chronos + SVM,loso,3.0,0,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.315,0.27605610276662906,0.27605610276662906,0.30414492753623185,0.315
+Landmarks Chronos + SVM,loso,4.0,0,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.365,0.3234231324231325,0.3234231324231325,0.33761183261183264,0.365
+Landmarks Chronos + SVM,loso,0.0,1,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.055,0.054534844240726604,0.054534844240726604,0.09676348039215688,0.055
+Landmarks Chronos + SVM,loso,1.0,1,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.21608040201005024,0.1805670599640449,0.1796642246642247,0.16479797979797983,0.215
+Landmarks Chronos + SVM,loso,2.0,1,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.3686868686868687,0.32350602127785727,0.3202709610650787,0.35081401931401934,0.365
+Landmarks Chronos + SVM,loso,3.0,1,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.315,0.27605610276662906,0.27605610276662906,0.30414492753623185,0.315
+Landmarks Chronos + SVM,loso,4.0,1,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.365,0.3234231324231325,0.3234231324231325,0.33761183261183264,0.365
+Landmarks Chronos + SVM,loso,0.0,2,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.055,0.054534844240726604,0.054534844240726604,0.09676348039215688,0.055
+Landmarks Chronos + SVM,loso,1.0,2,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.21608040201005024,0.1805670599640449,0.1796642246642247,0.16479797979797983,0.215
+Landmarks Chronos + SVM,loso,2.0,2,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.3686868686868687,0.32350602127785727,0.3202709610650787,0.35081401931401934,0.365
+Landmarks Chronos + SVM,loso,3.0,2,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.315,0.27605610276662906,0.27605610276662906,0.30414492753623185,0.315
+Landmarks Chronos + SVM,loso,4.0,2,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.365,0.3234231324231325,0.3234231324231325,0.33761183261183264,0.365
+Landmarks Chronos + SVM,loso,0.0,3,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.055,0.054534844240726604,0.054534844240726604,0.09676348039215688,0.055
+Landmarks Chronos + SVM,loso,1.0,3,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.21608040201005024,0.1805670599640449,0.1796642246642247,0.16479797979797983,0.215
+Landmarks Chronos + SVM,loso,2.0,3,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.3686868686868687,0.32350602127785727,0.3202709610650787,0.35081401931401934,0.365
+Landmarks Chronos + SVM,loso,3.0,3,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.315,0.27605610276662906,0.27605610276662906,0.30414492753623185,0.315
+Landmarks Chronos + SVM,loso,4.0,3,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.365,0.3234231324231325,0.3234231324231325,0.33761183261183264,0.365
+Landmarks Chronos + SVM,loso,0.0,4,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.055,0.054534844240726604,0.054534844240726604,0.09676348039215688,0.055
+Landmarks Chronos + SVM,loso,1.0,4,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.21608040201005024,0.1805670599640449,0.1796642246642247,0.16479797979797983,0.215
+Landmarks Chronos + SVM,loso,2.0,4,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.3686868686868687,0.32350602127785727,0.3202709610650787,0.35081401931401934,0.365
+Landmarks Chronos + SVM,loso,3.0,4,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.315,0.27605610276662906,0.27605610276662906,0.30414492753623185,0.315
+Landmarks Chronos + SVM,loso,4.0,4,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.365,0.3234231324231325,0.3234231324231325,0.33761183261183264,0.365
+Landmarks Chronos + SVM,8020,,0,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed0.pkl,0.535,0.5351731601731601,0.5351731601731601,0.5829047619047618,0.535
+Landmarks Chronos + SVM,8020,,1,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed1.pkl,0.61,0.6041847041847042,0.6041847041847042,0.6585,0.61
+Landmarks Chronos + SVM,8020,,2,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed2.pkl,0.595,0.5831544011544011,0.5831544011544011,0.6298571428571429,0.595
+Landmarks Chronos + SVM,8020,,3,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed3.pkl,0.565,0.5560903540903541,0.5560903540903541,0.5911111111111111,0.565
+Landmarks Chronos + SVM,8020,,4,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed4.pkl,0.575,0.5731471861471862,0.5731471861471862,0.5985714285714285,0.575
+Landmarks Chronos + RF,loso,0.0,0,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.07,0.06093724305045059,0.06093724305045059,0.06343417366946778,0.07
+Landmarks Chronos + RF,loso,1.0,0,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.22613065326633167,0.18271187535387795,0.18304831597710855,0.20158824508824508,0.22666666666666666
+Landmarks Chronos + RF,loso,2.0,0,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.3181818181818182,0.27234673295279355,0.2696232656232656,0.2758116883116883,0.315
+Landmarks Chronos + RF,loso,3.0,0,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.32,0.27026786766724853,0.27026786766724853,0.27355067155067153,0.32
+Landmarks Chronos + RF,loso,4.0,0,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed0.pkl,0.29,0.2430958281484597,0.2430958281484597,0.22724603174603178,0.29
+Landmarks Chronos + RF,loso,0.0,1,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.065,0.04794410757201455,0.04794410757201455,0.04828289867314259,0.065
+Landmarks Chronos + RF,loso,1.0,1,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.2613065326633166,0.2155325345984524,0.21667709414768235,0.22196459096459098,0.2633333333333333
+Landmarks Chronos + RF,loso,2.0,1,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.3484848484848485,0.3003373209959193,0.2973339477859601,0.32092368742368743,0.345
+Landmarks Chronos + RF,loso,3.0,1,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.34,0.30957001237496595,0.30957001237496595,0.35524358974358966,0.34
+Landmarks Chronos + RF,loso,4.0,1,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed1.pkl,0.27,0.21954445554445556,0.21954445554445556,0.21788888888888888,0.27
+Landmarks Chronos + RF,loso,0.0,2,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.06,0.054855311355311354,0.054855311355311354,0.06888888888888889,0.06
+Landmarks Chronos + RF,loso,1.0,2,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.23618090452261306,0.18342877977256772,0.1825116358737049,0.16744675324675323,0.235
+Landmarks Chronos + RF,loso,2.0,2,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.31313131313131315,0.2600303176060752,0.25885858585858584,0.2853333333333333,0.31166666666666665
+Landmarks Chronos + RF,loso,3.0,2,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.3,0.23991475191475192,0.23991475191475192,0.2393249299719888,0.3
+Landmarks Chronos + RF,loso,4.0,2,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed2.pkl,0.265,0.2292268842268842,0.2292268842268842,0.25797619047619047,0.265
+Landmarks Chronos + RF,loso,0.0,3,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.06,0.04656943056943057,0.04656943056943057,0.05882728765487386,0.06
+Landmarks Chronos + RF,loso,1.0,3,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.23618090452261306,0.18553300412596896,0.1846053391053391,0.17925541125541122,0.235
+Landmarks Chronos + RF,loso,2.0,3,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.3181818181818182,0.2771385741082711,0.2743671883671884,0.30700848824378235,0.315
+Landmarks Chronos + RF,loso,3.0,3,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.285,0.24150163871216507,0.24150163871216507,0.24851960784313726,0.285
+Landmarks Chronos + RF,loso,4.0,3,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed3.pkl,0.26,0.2080705142810406,0.2080705142810406,0.2269076479076479,0.26
+Landmarks Chronos + RF,loso,0.0,4,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.075,0.05843589743589743,0.05843589743589743,0.06971818181818182,0.075
+Landmarks Chronos + RF,loso,1.0,4,199,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.23115577889447236,0.1833509097655919,0.18576748855009725,0.18160573894629622,0.2333333333333333
+Landmarks Chronos + RF,loso,2.0,4,198,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.31313131313131315,0.27195469830515945,0.26923515132210785,0.2886528442317916,0.31
+Landmarks Chronos + RF,loso,3.0,4,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.29,0.24367221667221664,0.24367221667221664,0.23204112554112555,0.29
+Landmarks Chronos + RF,loso,4.0,4,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_groupcv_seed4.pkl,0.265,0.2298976578976579,0.2298976578976579,0.23534126984126985,0.265
+Landmarks Chronos + RF,8020,,0,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed0.pkl,0.415,0.3993347763347763,0.3993347763347763,0.4221904761904762,0.415
+Landmarks Chronos + RF,8020,,1,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed1.pkl,0.455,0.43363492063492065,0.43363492063492065,0.4782619047619048,0.455
+Landmarks Chronos + RF,8020,,2,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed2.pkl,0.455,0.434988455988456,0.434988455988456,0.44966666666666666,0.455
+Landmarks Chronos + RF,8020,,3,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed3.pkl,0.5,0.46054378954378955,0.46054378954378955,0.4748095238095238,0.5
+Landmarks Chronos + RF,8020,,4,200,landmarks/grid_search_results_general_db_lm_chronos_chronos_seed4.pkl,0.49,0.48502497502497505,0.48502497502497505,0.5204126984126983,0.49
+IMU TSFEL + KNN,loso,0.0,0,50,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.12,0.05863636363636363,0.05863636363636363,0.04152380952380952,0.12
+IMU TSFEL + KNN,loso,1.0,0,50,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.18,0.15133333333333332,0.15133333333333332,0.14166666666666666,0.18
+IMU TSFEL + KNN,loso,2.0,0,50,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.14,0.10904761904761905,0.10904761904761905,0.1,0.14
+IMU TSFEL + KNN,loso,3.0,0,50,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.24,0.18266666666666664,0.18266666666666664,0.16333333333333333,0.24
+IMU TSFEL + KNN,loso,4.0,0,49,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.061224489795918366,0.03877551020408163,0.038,0.03166666666666666,0.06
+IMU TSFEL + KNN,loso,0.0,1,50,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.12,0.05863636363636363,0.05863636363636363,0.04152380952380952,0.12
+IMU TSFEL + KNN,loso,1.0,1,50,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.18,0.15133333333333332,0.15133333333333332,0.14166666666666666,0.18
+IMU TSFEL + KNN,loso,2.0,1,50,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.14,0.10904761904761905,0.10904761904761905,0.1,0.14
+IMU TSFEL + KNN,loso,3.0,1,50,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.24,0.18266666666666664,0.18266666666666664,0.16333333333333333,0.24
+IMU TSFEL + KNN,loso,4.0,1,49,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.061224489795918366,0.03877551020408163,0.038,0.03166666666666666,0.06
+IMU TSFEL + KNN,loso,0.0,2,50,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.12,0.05863636363636363,0.05863636363636363,0.04152380952380952,0.12
+IMU TSFEL + KNN,loso,1.0,2,50,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.18,0.15133333333333332,0.15133333333333332,0.14166666666666666,0.18
+IMU TSFEL + KNN,loso,2.0,2,50,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.14,0.10904761904761905,0.10904761904761905,0.1,0.14
+IMU TSFEL + KNN,loso,3.0,2,50,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.24,0.18266666666666664,0.18266666666666664,0.16333333333333333,0.24
+IMU TSFEL + KNN,loso,4.0,2,49,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.061224489795918366,0.03877551020408163,0.038,0.03166666666666666,0.06
+IMU TSFEL + KNN,loso,0.0,3,50,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.12,0.05863636363636363,0.05863636363636363,0.04152380952380952,0.12
+IMU TSFEL + KNN,loso,1.0,3,50,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.18,0.15133333333333332,0.15133333333333332,0.14166666666666666,0.18
+IMU TSFEL + KNN,loso,2.0,3,50,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.14,0.10904761904761905,0.10904761904761905,0.1,0.14
+IMU TSFEL + KNN,loso,3.0,3,50,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.24,0.18266666666666664,0.18266666666666664,0.16333333333333333,0.24
+IMU TSFEL + KNN,loso,4.0,3,49,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.061224489795918366,0.03877551020408163,0.038,0.03166666666666666,0.06
+IMU TSFEL + KNN,loso,0.0,4,50,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.12,0.05863636363636363,0.05863636363636363,0.04152380952380952,0.12
+IMU TSFEL + KNN,loso,1.0,4,50,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.18,0.15133333333333332,0.15133333333333332,0.14166666666666666,0.18
+IMU TSFEL + KNN,loso,2.0,4,50,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.14,0.10904761904761905,0.10904761904761905,0.1,0.14
+IMU TSFEL + KNN,loso,3.0,4,50,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.24,0.18266666666666664,0.18266666666666664,0.16333333333333333,0.24
+IMU TSFEL + KNN,loso,4.0,4,49,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.061224489795918366,0.03877551020408163,0.038,0.03166666666666666,0.06
+IMU TSFEL + KNN,8020,,0,50,imu/grid_search_results_temporal_seed0.pkl,0.04,0.014666666666666668,0.014666666666666668,0.009000000000000001,0.04
+IMU TSFEL + KNN,8020,,1,50,imu/grid_search_results_temporal_seed1.pkl,0.06,0.041333333333333326,0.041333333333333326,0.035,0.06
+IMU TSFEL + KNN,8020,,2,50,imu/grid_search_results_temporal_seed2.pkl,0.12,0.07733333333333334,0.07733333333333334,0.06622222222222222,0.12
+IMU TSFEL + KNN,8020,,3,50,imu/grid_search_results_temporal_seed3.pkl,0.04,0.026666666666666665,0.026666666666666665,0.024,0.04
+IMU TSFEL + KNN,8020,,4,50,imu/grid_search_results_temporal_seed4.pkl,0.02,0.0044444444444444444,0.0044444444444444444,0.0025,0.02
+IMU TSFEL + SVM,loso,0.0,0,50,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.08,0.05583333333333333,0.05583333333333333,0.05133333333333333,0.08
+IMU TSFEL + SVM,loso,1.0,0,50,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.26,0.18244444444444444,0.18244444444444444,0.1575,0.26
+IMU TSFEL + SVM,loso,2.0,0,50,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.26,0.23666666666666664,0.23666666666666664,0.22666666666666666,0.26
+IMU TSFEL + SVM,loso,3.0,0,50,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.3,0.22133333333333333,0.22133333333333333,0.19233333333333336,0.3
+IMU TSFEL + SVM,loso,4.0,0,49,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.061224489795918366,0.028911564625850338,0.028333333333333332,0.019523809523809523,0.06
+IMU TSFEL + SVM,loso,0.0,1,50,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.08,0.05583333333333333,0.05583333333333333,0.05133333333333333,0.08
+IMU TSFEL + SVM,loso,1.0,1,50,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.26,0.18244444444444444,0.18244444444444444,0.1575,0.26
+IMU TSFEL + SVM,loso,2.0,1,50,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.26,0.23666666666666664,0.23666666666666664,0.22666666666666666,0.26
+IMU TSFEL + SVM,loso,3.0,1,50,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.3,0.22133333333333333,0.22133333333333333,0.19233333333333336,0.3
+IMU TSFEL + SVM,loso,4.0,1,49,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.061224489795918366,0.028911564625850338,0.028333333333333332,0.019523809523809523,0.06
+IMU TSFEL + SVM,loso,0.0,2,50,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.08,0.05583333333333333,0.05583333333333333,0.05133333333333333,0.08
+IMU TSFEL + SVM,loso,1.0,2,50,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.26,0.18244444444444444,0.18244444444444444,0.1575,0.26
+IMU TSFEL + SVM,loso,2.0,2,50,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.26,0.23666666666666664,0.23666666666666664,0.22666666666666666,0.26
+IMU TSFEL + SVM,loso,3.0,2,50,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.3,0.22133333333333333,0.22133333333333333,0.19233333333333336,0.3
+IMU TSFEL + SVM,loso,4.0,2,49,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.061224489795918366,0.028911564625850338,0.028333333333333332,0.019523809523809523,0.06
+IMU TSFEL + SVM,loso,0.0,3,50,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.08,0.05583333333333333,0.05583333333333333,0.05133333333333333,0.08
+IMU TSFEL + SVM,loso,1.0,3,50,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.26,0.18244444444444444,0.18244444444444444,0.1575,0.26
+IMU TSFEL + SVM,loso,2.0,3,50,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.26,0.23666666666666664,0.23666666666666664,0.22666666666666666,0.26
+IMU TSFEL + SVM,loso,3.0,3,50,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.3,0.22133333333333333,0.22133333333333333,0.19233333333333336,0.3
+IMU TSFEL + SVM,loso,4.0,3,49,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.061224489795918366,0.028911564625850338,0.028333333333333332,0.019523809523809523,0.06
+IMU TSFEL + SVM,loso,0.0,4,50,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.08,0.05583333333333333,0.05583333333333333,0.05133333333333333,0.08
+IMU TSFEL + SVM,loso,1.0,4,50,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.26,0.18244444444444444,0.18244444444444444,0.1575,0.26
+IMU TSFEL + SVM,loso,2.0,4,50,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.26,0.23666666666666664,0.23666666666666664,0.22666666666666666,0.26
+IMU TSFEL + SVM,loso,3.0,4,50,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.3,0.22133333333333333,0.22133333333333333,0.19233333333333336,0.3
+IMU TSFEL + SVM,loso,4.0,4,49,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.061224489795918366,0.028911564625850338,0.028333333333333332,0.019523809523809523,0.06
+IMU TSFEL + SVM,8020,,0,50,imu/grid_search_results_temporal_seed0.pkl,0.06,0.06,0.06,0.06,0.06
+IMU TSFEL + SVM,8020,,1,50,imu/grid_search_results_temporal_seed1.pkl,0.04,0.02,0.02,0.013999999999999999,0.04
+IMU TSFEL + SVM,8020,,2,50,imu/grid_search_results_temporal_seed2.pkl,0.02,0.013333333333333332,0.013333333333333332,0.01,0.02
+IMU TSFEL + SVM,8020,,3,50,imu/grid_search_results_temporal_seed3.pkl,0.08,0.07333333333333333,0.07333333333333333,0.07,0.08
+IMU TSFEL + SVM,8020,,4,50,imu/grid_search_results_temporal_seed4.pkl,0.14,0.09444444444444443,0.09444444444444443,0.08316666666666667,0.14
+IMU TSFEL + RF,loso,0.0,0,50,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.18,0.09,0.09,0.06304761904761903,0.18
+IMU TSFEL + RF,loso,1.0,0,50,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.32,0.23666666666666664,0.23666666666666664,0.2046666666666667,0.32
+IMU TSFEL + RF,loso,2.0,0,50,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.32,0.26466666666666666,0.26466666666666666,0.24166666666666664,0.32
+IMU TSFEL + RF,loso,3.0,0,50,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.28,0.21600000000000003,0.21600000000000003,0.19399999999999998,0.28
+IMU TSFEL + RF,loso,4.0,0,49,imu/grid_search_results_temporal_groupcv_seed0.pkl,0.04081632653061224,0.030612244897959183,0.03,0.026666666666666665,0.04
+IMU TSFEL + RF,loso,0.0,1,50,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.14,0.08466666666666667,0.08466666666666667,0.06899999999999999,0.14
+IMU TSFEL + RF,loso,1.0,1,50,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.24,0.17371428571428565,0.17371428571428565,0.14833333333333332,0.24
+IMU TSFEL + RF,loso,2.0,1,50,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.34,0.26,0.26,0.22666666666666668,0.34
+IMU TSFEL + RF,loso,3.0,1,50,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.38,0.3060952380952381,0.3060952380952381,0.2816666666666666,0.38
+IMU TSFEL + RF,loso,4.0,1,49,imu/grid_search_results_temporal_groupcv_seed1.pkl,0.061224489795918366,0.05442176870748299,0.05333333333333333,0.05,0.06
+IMU TSFEL + RF,loso,0.0,2,50,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.16,0.11,0.11,0.09333333333333332,0.16
+IMU TSFEL + RF,loso,1.0,2,50,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.28,0.184,0.184,0.14888888888888888,0.28
+IMU TSFEL + RF,loso,2.0,2,50,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.36,0.2846666666666666,0.2846666666666666,0.25166666666666665,0.36
+IMU TSFEL + RF,loso,3.0,2,50,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.4,0.3426666666666667,0.3426666666666667,0.32333333333333336,0.4
+IMU TSFEL + RF,loso,4.0,2,49,imu/grid_search_results_temporal_groupcv_seed2.pkl,0.02040816326530612,0.00816326530612245,0.008,0.005,0.02
+IMU TSFEL + RF,loso,0.0,3,50,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.16,0.09233333333333334,0.09233333333333334,0.07452380952380952,0.16
+IMU TSFEL + RF,loso,1.0,3,50,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.32,0.25166666666666665,0.25166666666666665,0.2301904761904762,0.32
+IMU TSFEL + RF,loso,2.0,3,50,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.34,0.2613333333333333,0.2613333333333333,0.22833333333333336,0.34
+IMU TSFEL + RF,loso,3.0,3,50,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.44,0.3691111111111111,0.3691111111111111,0.34416666666666673,0.44
+IMU TSFEL + RF,loso,4.0,3,49,imu/grid_search_results_temporal_groupcv_seed3.pkl,0.08163265306122448,0.052380952380952375,0.05133333333333333,0.04166666666666666,0.08
+IMU TSFEL + RF,loso,0.0,4,50,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.24,0.14682539682539683,0.14682539682539683,0.11983333333333332,0.24
+IMU TSFEL + RF,loso,1.0,4,50,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.3,0.20966666666666664,0.20966666666666664,0.17852380952380956,0.3
+IMU TSFEL + RF,loso,2.0,4,50,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.34,0.27466666666666667,0.27466666666666667,0.24833333333333332,0.34
+IMU TSFEL + RF,loso,3.0,4,50,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.28,0.2046666666666667,0.2046666666666667,0.175,0.28
+IMU TSFEL + RF,loso,4.0,4,49,imu/grid_search_results_temporal_groupcv_seed4.pkl,0.02040816326530612,0.013605442176870748,0.013333333333333332,0.01,0.02
+IMU TSFEL + RF,8020,,0,50,imu/grid_search_results_temporal_seed0.pkl,0.1,0.06999999999999999,0.06999999999999999,0.056666666666666664,0.1
+IMU TSFEL + RF,8020,,1,50,imu/grid_search_results_temporal_seed1.pkl,0.1,0.07,0.07,0.056666666666666664,0.1
+IMU TSFEL + RF,8020,,2,50,imu/grid_search_results_temporal_seed2.pkl,0.18,0.1433333333333333,0.1433333333333333,0.12999999999999998,0.18
+IMU TSFEL + RF,8020,,3,50,imu/grid_search_results_temporal_seed3.pkl,0.1,0.076,0.076,0.07,0.1
+IMU TSFEL + RF,8020,,4,50,imu/grid_search_results_temporal_seed4.pkl,0.18,0.13333333333333333,0.13333333333333333,0.11333333333333333,0.18
+IMU Chronos + KNN,loso,0.0,0,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.04,0.027999999999999997,0.027999999999999997,0.025,0.04
+IMU Chronos + KNN,loso,1.0,0,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.22,0.14933333333333332,0.14933333333333332,0.12733333333333333,0.22
+IMU Chronos + KNN,loso,2.0,0,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.12,0.08166666666666668,0.08166666666666668,0.07352380952380953,0.12
+IMU Chronos + KNN,loso,3.0,0,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.06,0.045,0.045,0.04285714285714286,0.06
+IMU Chronos + KNN,loso,4.0,0,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.02040816326530612,0.004081632653061225,0.004,0.0022222222222222222,0.02
+IMU Chronos + KNN,loso,0.0,1,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.04,0.027999999999999997,0.027999999999999997,0.025,0.04
+IMU Chronos + KNN,loso,1.0,1,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.22,0.14933333333333332,0.14933333333333332,0.12733333333333333,0.22
+IMU Chronos + KNN,loso,2.0,1,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.12,0.08166666666666668,0.08166666666666668,0.07352380952380953,0.12
+IMU Chronos + KNN,loso,3.0,1,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.06,0.045,0.045,0.04285714285714286,0.06
+IMU Chronos + KNN,loso,4.0,1,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.02040816326530612,0.004081632653061225,0.004,0.0022222222222222222,0.02
+IMU Chronos + KNN,loso,0.0,2,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.04,0.027999999999999997,0.027999999999999997,0.025,0.04
+IMU Chronos + KNN,loso,1.0,2,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.22,0.14933333333333332,0.14933333333333332,0.12733333333333333,0.22
+IMU Chronos + KNN,loso,2.0,2,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.12,0.08166666666666668,0.08166666666666668,0.07352380952380953,0.12
+IMU Chronos + KNN,loso,3.0,2,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.06,0.045,0.045,0.04285714285714286,0.06
+IMU Chronos + KNN,loso,4.0,2,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.02040816326530612,0.004081632653061225,0.004,0.0022222222222222222,0.02
+IMU Chronos + KNN,loso,0.0,3,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.04,0.027999999999999997,0.027999999999999997,0.025,0.04
+IMU Chronos + KNN,loso,1.0,3,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.22,0.14933333333333332,0.14933333333333332,0.12733333333333333,0.22
+IMU Chronos + KNN,loso,2.0,3,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.12,0.08166666666666668,0.08166666666666668,0.07352380952380953,0.12
+IMU Chronos + KNN,loso,3.0,3,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.06,0.045,0.045,0.04285714285714286,0.06
+IMU Chronos + KNN,loso,4.0,3,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.02040816326530612,0.004081632653061225,0.004,0.0022222222222222222,0.02
+IMU Chronos + KNN,loso,0.0,4,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.04,0.027999999999999997,0.027999999999999997,0.025,0.04
+IMU Chronos + KNN,loso,1.0,4,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.22,0.14933333333333332,0.14933333333333332,0.12733333333333333,0.22
+IMU Chronos + KNN,loso,2.0,4,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.12,0.08166666666666668,0.08166666666666668,0.07352380952380953,0.12
+IMU Chronos + KNN,loso,3.0,4,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.06,0.045,0.045,0.04285714285714286,0.06
+IMU Chronos + KNN,loso,4.0,4,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.02040816326530612,0.004081632653061225,0.004,0.0022222222222222222,0.02
+IMU Chronos + KNN,8020,,0,50,imu/grid_search_results_general_db_imu_chronos_seed0.pkl,0.0,0.0,0.0,0.0,0.0
+IMU Chronos + KNN,8020,,1,50,imu/grid_search_results_general_db_imu_chronos_seed1.pkl,0.04,0.02333333333333333,0.02333333333333333,0.016666666666666666,0.04
+IMU Chronos + KNN,8020,,2,50,imu/grid_search_results_general_db_imu_chronos_seed2.pkl,0.1,0.06666666666666667,0.06666666666666667,0.05333333333333333,0.1
+IMU Chronos + KNN,8020,,3,50,imu/grid_search_results_general_db_imu_chronos_seed3.pkl,0.06,0.04666666666666666,0.04666666666666666,0.04,0.06
+IMU Chronos + KNN,8020,,4,50,imu/grid_search_results_general_db_imu_chronos_seed4.pkl,0.04,0.03,0.03,0.026666666666666665,0.04
+IMU Chronos + SVM,loso,0.0,0,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.04,0.017333333333333333,0.017333333333333333,0.012222222222222223,0.04
+IMU Chronos + SVM,loso,1.0,0,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.12,0.078,0.078,0.06566666666666666,0.12
+IMU Chronos + SVM,loso,2.0,0,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.04,0.014444444444444444,0.014444444444444444,0.009166666666666667,0.04
+IMU Chronos + SVM,loso,3.0,0,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.06,0.038,0.038,0.03166666666666666,0.06
+IMU Chronos + SVM,loso,4.0,0,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.0,0.0,0.0,0.0,0.0
+IMU Chronos + SVM,loso,0.0,1,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.04,0.017333333333333333,0.017333333333333333,0.012222222222222223,0.04
+IMU Chronos + SVM,loso,1.0,1,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.12,0.078,0.078,0.06566666666666666,0.12
+IMU Chronos + SVM,loso,2.0,1,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.04,0.014444444444444444,0.014444444444444444,0.009166666666666667,0.04
+IMU Chronos + SVM,loso,3.0,1,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.06,0.038,0.038,0.03166666666666666,0.06
+IMU Chronos + SVM,loso,4.0,1,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.0,0.0,0.0,0.0,0.0
+IMU Chronos + SVM,loso,0.0,2,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.04,0.017333333333333333,0.017333333333333333,0.012222222222222223,0.04
+IMU Chronos + SVM,loso,1.0,2,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.12,0.078,0.078,0.06566666666666666,0.12
+IMU Chronos + SVM,loso,2.0,2,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.04,0.014444444444444444,0.014444444444444444,0.009166666666666667,0.04
+IMU Chronos + SVM,loso,3.0,2,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.06,0.038,0.038,0.03166666666666666,0.06
+IMU Chronos + SVM,loso,4.0,2,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.0,0.0,0.0,0.0,0.0
+IMU Chronos + SVM,loso,0.0,3,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.04,0.017333333333333333,0.017333333333333333,0.012222222222222223,0.04
+IMU Chronos + SVM,loso,1.0,3,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.12,0.078,0.078,0.06566666666666666,0.12
+IMU Chronos + SVM,loso,2.0,3,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.04,0.014444444444444444,0.014444444444444444,0.009166666666666667,0.04
+IMU Chronos + SVM,loso,3.0,3,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.06,0.038,0.038,0.03166666666666666,0.06
+IMU Chronos + SVM,loso,4.0,3,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.0,0.0,0.0,0.0,0.0
+IMU Chronos + SVM,loso,0.0,4,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.04,0.017333333333333333,0.017333333333333333,0.012222222222222223,0.04
+IMU Chronos + SVM,loso,1.0,4,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.12,0.078,0.078,0.06566666666666666,0.12
+IMU Chronos + SVM,loso,2.0,4,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.04,0.014444444444444444,0.014444444444444444,0.009166666666666667,0.04
+IMU Chronos + SVM,loso,3.0,4,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.06,0.038,0.038,0.03166666666666666,0.06
+IMU Chronos + SVM,loso,4.0,4,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.0,0.0,0.0,0.0,0.0
+IMU Chronos + SVM,8020,,0,50,imu/grid_search_results_general_db_imu_chronos_seed0.pkl,0.04,0.011111111111111112,0.011111111111111112,0.006500000000000001,0.04
+IMU Chronos + SVM,8020,,1,50,imu/grid_search_results_general_db_imu_chronos_seed1.pkl,0.02,0.01,0.01,0.006666666666666666,0.02
+IMU Chronos + SVM,8020,,2,50,imu/grid_search_results_general_db_imu_chronos_seed2.pkl,0.06,0.041333333333333326,0.041333333333333326,0.035,0.06
+IMU Chronos + SVM,8020,,3,50,imu/grid_search_results_general_db_imu_chronos_seed3.pkl,0.08,0.06,0.06,0.05333333333333333,0.08
+IMU Chronos + SVM,8020,,4,50,imu/grid_search_results_general_db_imu_chronos_seed4.pkl,0.04,0.03333333333333333,0.03333333333333333,0.03,0.04
+IMU Chronos + RF,loso,0.0,0,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.0,0.0,0.0,0.0,0.0
+IMU Chronos + RF,loso,1.0,0,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.1,0.06133333333333333,0.06133333333333333,0.045,0.1
+IMU Chronos + RF,loso,2.0,0,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.12,0.10133333333333333,0.10133333333333333,0.095,0.12
+IMU Chronos + RF,loso,3.0,0,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.04,0.03,0.03,0.026666666666666665,0.04
+IMU Chronos + RF,loso,4.0,0,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed0.pkl,0.02040816326530612,0.0031397174254317113,0.003076923076923077,0.0016666666666666666,0.02
+IMU Chronos + RF,loso,0.0,1,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.02,0.005714285714285714,0.005714285714285714,0.003333333333333333,0.02
+IMU Chronos + RF,loso,1.0,1,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.08,0.04466666666666667,0.04466666666666667,0.03166666666666666,0.08
+IMU Chronos + RF,loso,2.0,1,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.1,0.06333333333333332,0.06333333333333332,0.050666666666666665,0.1
+IMU Chronos + RF,loso,3.0,1,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.02,0.006666666666666666,0.006666666666666666,0.004,0.02
+IMU Chronos + RF,loso,4.0,1,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed1.pkl,0.04081632653061224,0.017006802721088433,0.016666666666666666,0.011818181818181818,0.04
+IMU Chronos + RF,loso,0.0,2,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.06,0.027999999999999997,0.027999999999999997,0.019,0.06
+IMU Chronos + RF,loso,1.0,2,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.04,0.03333333333333333,0.03333333333333333,0.03,0.04
+IMU Chronos + RF,loso,2.0,2,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.06,0.045,0.045,0.04285714285714286,0.06
+IMU Chronos + RF,loso,3.0,2,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.14,0.08933333333333333,0.08933333333333333,0.07333333333333333,0.14
+IMU Chronos + RF,loso,4.0,2,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed2.pkl,0.04081632653061224,0.01020408163265306,0.01,0.005818181818181818,0.04
+IMU Chronos + RF,loso,0.0,3,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.02,0.013333333333333332,0.013333333333333332,0.01,0.02
+IMU Chronos + RF,loso,1.0,3,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.04,0.015714285714285715,0.015714285714285715,0.01,0.04
+IMU Chronos + RF,loso,2.0,3,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.08,0.05833333333333333,0.05833333333333333,0.05285714285714285,0.08
+IMU Chronos + RF,loso,3.0,3,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.04,0.018333333333333333,0.018333333333333333,0.012857142857142855,0.04
+IMU Chronos + RF,loso,4.0,3,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed3.pkl,0.02040816326530612,0.0022675736961451248,0.0022222222222222222,0.001176470588235294,0.02
+IMU Chronos + RF,loso,0.0,4,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.08,0.035,0.035,0.02352380952380952,0.08
+IMU Chronos + RF,loso,1.0,4,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.1,0.068,0.068,0.055,0.1
+IMU Chronos + RF,loso,2.0,4,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.16,0.08900000000000001,0.08900000000000001,0.07174603174603175,0.16
+IMU Chronos + RF,loso,3.0,4,50,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.04,0.04,0.04,0.04,0.04
+IMU Chronos + RF,loso,4.0,4,49,imu/grid_search_results_general_db_imu_chronos_groupcv_seed4.pkl,0.0,0.0,0.0,0.0,0.0
+IMU Chronos + RF,8020,,0,50,imu/grid_search_results_general_db_imu_chronos_seed0.pkl,0.0,0.0,0.0,0.0,0.0
+IMU Chronos + RF,8020,,1,50,imu/grid_search_results_general_db_imu_chronos_seed1.pkl,0.04,0.03333333333333333,0.03333333333333333,0.03,0.04
+IMU Chronos + RF,8020,,2,50,imu/grid_search_results_general_db_imu_chronos_seed2.pkl,0.08,0.052380952380952375,0.052380952380952375,0.04333333333333334,0.08
+IMU Chronos + RF,8020,,3,50,imu/grid_search_results_general_db_imu_chronos_seed3.pkl,0.1,0.06999999999999999,0.06999999999999999,0.05666666666666667,0.1
+IMU Chronos + RF,8020,,4,50,imu/grid_search_results_general_db_imu_chronos_seed4.pkl,0.08,0.07333333333333333,0.07333333333333333,0.07,0.08
+Frozen ViViT CLS + KNN,loso,0.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.065,0.04205325555410445,0.04205325555410445,0.05850783699059561,0.065
+Frozen ViViT CLS + KNN,loso,1.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.095,0.04624918880272782,0.04624918880272782,0.04060690943043885,0.095
+Frozen ViViT CLS + KNN,loso,2.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.025,0.01124330259112868,0.01124330259112868,0.02185977421271539,0.025
+Frozen ViViT CLS + KNN,loso,3.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.08,0.04982970624147095,0.04982970624147095,0.049697892271662776,0.08
+Frozen ViViT CLS + KNN,loso,4.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.085,0.04497146621494448,0.04497146621494448,0.03871100164203612,0.085
+Frozen ViViT CLS + KNN,8020,,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed0.pkl,0.52,0.5212958152958153,0.5212958152958153,0.5796666666666667,0.52
+Frozen ViViT CLS + KNN,8020,,1,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed1.pkl,0.495,0.47939482739482725,0.47939482739482725,0.5199206349206349,0.495
+Frozen ViViT CLS + KNN,8020,,2,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed2.pkl,0.5,0.4915757575757576,0.4915757575757576,0.5360714285714286,0.5
+Frozen ViViT CLS + KNN,8020,,3,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed3.pkl,0.44,0.42572294372294367,0.42572294372294367,0.4604761904761905,0.44
+Frozen ViViT CLS + KNN,8020,,4,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed4.pkl,0.51,0.5114963924963924,0.5114963924963924,0.5581666666666666,0.51
+Frozen ViViT CLS + SVM,loso,0.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.09,0.07670547673719315,0.07670547673719315,0.11596103896103895,0.09
+Frozen ViViT CLS + SVM,loso,1.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.145,0.13609474491752974,0.13609474491752974,0.2117047619047619,0.145
+Frozen ViViT CLS + SVM,loso,2.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.025,0.021295739348370927,0.021295739348370927,0.04350574712643678,0.025
+Frozen ViViT CLS + SVM,loso,3.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.115,0.07287802393684746,0.07287802393684746,0.0745210343396618,0.115
+Frozen ViViT CLS + SVM,loso,4.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.09,0.0480354609929078,0.0480354609929078,0.06290811965811965,0.09
+Frozen ViViT CLS + SVM,8020,,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed0.pkl,0.56,0.5640851370851371,0.5640851370851371,0.6497619047619048,0.56
+Frozen ViViT CLS + SVM,8020,,1,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed1.pkl,0.55,0.5400936840936841,0.5400936840936841,0.5881904761904762,0.55
+Frozen ViViT CLS + SVM,8020,,2,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed2.pkl,0.595,0.5866487956487956,0.5866487956487956,0.6439206349206349,0.595
+Frozen ViViT CLS + SVM,8020,,3,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed3.pkl,0.555,0.5520981240981241,0.5520981240981241,0.6003809523809525,0.555
+Frozen ViViT CLS + SVM,8020,,4,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed4.pkl,0.545,0.5411226551226551,0.5411226551226551,0.5915238095238095,0.545
+Frozen ViViT CLS + RF,loso,0.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.06,0.04373822256175197,0.04373822256175197,0.06687179487179487,0.06
+Frozen ViViT CLS + RF,loso,1.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.11,0.06070474782001372,0.06070474782001372,0.06195284779359483,0.11
+Frozen ViViT CLS + RF,loso,2.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.06,0.04549768360294676,0.04549768360294676,0.057232142857142856,0.06
+Frozen ViViT CLS + RF,loso,3.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.085,0.05939666412019353,0.05939666412019353,0.05648861283643892,0.085
+Frozen ViViT CLS + RF,loso,4.0,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_groupcv_seed0.pkl,0.065,0.03345088245088245,0.03345088245088245,0.025643939393939396,0.065
+Frozen ViViT CLS + RF,8020,,0,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed0.pkl,0.48,0.475,0.475,0.5214285714285714,0.48
+Frozen ViViT CLS + RF,8020,,1,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed1.pkl,0.46,0.4405988455988456,0.4405988455988456,0.46052380952380956,0.46
+Frozen ViViT CLS + RF,8020,,2,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed2.pkl,0.51,0.503089466089466,0.503089466089466,0.5303333333333333,0.51
+Frozen ViViT CLS + RF,8020,,3,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed3.pkl,0.46,0.4548253968253968,0.4548253968253968,0.5027619047619047,0.46
+Frozen ViViT CLS + RF,8020,,4,200,vivit_frozen/grid_search_results_vivit_frozen_cls_chronos_seed4.pkl,0.465,0.4662948162948164,0.4662948162948164,0.5157460317460318,0.465
+"Pose transformer, image coordinates",8020,,0,200,image/pose-8020-seed0.json,0.92,0.919063492063492,0.919063492063492,0.9336666666666666,0.92
+"Pose transformer, image coordinates",8020,,1,200,image/pose-8020-seed1.json,0.96,0.9588571428571429,0.9588571428571429,0.9693333333333333,0.96
+"Pose transformer, image coordinates",8020,,2,200,image/pose-8020-seed2.json,0.94,0.9373549783549783,0.9373549783549783,0.9557619047619048,0.94
+"Pose transformer, image coordinates",8020,,3,200,image/pose-8020-seed3.json,0.935,0.9344920634920634,0.9344920634920634,0.9443333333333334,0.935
+"Pose transformer, image coordinates",8020,,4,200,image/pose-8020-seed4.json,0.925,0.9237777777777777,0.9237777777777777,0.9393333333333334,0.925
+"Pose transformer, image coordinates",loso,0.0,0,200,image/pose-loso-s0-seed0.json,0.455,0.42636507936507934,0.42636507936507934,0.48124242424242425,0.455
+"Pose transformer, image coordinates",loso,0.0,1,200,image/pose-loso-s0-seed1.json,0.43,0.37656949177413573,0.37656949177413573,0.41536163836163836,0.43
+"Pose transformer, image coordinates",loso,0.0,2,200,image/pose-loso-s0-seed2.json,0.42,0.3944201872201872,0.3944201872201872,0.44455072463768114,0.42
+"Pose transformer, image coordinates",loso,0.0,3,200,image/pose-loso-s0-seed3.json,0.445,0.39861197906738705,0.39861197906738705,0.447367215403681,0.445
+"Pose transformer, image coordinates",loso,0.0,4,200,image/pose-loso-s0-seed4.json,0.455,0.40318147933937404,0.40318147933937404,0.44865343480049363,0.455
+"Pose transformer, image coordinates",loso,1.0,0,199,image/pose-loso-s1-seed0.json,0.3417085427135678,0.28883439285449336,0.2923902208902209,0.29303599908863065,0.345
+"Pose transformer, image coordinates",loso,1.0,1,199,image/pose-loso-s1-seed1.json,0.2814070351758794,0.2281081265057751,0.23096758587324626,0.26711079513772723,0.2833333333333333
+"Pose transformer, image coordinates",loso,1.0,2,199,image/pose-loso-s1-seed2.json,0.2964824120603015,0.24483199966824987,0.24860783966990863,0.2589419721511793,0.3
+"Pose transformer, image coordinates",loso,1.0,3,199,image/pose-loso-s1-seed3.json,0.2964824120603015,0.234409695626305,0.23573764714817347,0.24184537528199498,0.29666666666666663
+"Pose transformer, image coordinates",loso,1.0,4,199,image/pose-loso-s1-seed4.json,0.2814070351758794,0.2296912467766739,0.23254279054279053,0.25552775002775,0.2833333333333333
+"Pose transformer, image coordinates",loso,2.0,0,198,image/pose-loso-s2-seed0.json,0.6919191919191919,0.6522548719518417,0.6540180375180376,0.6570952380952381,0.6933333333333332
+"Pose transformer, image coordinates",loso,2.0,1,198,image/pose-loso-s2-seed1.json,0.7070707070707071,0.6645600751661358,0.6654144744144744,0.6787460317460317,0.7066666666666666
+"Pose transformer, image coordinates",loso,2.0,2,198,image/pose-loso-s2-seed2.json,0.7323232323232324,0.6897442624715352,0.6911325341325341,0.7115714285714284,0.7333333333333333
+"Pose transformer, image coordinates",loso,2.0,3,198,image/pose-loso-s2-seed3.json,0.6868686868686869,0.6687768460495733,0.6685890775890775,0.7175187590187591,0.685
+"Pose transformer, image coordinates",loso,2.0,4,198,image/pose-loso-s2-seed4.json,0.6616161616161617,0.6190541220844251,0.6218635808635808,0.6227777777777778,0.6633333333333333
+"Pose transformer, image coordinates",loso,3.0,0,200,image/pose-loso-s3-seed0.json,0.815,0.7843766233766233,0.7843766233766233,0.8105238095238094,0.815
+"Pose transformer, image coordinates",loso,3.0,1,200,image/pose-loso-s3-seed1.json,0.775,0.7520981240981242,0.7520981240981242,0.8184444444444445,0.775
+"Pose transformer, image coordinates",loso,3.0,2,200,image/pose-loso-s3-seed2.json,0.79,0.7705765998707176,0.7705765998707176,0.838090354090354,0.79
+"Pose transformer, image coordinates",loso,3.0,3,200,image/pose-loso-s3-seed3.json,0.765,0.7307067669172932,0.7307067669172932,0.748,0.765
+"Pose transformer, image coordinates",loso,3.0,4,200,image/pose-loso-s3-seed4.json,0.76,0.7319347611452875,0.7319347611452875,0.7910346320346321,0.76
+"Pose transformer, image coordinates",loso,4.0,0,200,image/pose-loso-s4-seed0.json,0.765,0.7285093795093794,0.7285093795093794,0.7625584415584415,0.765
+"Pose transformer, image coordinates",loso,4.0,1,200,image/pose-loso-s4-seed1.json,0.79,0.7670280830280831,0.7670280830280831,0.8245396825396825,0.79
+"Pose transformer, image coordinates",loso,4.0,2,200,image/pose-loso-s4-seed2.json,0.82,0.7951950271950271,0.7951950271950271,0.8276507936507936,0.82
+"Pose transformer, image coordinates",loso,4.0,3,200,image/pose-loso-s4-seed3.json,0.82,0.7862453102453102,0.7862453102453102,0.835047619047619,0.82
+"Pose transformer, image coordinates",loso,4.0,4,200,image/pose-loso-s4-seed4.json,0.86,0.8307417027417027,0.8307417027417027,0.8615238095238095,0.86
+"Pose transformer, body-relative",8020,,0,200,bodynorm/pose-8020-seed0.json,0.935,0.9352539682539682,0.9352539682539682,0.9456666666666667,0.935
+"Pose transformer, body-relative",8020,,1,200,bodynorm/pose-8020-seed1.json,0.97,0.9696825396825396,0.9696825396825396,0.9740000000000001,0.97
+"Pose transformer, body-relative",8020,,2,200,bodynorm/pose-8020-seed2.json,0.935,0.9325353535353536,0.9325353535353536,0.9551904761904761,0.935
+"Pose transformer, body-relative",8020,,3,200,bodynorm/pose-8020-seed3.json,0.95,0.9503333333333334,0.9503333333333334,0.9596666666666667,0.95
+"Pose transformer, body-relative",8020,,4,200,bodynorm/pose-8020-seed4.json,0.93,0.9267994227994228,0.9267994227994228,0.9487619047619049,0.93
+"Pose transformer, body-relative",loso,0.0,0,200,bodynorm/pose-loso-s0-seed0.json,0.41,0.3878107448107448,0.3878107448107448,0.4643095238095238,0.41
+"Pose transformer, body-relative",loso,0.0,1,200,bodynorm/pose-loso-s0-seed1.json,0.495,0.47469874569874576,0.47469874569874576,0.5739285714285713,0.495
+"Pose transformer, body-relative",loso,0.0,2,200,bodynorm/pose-loso-s0-seed2.json,0.37,0.3471297912773323,0.3471297912773323,0.4068587047328466,0.37
+"Pose transformer, body-relative",loso,0.0,3,200,bodynorm/pose-loso-s0-seed3.json,0.465,0.4125573583623119,0.4125573583623119,0.4565122655122656,0.465
+"Pose transformer, body-relative",loso,0.0,4,200,bodynorm/pose-loso-s0-seed4.json,0.395,0.3777767004237592,0.3777767004237592,0.4472781425891182,0.395
+"Pose transformer, body-relative",loso,1.0,0,199,bodynorm/pose-loso-s1-seed0.json,0.3417085427135678,0.2777908092717433,0.28140185522538463,0.2798257105968648,0.345
+"Pose transformer, body-relative",loso,1.0,1,199,bodynorm/pose-loso-s1-seed1.json,0.31155778894472363,0.2381541506231895,0.23946337987007357,0.2316046398046398,0.31166666666666665
+"Pose transformer, body-relative",loso,1.0,2,199,bodynorm/pose-loso-s1-seed2.json,0.33668341708542715,0.25823450188523234,0.26194332937580617,0.2510935545935546,0.34
+"Pose transformer, body-relative",loso,1.0,3,199,bodynorm/pose-loso-s1-seed3.json,0.32160804020100503,0.2501221001221001,0.24887148962148964,0.2442979373567609,0.32
+"Pose transformer, body-relative",loso,1.0,4,199,bodynorm/pose-loso-s1-seed4.json,0.35678391959798994,0.27790995333973384,0.28152040357303515,0.2752222222222222,0.36
+"Pose transformer, body-relative",loso,2.0,0,198,bodynorm/pose-loso-s2-seed0.json,0.5808080808080808,0.5311513402422493,0.5341731601731602,0.5632330447330447,0.5833333333333333
+"Pose transformer, body-relative",loso,2.0,1,198,bodynorm/pose-loso-s2-seed1.json,0.6414141414141414,0.5990693369481248,0.6005786435786437,0.6316839826839827,0.6416666666666666
+"Pose transformer, body-relative",loso,2.0,2,198,bodynorm/pose-loso-s2-seed2.json,0.6363636363636364,0.5876298785389694,0.591039294039294,0.6288261183261183,0.64
+"Pose transformer, body-relative",loso,2.0,3,198,bodynorm/pose-loso-s2-seed3.json,0.5404040404040404,0.4983711574620665,0.5008874458874458,0.5586428571428571,0.5416666666666667
+"Pose transformer, body-relative",loso,2.0,4,198,bodynorm/pose-loso-s2-seed4.json,0.6161616161616161,0.5671421171421172,0.5689706959706959,0.5929166666666666,0.6166666666666667
+"Pose transformer, body-relative",loso,3.0,0,200,bodynorm/pose-loso-s3-seed0.json,0.79,0.7563800186741362,0.7563800186741362,0.7752490842490842,0.79
+"Pose transformer, body-relative",loso,3.0,1,200,bodynorm/pose-loso-s3-seed1.json,0.765,0.7282871572871572,0.7282871572871572,0.7626190476190476,0.765
+"Pose transformer, body-relative",loso,3.0,2,200,bodynorm/pose-loso-s3-seed2.json,0.795,0.7565890775890776,0.7565890775890776,0.776079365079365,0.795
+"Pose transformer, body-relative",loso,3.0,3,200,bodynorm/pose-loso-s3-seed3.json,0.785,0.7569422799422799,0.7569422799422799,0.7711904761904762,0.785
+"Pose transformer, body-relative",loso,3.0,4,200,bodynorm/pose-loso-s3-seed4.json,0.785,0.7521330891330891,0.7521330891330891,0.761923520923521,0.785
+"Pose transformer, body-relative",loso,4.0,0,200,bodynorm/pose-loso-s4-seed0.json,0.79,0.7543780663780661,0.7543780663780661,0.7891428571428571,0.79
+"Pose transformer, body-relative",loso,4.0,1,200,bodynorm/pose-loso-s4-seed1.json,0.73,0.6803920523920525,0.6803920523920525,0.7165714285714284,0.73
+"Pose transformer, body-relative",loso,4.0,2,200,bodynorm/pose-loso-s4-seed2.json,0.73,0.6777117327117326,0.6777117327117326,0.7014819624819623,0.73
+"Pose transformer, body-relative",loso,4.0,3,200,bodynorm/pose-loso-s4-seed3.json,0.77,0.7303073593073591,0.7303073593073591,0.7465238095238094,0.77
+"Pose transformer, body-relative",loso,4.0,4,200,bodynorm/pose-loso-s4-seed4.json,0.84,0.8095945165945166,0.8095945165945166,0.8340476190476188,0.84
+"ST-GCN, image coordinates",8020,,0,200,image/stgcn-8020-seed0.json,0.565,0.5545149295149295,0.5545149295149295,0.5965952380952381,0.565
+"ST-GCN, image coordinates",8020,,1,200,image/stgcn-8020-seed1.json,0.72,0.7018744588744589,0.7018744588744589,0.7512857142857143,0.72
+"ST-GCN, image coordinates",8020,,2,200,image/stgcn-8020-seed2.json,0.66,0.6371082251082251,0.6371082251082251,0.6711428571428572,0.66
+"ST-GCN, image coordinates",8020,,3,200,image/stgcn-8020-seed3.json,0.65,0.6349336219336219,0.6349336219336219,0.7054761904761904,0.65
+"ST-GCN, image coordinates",8020,,4,200,image/stgcn-8020-seed4.json,0.61,0.5997561327561327,0.5997561327561327,0.6438333333333333,0.61
+"ST-GCN, image coordinates",loso,0.0,0,200,image/stgcn-loso-s0-seed0.json,0.165,0.1401168831168831,0.1401168831168831,0.1661785714285714,0.165
+"ST-GCN, image coordinates",loso,0.0,1,200,image/stgcn-loso-s0-seed1.json,0.185,0.16530627542392246,0.16530627542392246,0.22030414030414025,0.185
+"ST-GCN, image coordinates",loso,0.0,2,200,image/stgcn-loso-s0-seed2.json,0.215,0.21474140479403636,0.21474140479403636,0.28263636363636363,0.215
+"ST-GCN, image coordinates",loso,0.0,3,200,image/stgcn-loso-s0-seed3.json,0.135,0.11757096965495623,0.11757096965495623,0.1584174972314507,0.135
+"ST-GCN, image coordinates",loso,0.0,4,200,image/stgcn-loso-s0-seed4.json,0.18,0.14214983191735137,0.14214983191735137,0.16471159420289858,0.18
+"ST-GCN, image coordinates",loso,1.0,0,199,image/stgcn-loso-s1-seed0.json,0.21608040201005024,0.19238316122738233,0.19427838827838825,0.21337529137529138,0.21833333333333332
+"ST-GCN, image coordinates",loso,1.0,1,199,image/stgcn-loso-s1-seed1.json,0.1507537688442211,0.1098483872353219,0.1092991452991453,0.12360215422817518,0.15
+"ST-GCN, image coordinates",loso,1.0,2,199,image/stgcn-loso-s1-seed2.json,0.18592964824120603,0.15627221092655683,0.15549084987192402,0.17362920120814856,0.185
+"ST-GCN, image coordinates",loso,1.0,3,199,image/stgcn-loso-s1-seed3.json,0.1708542713567839,0.12710636802146982,0.12897083618136249,0.13127272727272726,0.1733333333333333
+"ST-GCN, image coordinates",loso,1.0,4,199,image/stgcn-loso-s1-seed4.json,0.18592964824120603,0.1525660072511979,0.1518031772149419,0.16737068160597574,0.185
+"ST-GCN, image coordinates",loso,2.0,0,198,image/stgcn-loso-s2-seed0.json,0.31313131313131315,0.2882041934673513,0.2878221515326778,0.3219444444444444,0.31166666666666665
+"ST-GCN, image coordinates",loso,2.0,1,198,image/stgcn-loso-s2-seed1.json,0.3838383838383838,0.36926412532473135,0.3720714840714841,0.4492886002886003,0.38666666666666666
+"ST-GCN, image coordinates",loso,2.0,2,198,image/stgcn-loso-s2-seed2.json,0.2828282828282828,0.26529136700414696,0.2666384533341055,0.33430082782714365,0.2833333333333333
+"ST-GCN, image coordinates",loso,2.0,3,198,image/stgcn-loso-s2-seed3.json,0.2828282828282828,0.2586998233165791,0.25777949175007997,0.299043956043956,0.2816666666666666
+"ST-GCN, image coordinates",loso,2.0,4,198,image/stgcn-loso-s2-seed4.json,0.3838383838383838,0.34797503282351766,0.35020956820956817,0.3731174348527289,0.38666666666666666
+"ST-GCN, image coordinates",loso,3.0,0,200,image/stgcn-loso-s3-seed0.json,0.26,0.21817662337662333,0.21817662337662333,0.25872625413801886,0.26
+"ST-GCN, image coordinates",loso,3.0,1,200,image/stgcn-loso-s3-seed1.json,0.31,0.2727909288778854,0.2727909288778854,0.3066340852130326,0.31
+"ST-GCN, image coordinates",loso,3.0,2,200,image/stgcn-loso-s3-seed2.json,0.305,0.2528801068212833,0.2528801068212833,0.2791990231990232,0.305
+"ST-GCN, image coordinates",loso,3.0,3,200,image/stgcn-loso-s3-seed3.json,0.305,0.25226172645051365,0.25226172645051365,0.2840964912280702,0.305
+"ST-GCN, image coordinates",loso,3.0,4,200,image/stgcn-loso-s3-seed4.json,0.255,0.22681199502252133,0.22681199502252133,0.2774949494949495,0.255
+"ST-GCN, image coordinates",loso,4.0,0,200,image/stgcn-loso-s4-seed0.json,0.45,0.38561355311355305,0.38561355311355305,0.4088225108225108,0.45
+"ST-GCN, image coordinates",loso,4.0,1,200,image/stgcn-loso-s4-seed1.json,0.48,0.43935379000084884,0.43935379000084884,0.45141025641025634,0.48
+"ST-GCN, image coordinates",loso,4.0,2,200,image/stgcn-loso-s4-seed2.json,0.49,0.4580501527458049,0.4580501527458049,0.4821983747246905,0.49
+"ST-GCN, image coordinates",loso,4.0,3,200,image/stgcn-loso-s4-seed3.json,0.46,0.4031812631812632,0.4031812631812632,0.3940074696545285,0.46
+"ST-GCN, image coordinates",loso,4.0,4,200,image/stgcn-loso-s4-seed4.json,0.54,0.4988445998445999,0.4988445998445999,0.5165750360750361,0.54
+"ST-GCN, body-relative",8020,,0,200,bodynorm/stgcn-8020-seed0.json,0.68,0.6664761904761904,0.6664761904761904,0.7294285714285713,0.68
+"ST-GCN, body-relative",8020,,1,200,bodynorm/stgcn-8020-seed1.json,0.725,0.701148629148629,0.701148629148629,0.736095238095238,0.725
+"ST-GCN, body-relative",8020,,2,200,bodynorm/stgcn-8020-seed2.json,0.725,0.7168614718614716,0.7168614718614716,0.7575714285714286,0.725
+"ST-GCN, body-relative",8020,,3,200,bodynorm/stgcn-8020-seed3.json,0.69,0.6814514374514373,0.6814514374514373,0.7387619047619047,0.69
+"ST-GCN, body-relative",8020,,4,200,bodynorm/stgcn-8020-seed4.json,0.705,0.7056132756132756,0.7056132756132756,0.7486666666666667,0.705
+"ST-GCN, body-relative",loso,0.0,0,200,bodynorm/stgcn-loso-s0-seed0.json,0.245,0.21376198705946986,0.21376198705946986,0.2882347345636819,0.245
+"ST-GCN, body-relative",loso,0.0,1,200,bodynorm/stgcn-loso-s0-seed1.json,0.145,0.11670570009700444,0.11670570009700444,0.12652820222599512,0.145
+"ST-GCN, body-relative",loso,0.0,2,200,bodynorm/stgcn-loso-s0-seed2.json,0.22,0.18438605838605837,0.18438605838605837,0.20375524149053562,0.22
+"ST-GCN, body-relative",loso,0.0,3,200,bodynorm/stgcn-loso-s0-seed3.json,0.27,0.23684126984126982,0.23684126984126982,0.24501406926406927,0.27
+"ST-GCN, body-relative",loso,0.0,4,200,bodynorm/stgcn-loso-s0-seed4.json,0.2,0.1751938061938062,0.1751938061938062,0.2200912910618793,0.2
+"ST-GCN, body-relative",loso,1.0,0,199,bodynorm/stgcn-loso-s1-seed0.json,0.20603015075376885,0.15977863893914734,0.15897974574445162,0.15229448329448328,0.205
+"ST-GCN, body-relative",loso,1.0,1,199,bodynorm/stgcn-loso-s1-seed1.json,0.2562814070351759,0.23313955397904554,0.23197385620915031,0.27460606060606063,0.255
+"ST-GCN, body-relative",loso,1.0,2,199,bodynorm/stgcn-loso-s1-seed2.json,0.2562814070351759,0.22162795328624474,0.2205198135198135,0.22416594516594515,0.255
+"ST-GCN, body-relative",loso,1.0,3,199,bodynorm/stgcn-loso-s1-seed3.json,0.23115577889447236,0.18735742203078887,0.18642063492063493,0.17933838383838385,0.23
+"ST-GCN, body-relative",loso,1.0,4,199,bodynorm/stgcn-loso-s1-seed4.json,0.22613065326633167,0.1909155054883698,0.18996092796092795,0.2046060606060606,0.225
+"ST-GCN, body-relative",loso,2.0,0,198,bodynorm/stgcn-loso-s2-seed0.json,0.47474747474747475,0.43701363665713033,0.43431016695722574,0.4574578754578754,0.4716666666666666
+"ST-GCN, body-relative",loso,2.0,1,198,bodynorm/stgcn-loso-s2-seed1.json,0.47474747474747475,0.43796702736096677,0.4360873570873571,0.5013080808080808,0.4716666666666666
+"ST-GCN, body-relative",loso,2.0,2,198,bodynorm/stgcn-loso-s2-seed2.json,0.41919191919191917,0.39190990827354466,0.3899908091908092,0.4292460317460317,0.41666666666666663
+"ST-GCN, body-relative",loso,2.0,3,198,bodynorm/stgcn-loso-s2-seed3.json,0.36363636363636365,0.32192247575491784,0.3225921398862575,0.35048068598068594,0.365
+"ST-GCN, body-relative",loso,2.0,4,198,bodynorm/stgcn-loso-s2-seed4.json,0.398989898989899,0.360574778756597,0.35863569763569764,0.38330400645106527,0.39666666666666667
+"ST-GCN, body-relative",loso,3.0,0,200,bodynorm/stgcn-loso-s3-seed0.json,0.4,0.3604533244533245,0.3604533244533245,0.38631746031746034,0.4
+"ST-GCN, body-relative",loso,3.0,1,200,bodynorm/stgcn-loso-s3-seed1.json,0.335,0.29679534844240724,0.29679534844240724,0.3584788838612368,0.335
+"ST-GCN, body-relative",loso,3.0,2,200,bodynorm/stgcn-loso-s3-seed2.json,0.475,0.4398686868686869,0.4398686868686869,0.5004935064935065,0.475
+"ST-GCN, body-relative",loso,3.0,3,200,bodynorm/stgcn-loso-s3-seed3.json,0.385,0.34432836100947556,0.34432836100947556,0.3873850561203502,0.385
+"ST-GCN, body-relative",loso,3.0,4,200,bodynorm/stgcn-loso-s3-seed4.json,0.395,0.3583189734242366,0.3583189734242366,0.43935858585858584,0.395
+"ST-GCN, body-relative",loso,4.0,0,200,bodynorm/stgcn-loso-s4-seed0.json,0.49,0.44182173382173384,0.44182173382173384,0.4812063492063492,0.49
+"ST-GCN, body-relative",loso,4.0,1,200,bodynorm/stgcn-loso-s4-seed1.json,0.555,0.5097979242979244,0.5097979242979244,0.5355396825396825,0.555
+"ST-GCN, body-relative",loso,4.0,2,200,bodynorm/stgcn-loso-s4-seed2.json,0.575,0.5171648351648351,0.5171648351648351,0.5164444444444445,0.575
+"ST-GCN, body-relative",loso,4.0,3,200,bodynorm/stgcn-loso-s4-seed3.json,0.495,0.45364235764235766,0.45364235764235766,0.472031746031746,0.495
+"ST-GCN, body-relative",loso,4.0,4,200,bodynorm/stgcn-loso-s4-seed4.json,0.54,0.49815628815628815,0.49815628815628815,0.5328174603174604,0.54
+SlowFast R50,8020,,0,200,slowfast/slowfast-8020-seed0.json,0.87,0.86710101010101,0.86710101010101,0.8957619047619046,0.87
+SlowFast R50,8020,,1,200,slowfast/slowfast-8020-seed1.json,0.895,0.885085137085137,0.885085137085137,0.8954285714285715,0.895
+SlowFast R50,8020,,2,200,slowfast/slowfast-8020-seed2.json,0.915,0.9090952380952381,0.9090952380952381,0.9196666666666666,0.915
+SlowFast R50,loso,0.0,0,200,slowfast/slowfast-loso-s0-seed0.json,0.5,0.45120268620268617,0.45120268620268617,0.5024122315592904,0.5
+SlowFast R50,loso,0.0,1,200,slowfast/slowfast-loso-s0-seed1.json,0.465,0.4520205513784461,0.4520205513784461,0.534073593073593,0.465
+SlowFast R50,loso,0.0,2,200,slowfast/slowfast-loso-s0-seed2.json,0.525,0.4776759848338796,0.4776759848338796,0.4980981240981241,0.525
+SlowFast R50,loso,1.0,0,199,slowfast/slowfast-loso-s1-seed0.json,0.5879396984924623,0.5643585369863822,0.5665367443014503,0.6263882783882784,0.59
+SlowFast R50,loso,1.0,1,199,slowfast/slowfast-loso-s1-seed1.json,0.542713567839196,0.5013586735135656,0.503137594431712,0.5819684204684205,0.545
+SlowFast R50,loso,1.0,2,199,slowfast/slowfast-loso-s1-seed2.json,0.6331658291457286,0.5929793266476684,0.59501443001443,0.6344047619047619,0.635
+SlowFast R50,loso,2.0,0,198,slowfast/slowfast-loso-s2-seed0.json,0.601010101010101,0.5701344746729949,0.570933129926265,0.6182105263157894,0.6
+SlowFast R50,loso,2.0,1,198,slowfast/slowfast-loso-s2-seed1.json,0.5909090909090909,0.5331333383964962,0.5303020050125312,0.5386969696969697,0.5866666666666667
+SlowFast R50,loso,2.0,2,198,slowfast/slowfast-loso-s2-seed2.json,0.5454545454545454,0.502528725848884,0.49964629573325225,0.5659775195564669,0.545
+SlowFast R50,loso,3.0,0,200,slowfast/slowfast-loso-s3-seed0.json,0.61,0.5528492063492063,0.5528492063492063,0.5881428571428572,0.61
+SlowFast R50,loso,3.0,1,200,slowfast/slowfast-loso-s3-seed1.json,0.71,0.6637755577755577,0.6637755577755577,0.686063492063492,0.71
+SlowFast R50,loso,3.0,2,200,slowfast/slowfast-loso-s3-seed2.json,0.685,0.6376503496503496,0.6376503496503496,0.6498203463203464,0.685
+SlowFast R50,loso,4.0,0,200,slowfast/slowfast-loso-s4-seed0.json,0.685,0.6495360195360195,0.6495360195360195,0.6840396825396824,0.685
+SlowFast R50,loso,4.0,1,200,slowfast/slowfast-loso-s4-seed1.json,0.645,0.6262120036825919,0.6262120036825919,0.690028083028083,0.645
+SlowFast R50,loso,4.0,2,200,slowfast/slowfast-loso-s4-seed2.json,0.72,0.702095238095238,0.702095238095238,0.7715119047619047,0.72
+Official SPOTER,8020,,0,200,spoter/spoter-8020-seed0.json,0.875,0.8748888888888888,0.8748888888888888,0.89,0.875
+Official SPOTER,8020,,1,200,spoter/spoter-8020-seed1.json,0.915,0.9139523809523808,0.9139523809523808,0.9329999999999999,0.915
+Official SPOTER,8020,,2,200,spoter/spoter-8020-seed2.json,0.905,0.9019264069264068,0.9019264069264068,0.9224285714285714,0.905
+Official SPOTER,8020,,3,200,spoter/spoter-8020-seed3.json,0.885,0.884015873015873,0.884015873015873,0.9056666666666666,0.885
+Official SPOTER,8020,,4,200,spoter/spoter-8020-seed4.json,0.915,0.912904761904762,0.912904761904762,0.9296666666666666,0.915
+Official SPOTER,loso,0.0,0,200,spoter/spoter-loso-s0-seed0.json,0.27,0.2573930375180375,0.2573930375180375,0.33152380952380944,0.27
+Official SPOTER,loso,0.0,1,200,spoter/spoter-loso-s0-seed1.json,0.25,0.24133865821189765,0.24133865821189765,0.383955934612651,0.25
+Official SPOTER,loso,0.0,2,200,spoter/spoter-loso-s0-seed2.json,0.29,0.2723228327228327,0.2723228327228327,0.36224908424908425,0.29
+Official SPOTER,loso,0.0,3,200,spoter/spoter-loso-s0-seed3.json,0.305,0.2728834873834874,0.2728834873834874,0.3356450216450216,0.305
+Official SPOTER,loso,0.0,4,200,spoter/spoter-loso-s0-seed4.json,0.33,0.31032622932622933,0.31032622932622933,0.38160512620348686,0.33
+Official SPOTER,loso,1.0,0,199,spoter/spoter-loso-s1-seed0.json,0.32663316582914576,0.2667327530480505,0.2703990892828102,0.25677524109877053,0.33
+Official SPOTER,loso,1.0,1,199,spoter/spoter-loso-s1-seed1.json,0.3015075376884422,0.24236791707763586,0.2461560774922477,0.2359498221416826,0.305
+Official SPOTER,loso,1.0,2,199,spoter/spoter-loso-s1-seed2.json,0.2914572864321608,0.24241946257286112,0.2462073652599968,0.27018404634581106,0.295
+Official SPOTER,loso,1.0,3,199,spoter/spoter-loso-s1-seed3.json,0.3165829145728643,0.2612896756083277,0.26498322723028606,0.2670787991811835,0.32
+Official SPOTER,loso,1.0,4,199,spoter/spoter-loso-s1-seed4.json,0.31155778894472363,0.2638483557041866,0.26752911392566564,0.2692955392433653,0.315
+Official SPOTER,loso,2.0,0,198,spoter/spoter-loso-s2-seed0.json,0.5909090909090909,0.5532777481975343,0.556744970715559,0.606078588078588,0.5933333333333333
+Official SPOTER,loso,2.0,1,198,spoter/spoter-loso-s2-seed1.json,0.6363636363636364,0.590259769765352,0.5898571720676984,0.620018759018759,0.6366666666666666
+Official SPOTER,loso,2.0,2,198,spoter/spoter-loso-s2-seed2.json,0.6717171717171717,0.6376142376142375,0.6395714285714287,0.656142857142857,0.6733333333333333
+Official SPOTER,loso,2.0,3,198,spoter/spoter-loso-s2-seed3.json,0.5808080808080808,0.5285992725832298,0.5295632798573976,0.5361935286935288,0.5816666666666667
+Official SPOTER,loso,2.0,4,198,spoter/spoter-loso-s2-seed4.json,0.5757575757575758,0.5345177456288567,0.5365059015059015,0.56824016563147,0.5783333333333333
+Official SPOTER,loso,3.0,0,200,spoter/spoter-loso-s3-seed0.json,0.67,0.6188055278055278,0.6188055278055278,0.6377936507936508,0.67
+Official SPOTER,loso,3.0,1,200,spoter/spoter-loso-s3-seed1.json,0.69,0.6366883116883116,0.6366883116883116,0.6649047619047619,0.69
+Official SPOTER,loso,3.0,2,200,spoter/spoter-loso-s3-seed2.json,0.69,0.6535772005772005,0.6535772005772005,0.6873174603174603,0.69
+Official SPOTER,loso,3.0,3,200,spoter/spoter-loso-s3-seed3.json,0.68,0.6286254856254856,0.6286254856254856,0.6607171717171717,0.68
+Official SPOTER,loso,3.0,4,200,spoter/spoter-loso-s3-seed4.json,0.63,0.5745432900432901,0.5745432900432901,0.6098917748917749,0.63
+Official SPOTER,loso,4.0,0,200,spoter/spoter-loso-s4-seed0.json,0.745,0.710957042957043,0.710957042957043,0.7226269841269841,0.745
+Official SPOTER,loso,4.0,1,200,spoter/spoter-loso-s4-seed1.json,0.74,0.704115329115329,0.704115329115329,0.7285238095238094,0.74
+Official SPOTER,loso,4.0,2,200,spoter/spoter-loso-s4-seed2.json,0.705,0.6694776334776332,0.6694776334776332,0.6836190476190477,0.705
+Official SPOTER,loso,4.0,3,200,spoter/spoter-loso-s4-seed3.json,0.785,0.7592034632034631,0.7592034632034631,0.7944761904761904,0.785
+Official SPOTER,loso,4.0,4,200,spoter/spoter-loso-s4-seed4.json,0.73,0.708179265179265,0.708179265179265,0.7671269841269841,0.73
+Late fusion SlowFast + SPOTER,8020,,0,200,fused/fusion-8020-seed0.json,0.925,0.9197142857142856,0.9197142857142856,0.9393333333333332,0.925
+Late fusion SlowFast + SPOTER,8020,,1,200,fused/fusion-8020-seed1.json,0.925,0.9174285714285715,0.9174285714285715,0.9213333333333332,0.925
+Late fusion SlowFast + SPOTER,8020,,2,200,fused/fusion-8020-seed2.json,0.935,0.927021645021645,0.927021645021645,0.9294285714285715,0.935
+Late fusion SlowFast + SPOTER,loso,0.0,0,200,fused/fusion-loso-s0-seed0.json,0.475,0.4461446623551887,0.4461446623551887,0.5134705581157193,0.475
+Late fusion SlowFast + SPOTER,loso,0.0,1,200,fused/fusion-loso-s0-seed1.json,0.46,0.4233176414229046,0.4233176414229046,0.48557949240302184,0.46
+Late fusion SlowFast + SPOTER,loso,0.0,2,200,fused/fusion-loso-s0-seed2.json,0.505,0.461984348984349,0.461984348984349,0.48438239538239536,0.505
+Late fusion SlowFast + SPOTER,loso,1.0,0,199,fused/fusion-loso-s1-seed0.json,0.5376884422110553,0.4835277731760144,0.48611013431013433,0.4986190476190477,0.54
+Late fusion SlowFast + SPOTER,loso,1.0,1,199,fused/fusion-loso-s1-seed1.json,0.5376884422110553,0.4716051402424443,0.4735328288269464,0.4955318184231227,0.54
+Late fusion SlowFast + SPOTER,loso,1.0,2,199,fused/fusion-loso-s1-seed2.json,0.6030150753768844,0.5490429825044073,0.5512977675918853,0.5723041729512318,0.605
+Late fusion SlowFast + SPOTER,loso,2.0,0,198,fused/fusion-loso-s2-seed0.json,0.6919191919191919,0.661824741403134,0.6652064939891027,0.7069089390142022,0.695
+Late fusion SlowFast + SPOTER,loso,2.0,1,198,fused/fusion-loso-s2-seed1.json,0.7070707070707071,0.6646830755565158,0.6630362448009507,0.6787692307692308,0.705
+Late fusion SlowFast + SPOTER,loso,2.0,2,198,fused/fusion-loso-s2-seed2.json,0.6919191919191919,0.6582410294531507,0.6568858918858919,0.6861862745098039,0.6916666666666665
+Late fusion SlowFast + SPOTER,loso,3.0,0,200,fused/fusion-loso-s3-seed0.json,0.735,0.6844144744144743,0.6844144744144743,0.6870793650793651,0.735
+Late fusion SlowFast + SPOTER,loso,3.0,1,200,fused/fusion-loso-s3-seed1.json,0.75,0.704184593184593,0.704184593184593,0.7346190476190475,0.75
+Late fusion SlowFast + SPOTER,loso,3.0,2,200,fused/fusion-loso-s3-seed2.json,0.755,0.7151391941391942,0.7151391941391942,0.7507777777777779,0.755
+Late fusion SlowFast + SPOTER,loso,4.0,0,200,fused/fusion-loso-s4-seed0.json,0.82,0.8047835497835497,0.8047835497835497,0.8344285714285714,0.82
+Late fusion SlowFast + SPOTER,loso,4.0,1,200,fused/fusion-loso-s4-seed1.json,0.79,0.7795857475857475,0.7795857475857475,0.8321904761904761,0.79
+Late fusion SlowFast + SPOTER,loso,4.0,2,200,fused/fusion-loso-s4-seed2.json,0.805,0.7895036075036075,0.7895036075036075,0.863690476190476,0.805
+"ViViT fine-tuned, protocol B",loso,0.0,0,200,vivit-B-s0-seed0/results.json,0.195,0.1662565539036127,0.1662565539036127,0.23562362158913883,0.195
+"ViViT fine-tuned, protocol B",loso,0.0,1,200,vivit-B-s0-seed1/results.json,0.2,0.15160781310193072,0.15160781310193072,0.18754706404706403,0.2
+"ViViT fine-tuned, protocol B",loso,0.0,2,200,vivit-B-s0-seed2/results.json,0.155,0.14901410675854843,0.14901410675854843,0.18837397523111807,0.155
+"ViViT fine-tuned, protocol B",loso,1.0,0,200,vivit-B-s1-seed0/results.json,0.345,0.28971456321456324,0.28971456321456324,0.31092857142857144,0.345
+"ViViT fine-tuned, protocol B",loso,1.0,1,200,vivit-B-s1-seed1/results.json,0.325,0.2921068931068931,0.2921068931068931,0.34462698412698406,0.325
+"ViViT fine-tuned, protocol B",loso,1.0,2,200,vivit-B-s1-seed2/results.json,0.335,0.27016916416916414,0.27016916416916414,0.2699949494949495,0.335
+"ViViT fine-tuned, protocol B",loso,2.0,0,200,vivit-B-s2-seed0/results.json,0.2,0.16992325510746564,0.16992325510746564,0.21418999323867474,0.2
+"ViViT fine-tuned, protocol B",loso,2.0,1,200,vivit-B-s2-seed1/results.json,0.215,0.18955080710507388,0.18955080710507388,0.21521239954075774,0.215
+"ViViT fine-tuned, protocol B",loso,2.0,2,200,vivit-B-s2-seed2/results.json,0.11,0.08419864504610267,0.08419864504610267,0.133250926228615,0.11
+"ViViT fine-tuned, protocol B",loso,3.0,0,200,vivit-B-s3-seed0/results.json,0.235,0.18713855626869327,0.18713855626869327,0.19882897295940777,0.235
+"ViViT fine-tuned, protocol B",loso,3.0,1,200,vivit-B-s3-seed1/results.json,0.32,0.2552346477052359,0.2552346477052359,0.2773535916498614,0.32
+"ViViT fine-tuned, protocol B",loso,3.0,2,200,vivit-B-s3-seed2/results.json,0.255,0.20531763008233597,0.20531763008233597,0.2348095533498759,0.255
+"ViViT fine-tuned, protocol B",loso,4.0,0,200,vivit-B-s4-seed0/results.json,0.31,0.2405347663380118,0.2405347663380118,0.26736897481603367,0.31
+"ViViT fine-tuned, protocol B",loso,4.0,1,200,vivit-B-s4-seed1/results.json,0.365,0.29669681780208096,0.29669681780208096,0.30864285714285716,0.365
+"ViViT fine-tuned, protocol B",loso,4.0,2,200,vivit-B-s4-seed2/results.json,0.345,0.2833433610122913,0.2833433610122913,0.3059836707152497,0.345
+"ViViT fine-tuned, protocol A",loso,0.0,0,200,vivit-s0-seed0/results.json,0.08,0.048233975728492175,0.048233975728492175,0.053987956487956484,0.08
+"ViViT fine-tuned, protocol A",loso,0.0,1,200,vivit-s0-seed1/results.json,0.08,0.05715034213098729,0.05715034213098729,0.07845276109792239,0.08
+"ViViT fine-tuned, protocol A",loso,0.0,2,200,vivit-s0-seed2/results.json,0.165,0.1352315908728952,0.1352315908728952,0.16768144514584143,0.165
+"ViViT fine-tuned, protocol A",loso,1.0,0,200,vivit-s1-seed0/results.json,0.23,0.17613972758875307,0.17613972758875307,0.185246783625731,0.23
+"ViViT fine-tuned, protocol A",loso,1.0,1,200,vivit-s1-seed1/results.json,0.22,0.1772660746660747,0.1772660746660747,0.18328778467908902,0.22
+"ViViT fine-tuned, protocol A",loso,1.0,2,200,vivit-s1-seed2/results.json,0.165,0.1264175824175824,0.1264175824175824,0.14035858585858585,0.165
+"ViViT fine-tuned, protocol A",loso,2.0,0,200,vivit-s2-seed0/results.json,0.145,0.10191926312421669,0.10191926312421669,0.11117567456697891,0.145
+"ViViT fine-tuned, protocol A",loso,2.0,1,200,vivit-s2-seed1/results.json,0.105,0.07620308263165405,0.07620308263165405,0.09758008658008657,0.105
+"ViViT fine-tuned, protocol A",loso,2.0,2,200,vivit-s2-seed2/results.json,0.115,0.08454622742238842,0.08454622742238842,0.07293539793539792,0.115
+"ViViT fine-tuned, protocol A",loso,3.0,0,200,vivit-s3-seed0/results.json,0.06,0.04361232765612327,0.04361232765612327,0.0757126148705096,0.06
+"ViViT fine-tuned, protocol A",loso,3.0,1,200,vivit-s3-seed1/results.json,0.19,0.15754976521764183,0.15754976521764183,0.18628590455049945,0.19
+"ViViT fine-tuned, protocol A",loso,3.0,2,200,vivit-s3-seed2/results.json,0.12,0.08152319902319903,0.08152319902319903,0.1039773445471386,0.12
+"ViViT fine-tuned, protocol A",loso,4.0,0,200,vivit-s4-seed0/results.json,0.15,0.08767435611701851,0.08767435611701851,0.10197162837162836,0.15
+"ViViT fine-tuned, protocol A",loso,4.0,1,200,vivit-s4-seed1/results.json,0.255,0.1957298701298701,0.1957298701298701,0.21489095387371246,0.255
+"ViViT fine-tuned, protocol A",loso,4.0,2,200,vivit-s4-seed2/results.json,0.25,0.20996552862342333,0.20996552862342333,0.2380663129973475,0.25
+"ViViT fine-tuned, 80/20 recipe",8020,,0,200,vivit-8020-seed0/results.json,0.645,0.6305728715728716,0.6305728715728716,0.649952380952381,0.645
+"ViViT fine-tuned, 80/20 recipe",8020,,1,200,vivit-8020-seed1/results.json,0.535,0.5071613941613942,0.5071613941613942,0.5332857142857143,0.535
+"ViViT fine-tuned, 80/20 recipe",8020,,2,200,vivit-8020-seed2/results.json,0.63,0.6074718614718614,0.6074718614718614,0.6391904761904762,0.63

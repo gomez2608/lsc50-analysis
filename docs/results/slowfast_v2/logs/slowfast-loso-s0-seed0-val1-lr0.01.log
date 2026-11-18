@@ -1,0 +1,9 @@
+epoch 1: train loss 3.9524 (2.8 min)
+epoch 2: train loss 3.9078 (5.6 min)
+epoch 3: train loss 3.8472 (8.4 min)
+epoch 4: train loss 3.8629 (11.3 min)
+epoch 5: train loss 4.0823 (14.1 min)
+epoch 6: train loss 6.8269 (16.9 min)
+epoch 7: train loss nan (19.7 min)
+training loss not finite: stopping (run flagged as diverged)
+slowfast-loso-s0-seed0-val1-lr0.01: F1 weighted 0.001, accuracy 0.020, 20 min

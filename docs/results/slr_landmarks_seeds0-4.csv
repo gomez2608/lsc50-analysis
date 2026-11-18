@@ -1,0 +1,13 @@
+features,split,shuffled_labels,model,n_runs,seeds,f1_weighted,f1_ci95,f1_macro,accuracy,n_test
+general_db_lm_chronos,balanced,False,knn,5,"0,1,2,3,4",0.47 ± 0.05,"[0.45, 0.51]",0.47,0.48,1000
+general_db_lm_chronos,balanced,False,rf,5,"0,1,2,3,4",0.44 ± 0.03,"[0.42, 0.48]",0.44,0.46,1000
+general_db_lm_chronos,balanced,False,svc,5,"0,1,2,3,4",0.57 ± 0.02,"[0.55, 0.61]",0.57,0.58,1000
+general_db_lm_chronos,loso,False,knn,5,0,0.19 ± 0.08,"[0.18, 0.23]",0.19,0.21,997
+general_db_lm_chronos,loso,False,rf,5,0,0.20 ± 0.08,"[0.20, 0.25]",0.20,0.25,997
+general_db_lm_chronos,loso,False,svc,5,0,0.23 ± 0.10,"[0.24, 0.30]",0.23,0.26,997
+temporal_features,balanced,False,knn,5,"0,1,2,3,4",0.55 ± 0.03,"[0.53, 0.59]",0.55,0.55,1000
+temporal_features,balanced,False,rf,5,"0,1,2,3,4",0.62 ± 0.02,"[0.59, 0.66]",0.62,0.63,1000
+temporal_features,balanced,False,svc,5,"0,1,2,3,4",0.59 ± 0.03,"[0.57, 0.63]",0.59,0.59,1000
+temporal_features,loso,False,knn,5,0,0.16 ± 0.06,"[0.16, 0.21]",0.16,0.18,997
+temporal_features,loso,False,rf,5,0,0.25 ± 0.13,"[0.25, 0.31]",0.25,0.30,997
+temporal_features,loso,False,svc,5,0,0.23 ± 0.15,"[0.25, 0.31]",0.23,0.26,997

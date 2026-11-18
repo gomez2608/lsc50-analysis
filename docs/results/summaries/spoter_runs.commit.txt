@@ -1,0 +1,1 @@
+39aa70b run_signer_ci.sh: SlowFast from the fusion retraining; SPOTER (5 seeds, and seeds 0-2) and late fusion added; planned comparisons + SPOTER vs reference, fusion vs SlowFast, fusion vs SPOTER (fixed before running)

@@ -16,9 +16,13 @@ from sklearn.model_selection import train_test_split
 
 DEFAULT_SEED = 42
 
-# Subject ids treated as "signant" (deaf signers) in the binary signant task.
-# Everyone else is treated as "non-signant".
-SIGNANT_SUBJECT_IDS: tuple[int, ...] = (1, 2)
+# Subject ids of the deaf native signers ("signant", label 0) in the binary
+# native vs. interpreter task; everyone else is a hearing interpreter (label 1).
+# Subjects are 0-indexed: Volunteers 3, 4 and 5 are deaf, Volunteers 1 and 2
+# are interpreters (confirmed by the authors, 2026-10-16). The original value
+# (1, 2) grouped Volunteers 2-3 against 1, 4, 5, which does not match hearing
+# status (P6 in docs/REVISION_LOG.md).
+SIGNANT_SUBJECT_IDS: tuple[int, ...] = (2, 3, 4)
 
 
 def _drop_unnamed(data: pd.DataFrame) -> pd.DataFrame:
@@ -28,12 +32,13 @@ def _drop_unnamed(data: pd.DataFrame) -> pd.DataFrame:
 
 
 def loso_train_test_split(
-    data: pd.DataFrame, validation_subject: int = 1, no_sign_label: int = 42
+    data: pd.DataFrame, validation_subject: int = 1, no_sign_label: int | None = None
 ) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
     """Leave-one-subject-out split.
 
     The ``no_sign_label`` argument lets the caller drop a sentinel "no sign"
-    class from the validation set (matches the original IMU behavior).
+    class from the validation set. It used to default to 42, which silently
+    dropped real sign 42 (labels are 0..49) from every LOSO validation fold.
 
     Returns ``(X_train, y_train, X_val, y_val)``.
     """
@@ -49,7 +54,7 @@ def loso_train_test_split(
     X_val, y_val = X[val_index], y[val_index]
     X_train, y_train = X[train_index], y[train_index]
 
-    if no_sign_label in y_val:
+    if no_sign_label is not None and no_sign_label in y_val:
         no_sign_index = np.where(y_val == no_sign_label)
         y_val = np.delete(y_val, no_sign_index)
         X_val = np.delete(X_val, no_sign_index, axis=0)
@@ -126,3 +131,29 @@ def train_test_split_interpreter_signant_by_signs(
     X_test = test_data.drop(["label", "subject"], axis=1).to_numpy()
 
     return X_train, X_test, y_train, y_test
+
+
+def loso_interpreter_signant_split(
+    data: pd.DataFrame,
+    validation_subject: int,
+    signant_subjects: tuple[int, ...] = SIGNANT_SUBJECT_IDS,
+) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+    """Signant binary split holding out one whole signer.
+
+    Unlike the row-level and sign-level splits, the test signer is never seen
+    in training, so the model cannot rely on person-specific traits. The test
+    set contains a single class, so report accuracy per held-out signer.
+
+    Returns ``(X_train, X_test, y_train, y_test)``.
+    """
+    data = _drop_unnamed(data)
+
+    def _binary(subjects: np.ndarray) -> np.ndarray:
+        return np.array([0 if s in signant_subjects else 1 for s in subjects])
+
+    is_test = data["subject"].to_numpy() == validation_subject
+    train_data, test_data = data[~is_test], data[is_test]
+
+    X_train = train_data.drop(["label", "subject"], axis=1).to_numpy()
+    X_test = test_data.drop(["label", "subject"], axis=1).to_numpy()
+    return X_train, X_test, _binary(train_data["subject"].to_numpy()), _binary(test_data["subject"].to_numpy())

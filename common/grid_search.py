@@ -72,12 +72,17 @@ def run_grid_search(
     X_train: np.ndarray,
     y_train: np.ndarray,
     *,
-    cv: int = 3,
+    cv: Any = 3,
+    groups: np.ndarray | None = None,
     scoring: str = "f1_weighted",
     n_jobs: int = -1,
     desc: str = "GridSearchCV",
 ) -> GridSearchCV:
     """Fit a ``GridSearchCV`` while showing a tqdm progress bar.
+
+    ``cv`` is a fold count (stratified K-fold over rows) or a splitter; pass
+    ``groups`` with a group splitter (e.g. ``GroupKFold``) to keep each signer
+    within one inner fold.
 
     Mirrors the original monkey-patched ``_run_search`` trick — we keep it
     because it's the only way to surface progress without a sklearn callback.
@@ -98,20 +103,39 @@ def run_grid_search(
             return original(wrapped)
 
         search._run_search = with_progress  # type: ignore[assignment]
-        search.fit(X_train, y_train)
+        search.fit(X_train, y_train, groups=groups)
 
     return search
 
 
 def summarize_search(search: GridSearchCV, y_true: np.ndarray, y_pred: np.ndarray) -> dict[str, Any]:
-    """Build the per-(model, split) result dict used by the original scripts."""
-    from sklearn.metrics import f1_score
+    """Build the per-(model, split) result dict used by the original scripts.
+
+    Predictions are stored alongside the metrics so confidence intervals and
+    confusion matrices can be recomputed later without retraining.
+    """
+    from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 
     summary: dict[str, Any] = {
         "f1_score": f1_score(y_true, y_pred, average="weighted"),
+        "f1_macro": f1_score(y_true, y_pred, average="macro", zero_division=0),
+        "accuracy": accuracy_score(y_true, y_pred),
+        "precision_macro": precision_score(y_true, y_pred, average="macro", zero_division=0),
+        "recall_macro": recall_score(y_true, y_pred, average="macro", zero_division=0),
+        "y_true": np.asarray(y_true),
+        "y_pred": np.asarray(y_pred),
         "best_params": search.best_params_,
         "train_scores": search.cv_results_,
     }
     if hasattr(search.best_estimator_, "feature_importances_"):
         summary["feature_importances"] = search.best_estimator_.feature_importances_
     return summary
+
+
+def shuffle_labels(y: np.ndarray, seed: int) -> np.ndarray:
+    """Permute training labels for the shuffled-label control.
+
+    A model trained on permuted labels should score at chance on the untouched
+    test labels; scoring well above chance points to leakage.
+    """
+    return np.random.default_rng(seed).permutation(y)

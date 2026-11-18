@@ -1,0 +1,16 @@
+fold 0: reproduced 0.035 | original 0.024 | same params True
+~/lsc-revision/venv/lib/python3.11/site-packages/sklearn/model_selection/_split.py:776: UserWarning: The least populated class in y has only 4 members, which is less than n_splits=5.
+  warnings.warn(
+~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+fold 1: reproduced 0.717 | original 0.585 | same params False
+~/lsc-revision/venv/lib/python3.11/site-packages/sklearn/model_selection/_split.py:776: UserWarning: The least populated class in y has only 4 members, which is less than n_splits=5.
+  warnings.warn(
+fold 2: reproduced 0.306 | original 0.241 | same params False
+~/lsc-revision/venv/lib/python3.11/site-packages/sklearn/model_selection/_split.py:776: UserWarning: The least populated class in y has only 4 members, which is less than n_splits=5.
+  warnings.warn(
+fold 3: reproduced 0.223 | original 0.207 | same params True
+~/lsc-revision/venv/lib/python3.11/site-packages/sklearn/model_selection/_split.py:776: UserWarning: The least populated class in y has only 4 members, which is less than n_splits=5.
+  warnings.warn(
+fold 4: reproduced 0.595 | original 0.657 | same params True
+RF LOSO mean 0.38 ± 0.25

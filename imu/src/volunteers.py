@@ -71,9 +71,12 @@ class VolunteerInformation:
 
     def _load_timestamps(self) -> pd.DataFrame:
         path = os.path.join(self.base_route, "INFO", "Timestamps.xlsx")
+        # Sheet names are not uniform in LSC50 (e.g. "Volunteer  4"), so match ignoring whitespace.
+        wanted = f"Volunteer{self.volunteer_number}"
+        sheet = next(s for s in pd.ExcelFile(path).sheet_names if "".join(s.split()) == wanted)
         return pd.read_excel(
             path,
-            sheet_name=f"Volunteer {self.volunteer_number}",
+            sheet_name=sheet,
             index_col=0,
             header=0,
             names=["sign", "start", "end"],

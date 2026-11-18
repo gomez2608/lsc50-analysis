@@ -1,0 +1,1 @@
+eec1aba SPOTER glue: neck = shoulder midpoint and y -> 1 - y (Apple Vision convention SPOTER was built on); official missing-neck fallback crashes its loader and would mis-centre normalization; protocol amendment before any completed run

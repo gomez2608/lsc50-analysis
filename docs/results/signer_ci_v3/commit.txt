@@ -1,0 +1,1 @@
+3c39d3e run_slowfast.sh: fix job-name construction that killed every worker under set -e (no SlowFast run happened); start per GPU when >= 9 GB free and none of our processes; DRY_RUN

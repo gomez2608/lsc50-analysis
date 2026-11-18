@@ -1,0 +1,5 @@
+grouping,folds,n_folds,rho_mean,rho_min,rho_max
+region,all,5,0.7,0.5,1.0
+region,baseline_ge_0.2,5,0.7,0.5,1.0
+subregion,all,5,0.8553921568627452,0.7083333333333334,0.9730392156862747
+subregion,baseline_ge_0.2,5,0.8553921568627452,0.7083333333333334,0.9730392156862747

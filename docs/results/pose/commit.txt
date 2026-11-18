@@ -1,0 +1,1 @@
+7465bfc Pose-sequence baseline: SPOTER-style transformer on landmark sequences, fixed settings, LOSO and 80/20 seeds

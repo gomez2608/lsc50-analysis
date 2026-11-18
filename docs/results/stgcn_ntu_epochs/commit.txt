@@ -1,0 +1,1 @@
+5b911df ST-GCN baseline: official model vendored unmodified (BSD-2, commit 221c0e1), LSC50 MediaPipe graph, authors' NTU recipe; run script with controls

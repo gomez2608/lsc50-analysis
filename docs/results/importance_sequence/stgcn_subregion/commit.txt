@@ -1,0 +1,1 @@
+a50409d2 Finger-level permutation importance (SEQUENCE_IMPORTANCE.md amendment, fixed before any run): subregion grouping (per hand wrist + 5 fingers; body face, arms, pose-hand points; 17 groups) in sequence_importance.py; --importance-groupings in pose_transformer.py and stgcn_baseline.py (default region + point, unchanged); GROUPINGS in run_sequence_importance.sh

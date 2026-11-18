@@ -39,6 +39,9 @@ torchaudio==2.0.2
 transformers==4.55.0
 datasets==3.1.0
 av==14.1.0                       # PyAV for frame decoding
+accelerate==1.15.0               # required by transformers.Trainer
+pyarrow==17.0.0                  # datasets; newer pyarrow needs NumPy 2
+pillow                           # VivitImageProcessor
 huggingface-hub==0.34.4
 
 # -------- Notebook/analysis extras (optional) --------

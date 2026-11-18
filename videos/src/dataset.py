@@ -7,6 +7,11 @@ Two split strategies are supported:
 - ``per_subject_split`` (filename-encoded subject id) — used by the
   cross-validation / per-subject builder.
 
+For the revision, ``build_all_clips_dataset`` builds a single table of all
+clips with ``labels``, ``subject`` and ``rep`` columns; the training scripts
+then split it by seed or held-out signer without rebuilding (P13, P14 in
+``docs/REVISION_LOG.md``).
+
 Filenames are expected to encode ``label_subject_id_clip.avi`` (the
 underscore-separated tokens used by the original dataset). The class label
 is the first token; the subject id is the second token.
@@ -19,7 +24,7 @@ from typing import Iterable, Sequence
 
 import av
 import numpy as np
-from datasets import Dataset
+from datasets import Array4D, Dataset, Features, Value
 from tqdm import tqdm
 from transformers import VivitImageProcessor
 
@@ -57,16 +62,30 @@ def sample_frame_indices(frame_sample_rate: float, seg_len: int) -> np.ndarray:
     return np.arange(0, seg_len, frame_sample_rate).astype(np.int64)
 
 
+def parse_clip_name(fname: str) -> tuple[int, int, int]:
+    """Return ``(label, subject, rep)`` from ``{label}_{subject}_{rep}.avi``."""
+    label, subject, rep = os.path.splitext(os.path.basename(fname))[0].split("_")[:3]
+    return int(label), int(subject), int(rep)
+
+
+def list_clips(video_dir: str) -> list[str]:
+    """``.avi`` files in ``video_dir``, sorted so the order is reproducible."""
+    return sorted(f for f in os.listdir(video_dir) if f.lower().endswith(".avi"))
+
+
 def _process_clip(path: str, image_processor: VivitImageProcessor, num_frames: int) -> dict:
     container = av.open(path)
     total = container.streams.video[0].frames
     indices = sample_frame_indices(frame_sample_rate=total / num_frames, seg_len=total)
     video = read_video_pyav(container, indices)
+    container.close()
     pix = image_processor(list(video), return_tensors="pt")
-    label = int(os.path.basename(path).split("_")[0])
+    label, subject, rep = parse_clip_name(path)
     return {
         "pixel_values": pix["pixel_values"].squeeze(),
         "labels": label,
+        "subject": subject,
+        "rep": rep,
     }
 
 
@@ -78,7 +97,7 @@ def build_clip_dataset(
     num_frames: int = DEFAULT_NUM_FRAMES,
 ) -> list[dict]:
     """Process every ``.avi`` file in ``video_dir`` into a list of dataset rows."""
-    files = os.listdir(video_dir)
+    files = list_clips(video_dir)
     if limit is not None:
         files = files[:limit]
 
@@ -88,7 +107,9 @@ def build_clip_dataset(
     return rows
 
 
-def custom_train_test_split(dataset: list[dict], test_split: float = 0.2) -> tuple[list[dict], list[dict]]:
+def custom_train_test_split(
+    dataset: list[dict], test_split: float = 0.2, seed: int = 42
+) -> tuple[list[dict], list[dict]]:
     """Random per-class hold-out split.
 
     Fixes the long-standing bug in the original ``dataset_generation.py`` where
@@ -98,13 +119,14 @@ def custom_train_test_split(dataset: list[dict], test_split: float = 0.2) -> tup
     train_ds: list[dict] = []
     test_ds: list[dict] = []
     labels = np.array([row["labels"] for row in dataset])
+    rng = np.random.default_rng(seed)
 
     classes = np.unique(labels)
     imgs_per_class = len(labels) // len(classes)
     test_imgs_per_class = int(imgs_per_class * test_split)
 
     for class_idx in tqdm(classes, desc="Splitting"):
-        img_indx = np.random.permutation(np.where(labels == class_idx)[0])
+        img_indx = rng.permutation(np.where(labels == class_idx)[0])
         test_indx = img_indx[:test_imgs_per_class]
         train_indx = img_indx[test_imgs_per_class:]
         for i in train_indx:
@@ -126,7 +148,7 @@ def per_subject_split(
 
     The filename convention is ``{label}_{subject}_{clip}.avi``.
     """
-    files = os.listdir(video_dir)
+    files = list_clips(video_dir)
     if limit is not None:
         files = files[:limit]
 
@@ -144,4 +166,42 @@ def save_split(rows: Iterable[dict], output_path: str) -> str:
     """Persist a list of dataset rows to disk via ``Dataset.from_list``."""
     ds = Dataset.from_list(list(rows))
     ds.save_to_disk(output_path)
+    return output_path
+
+
+def build_all_clips_dataset(
+    video_dir: str,
+    image_processor: VivitImageProcessor,
+    output_path: str,
+    *,
+    num_frames: int = DEFAULT_NUM_FRAMES,
+    crop_size: int = 224,
+    limit: int | None = None,
+) -> str:
+    """Process every clip once and stream it to ``output_path`` (Arrow on disk).
+
+    Pixel values are stored as float16 (about 9.6 MB per 32-frame clip), so
+    the full 1,000-clip set is roughly 10 GB and never has to sit in memory.
+    """
+    files = list_clips(video_dir)
+    if limit is not None:
+        files = files[:limit]
+
+    def rows():
+        for fname in tqdm(files, desc="Processing clips"):
+            row = _process_clip(os.path.join(video_dir, fname), image_processor, num_frames)
+            row["pixel_values"] = row["pixel_values"].numpy().astype(np.float16)
+            yield row
+
+    features = Features(
+        {
+            "pixel_values": Array4D(shape=(num_frames, 3, crop_size, crop_size), dtype="float16"),
+            "labels": Value("int64"),
+            "subject": Value("int64"),
+            "rep": Value("int64"),
+        }
+    )
+    # ~9.6 MB per clip: keep each Arrow write batch well under the 2 GB limit.
+    ds = Dataset.from_generator(rows, features=features, writer_batch_size=50)
+    ds.save_to_disk(output_path, max_shard_size="1GB")
     return output_path

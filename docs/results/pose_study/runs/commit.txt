@@ -1,0 +1,1 @@
+ce1ceac Pose transformer study code: split by subjects, input/pooling/schedule/smoothing/augmentation-centre options (defaults unchanged, regression-tested: identical predictions), nested selection, launcher

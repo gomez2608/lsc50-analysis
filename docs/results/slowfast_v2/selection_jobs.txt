@@ -1,0 +1,15 @@
+slowfast-loso-s0-seed0-val1-lr0.01|~/lsc-revision/slowfast_v2/selection|--split loso --subject 0 --val-subject 1 --seed 0 --lr 0.01 --tag lr0.01
+slowfast-loso-s1-seed0-val2-lr0.01|~/lsc-revision/slowfast_v2/selection|--split loso --subject 1 --val-subject 2 --seed 0 --lr 0.01 --tag lr0.01
+slowfast-loso-s2-seed0-val3-lr0.01|~/lsc-revision/slowfast_v2/selection|--split loso --subject 2 --val-subject 3 --seed 0 --lr 0.01 --tag lr0.01
+slowfast-loso-s3-seed0-val4-lr0.01|~/lsc-revision/slowfast_v2/selection|--split loso --subject 3 --val-subject 4 --seed 0 --lr 0.01 --tag lr0.01
+slowfast-loso-s4-seed0-val0-lr0.01|~/lsc-revision/slowfast_v2/selection|--split loso --subject 4 --val-subject 0 --seed 0 --lr 0.01 --tag lr0.01
+slowfast-loso-s0-seed0-val1-lr0.003|~/lsc-revision/slowfast_v2/selection|--split loso --subject 0 --val-subject 1 --seed 0 --lr 0.003 --tag lr0.003
+slowfast-loso-s1-seed0-val2-lr0.003|~/lsc-revision/slowfast_v2/selection|--split loso --subject 1 --val-subject 2 --seed 0 --lr 0.003 --tag lr0.003
+slowfast-loso-s2-seed0-val3-lr0.003|~/lsc-revision/slowfast_v2/selection|--split loso --subject 2 --val-subject 3 --seed 0 --lr 0.003 --tag lr0.003
+slowfast-loso-s3-seed0-val4-lr0.003|~/lsc-revision/slowfast_v2/selection|--split loso --subject 3 --val-subject 4 --seed 0 --lr 0.003 --tag lr0.003
+slowfast-loso-s4-seed0-val0-lr0.003|~/lsc-revision/slowfast_v2/selection|--split loso --subject 4 --val-subject 0 --seed 0 --lr 0.003 --tag lr0.003
+slowfast-loso-s0-seed0-val1-lr0.001|~/lsc-revision/slowfast_v2/selection|--split loso --subject 0 --val-subject 1 --seed 0 --lr 0.001 --tag lr0.001
+slowfast-loso-s1-seed0-val2-lr0.001|~/lsc-revision/slowfast_v2/selection|--split loso --subject 1 --val-subject 2 --seed 0 --lr 0.001 --tag lr0.001
+slowfast-loso-s2-seed0-val3-lr0.001|~/lsc-revision/slowfast_v2/selection|--split loso --subject 2 --val-subject 3 --seed 0 --lr 0.001 --tag lr0.001
+slowfast-loso-s3-seed0-val4-lr0.001|~/lsc-revision/slowfast_v2/selection|--split loso --subject 3 --val-subject 4 --seed 0 --lr 0.001 --tag lr0.001
+slowfast-loso-s4-seed0-val0-lr0.001|~/lsc-revision/slowfast_v2/selection|--split loso --subject 4 --val-subject 0 --seed 0 --lr 0.001 --tag lr0.001

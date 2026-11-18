@@ -1,0 +1,102 @@
+[2026-10-26 13:51] ST-GCN importance: waiting for SlowFast v2 to finish (../slowfast_v2/run.log)
+[2026-10-26 13:51] ST-GCN importance (region subregion): 25 runs, lr 0.05, a50409d2 Finger-level permutation importance (SEQUENCE_IMPORTANCE.md amendment, fixed before any run): subregion grouping (per hand wrist + 5 fingers; body face, arms, pose-hand points; 17 groups) in sequence_importance.py; --importance-groupings in pose_transformer.py and stgcn_baseline.py (default region + point, unchanged); GROUPINGS in run_sequence_importance.sh
+[2026-10-26 13:51] GPU 0 start stgcn-loso-s0-seed0
+[2026-10-26 13:52] GPU 1 start stgcn-loso-s1-seed0
+[2026-10-26 13:52] GPU 2 start stgcn-loso-s2-seed0
+[2026-10-26 13:53] GPU 3 start stgcn-loso-s3-seed0
+[2026-10-26 14:02] GPU 0 end stgcn-loso-s0-seed0
+[2026-10-26 14:02] GPU 0 start stgcn-loso-s4-seed0
+[2026-10-26 14:03] GPU 1 end stgcn-loso-s1-seed0
+[2026-10-26 14:03] GPU 1 start stgcn-loso-s0-seed1
+[2026-10-26 14:03] GPU 2 end stgcn-loso-s2-seed0
+[2026-10-26 14:04] GPU 2 start stgcn-loso-s1-seed1
+[2026-10-26 14:04] GPU 3 end stgcn-loso-s3-seed0
+[2026-10-26 14:04] GPU 3 start stgcn-loso-s2-seed1
+[2026-10-26 14:13] GPU 0 end stgcn-loso-s4-seed0
+[2026-10-26 14:13] GPU 0 start stgcn-loso-s3-seed1
+[2026-10-26 14:14] GPU 1 end stgcn-loso-s0-seed1
+[2026-10-26 14:14] GPU 1 start stgcn-loso-s4-seed1
+[2026-10-26 14:14] GPU 2 end stgcn-loso-s1-seed1
+[2026-10-26 14:15] GPU 3 end stgcn-loso-s2-seed1
+[2026-10-26 14:15] GPU 2 start stgcn-loso-s0-seed2
+[2026-10-26 14:15] GPU 3 start stgcn-loso-s1-seed2
+[2026-10-26 14:24] GPU 0 end stgcn-loso-s3-seed1
+[2026-10-26 14:24] GPU 0 start stgcn-loso-s2-seed2
+[2026-10-26 14:25] GPU 1 end stgcn-loso-s4-seed1
+[2026-10-26 14:26] GPU 1 start stgcn-loso-s3-seed2
+[2026-10-26 14:26] GPU 2 end stgcn-loso-s0-seed2
+[2026-10-26 14:26] GPU 3 end stgcn-loso-s1-seed2
+[2026-10-26 14:26] GPU 2 start stgcn-loso-s4-seed2
+[2026-10-26 14:26] GPU 3 start stgcn-loso-s0-seed3
+[2026-10-26 14:35] GPU 0 end stgcn-loso-s2-seed2
+[2026-10-26 14:35] GPU 0 start stgcn-loso-s1-seed3
+[2026-10-26 14:37] GPU 1 end stgcn-loso-s3-seed2
+[2026-10-26 14:37] GPU 1 start stgcn-loso-s2-seed3
+[2026-10-26 14:37] GPU 2 end stgcn-loso-s4-seed2
+[2026-10-26 14:37] GPU 3 end stgcn-loso-s0-seed3
+[2026-10-26 14:37] GPU 2 start stgcn-loso-s3-seed3
+[2026-10-26 14:37] GPU 3 start stgcn-loso-s4-seed3
+[2026-10-26 14:46] GPU 0 end stgcn-loso-s1-seed3
+[2026-10-26 14:47] GPU 0 start stgcn-loso-s0-seed4
+[2026-10-26 14:48] GPU 1 end stgcn-loso-s2-seed3
+[2026-10-26 14:48] GPU 1 start stgcn-loso-s1-seed4
+[2026-10-26 14:48] GPU 3 end stgcn-loso-s4-seed3
+[2026-10-26 14:48] GPU 2 end stgcn-loso-s3-seed3
+[2026-10-26 14:49] GPU 3 start stgcn-loso-s2-seed4
+[2026-10-26 14:49] GPU 2 start stgcn-loso-s3-seed4
+[2026-10-26 14:57] GPU 0 end stgcn-loso-s0-seed4
+[2026-10-26 14:58] GPU 0 start stgcn-loso-s4-seed4
+[2026-10-26 14:59] GPU 1 end stgcn-loso-s1-seed4
+[2026-10-26 14:59] GPU 3 end stgcn-loso-s2-seed4
+[2026-10-26 14:59] GPU 2 end stgcn-loso-s3-seed4
+[2026-10-26 15:08] GPU 0 end stgcn-loso-s4-seed4
+stgcn-loso-s0-seed0: F1 0.138841, stored 0.213762, predictions differ
+stgcn-loso-s0-seed1: F1 0.102475, stored 0.116706, predictions differ
+stgcn-loso-s0-seed2: F1 0.249873, stored 0.184386, predictions differ
+stgcn-loso-s0-seed3: F1 0.204529, stored 0.236841, predictions differ
+stgcn-loso-s0-seed4: F1 0.172298, stored 0.175194, predictions differ
+stgcn-loso-s1-seed0: F1 0.171261, stored 0.159779, predictions differ
+stgcn-loso-s1-seed1: F1 0.226288, stored 0.233140, predictions differ
+stgcn-loso-s1-seed2: F1 0.204968, stored 0.221628, predictions differ
+stgcn-loso-s1-seed3: F1 0.208634, stored 0.187357, predictions differ
+stgcn-loso-s1-seed4: F1 0.184654, stored 0.190916, predictions differ
+stgcn-loso-s2-seed0: F1 0.357941, stored 0.437014, predictions differ
+stgcn-loso-s2-seed1: F1 0.430410, stored 0.437967, predictions differ
+stgcn-loso-s2-seed2: F1 0.350076, stored 0.391910, predictions differ
+stgcn-loso-s2-seed3: F1 0.356117, stored 0.321922, predictions differ
+stgcn-loso-s2-seed4: F1 0.350144, stored 0.360575, predictions differ
+stgcn-loso-s3-seed0: F1 0.425575, stored 0.360453, predictions differ
+stgcn-loso-s3-seed1: F1 0.374572, stored 0.296795, predictions differ
+stgcn-loso-s3-seed2: F1 0.453138, stored 0.439869, predictions differ
+stgcn-loso-s3-seed3: F1 0.326881, stored 0.344328, predictions differ
+stgcn-loso-s3-seed4: F1 0.353205, stored 0.358319, predictions differ
+stgcn-loso-s4-seed0: F1 0.467492, stored 0.441822, predictions differ
+stgcn-loso-s4-seed1: F1 0.509659, stored 0.509798, predictions differ
+stgcn-loso-s4-seed2: F1 0.464070, stored 0.517165, predictions differ
+stgcn-loso-s4-seed3: F1 0.451875, stored 0.453642, predictions differ
+stgcn-loso-s4-seed4: F1 0.470874, stored 0.498156, predictions differ
+baseline F1 per signer (mean over seeds): s0 0.174, s1 0.199, s2 0.369, s3 0.387, s4 0.473
+
+== region (3 groups)
+  left hand    0.2242 [0.0987, 0.3496]  per signer 0.110 0.123 0.270 0.283 0.334
+  right hand   0.1535 [0.0768, 0.2302]  per signer 0.086 0.089 0.184 0.189 0.220
+  body         0.0708 [0.0401, 0.1015]  per signer 0.046 0.042 0.085 0.094 0.087
+
+== subregion (17 groups)
+  face         0.0286 [0.0107, 0.0465]  per signer 0.019 0.010 0.029 0.038 0.046
+  LH thumb     0.0251 [0.0087, 0.0414]  per signer 0.012 0.010 0.031 0.037 0.036
+  LH little    0.0231 [-0.0028, 0.0490]  per signer 0.008 0.008 0.033 0.056 0.011
+  LH index     0.0212 [-0.0013, 0.0436]  per signer 0.011 0.009 0.025 0.051 0.009
+  LH ring      0.0189 [-0.0016, 0.0394]  per signer 0.008 0.006 0.024 0.046 0.010
+  LH middle    0.0186 [-0.0027, 0.0399]  per signer 0.009 0.006 0.024 0.047 0.008
+  right arm    0.0138 [0.0070, 0.0206]  per signer 0.008 0.016 0.021 0.008 0.016
+  left arm     0.0124 [-0.0072, 0.0320]  per signer -0.000 0.001 0.020 0.037 0.005
+  RH ring      0.0114 [0.0061, 0.0167]  per signer 0.012 0.005 0.014 0.016 0.011
+  RH little    0.0105 [0.0020, 0.0190]  per signer 0.010 0.001 0.014 0.020 0.008
+
+ grouping           folds  n_folds  rho_mean  rho_min  rho_max
+   region             all        5  1.000000 1.000000 1.000000
+   region baseline_ge_0.2        3  1.000000 1.000000 1.000000
+subregion             all        5  0.630882 0.343137 0.848039
+subregion baseline_ge_0.2        3  0.652778 0.406863 0.838235
+[2026-10-26 15:09] stgcn importance done

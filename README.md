@@ -10,6 +10,25 @@ and a known dataset-split bug fixed in the video pipeline.
 
 Released under the Apache License 2.0 — see [`LICENSE`](LICENSE).
 
+### Third-party code, models and weights
+
+- `third_party/st_gcn/`: the official ST-GCN implementation (Yan et al., AAAI 2018;
+  github.com/yysijie/st-gcn, commit 221c0e1), vendored unmodified under its BSD
+  2-clause licence (`third_party/st_gcn/LICENSE`). The LSC50 skeleton layout is
+  added from outside, in `scripts/revision/stgcn_baseline.py`.
+- `third_party/spoter/`: the official SPOTER implementation (Boháček & Hrúz, WACV Workshops 2022;
+  github.com/matyasbohacek/spoter, commit 0f909bf), vendored unmodified under its Apache 2.0 licence
+  (`third_party/spoter/LICENSE`); our glue is `scripts/revision/spoter_baseline.py`.
+- SlowFast R50 (`scripts/revision/slowfast_baseline.py`) uses PyTorchVideo 0.1.5
+  (Apache 2.0) and its Kinetics-400 checkpoint `SLOWFAST_8x8_R50.pyth`, downloaded
+  at run time, not redistributed here.
+- ViViT uses `google/vivit-b-16x2-kinetics400` from the Hugging Face Hub, and the
+  Chronos embeddings `amazon/chronos-t5-small`; both are downloaded at run time,
+  under their own licences.
+- The revision pipeline (leakage audit, reruns, baselines, analyses) is documented
+  in `docs/README_REVISION.md`; `docs/PIPELINE.md` and `docs/DATA.md` describe the
+  original pipeline.
+
 ## Dataset
 
 The companion **LSC50** dataset (raw videos, IMU recordings, landmark

@@ -1,0 +1,13 @@
+features,split,shuffled_labels,model,n_runs,seeds,f1_weighted,f1_ci95,f1_macro,accuracy,n_test
+general_db_imu,loso_groupcv,False,knn,5,0,0.06 ± 0.05,"[0.05, 0.12]",0.06,0.09,249
+general_db_imu,loso_groupcv,False,rf,5,0,0.04 ± 0.04,"[0.02, 0.08]",0.04,0.06,249
+general_db_imu,loso_groupcv,False,svc,5,0,0.03 ± 0.03,"[0.02, 0.08]",0.03,0.05,249
+general_db_lm_chronos,loso_groupcv,False,knn,5,0,0.19 ± 0.08,"[0.18, 0.23]",0.19,0.21,997
+general_db_lm_chronos,loso_groupcv,False,rf,5,0,0.21 ± 0.08,"[0.20, 0.26]",0.21,0.24,997
+general_db_lm_chronos,loso_groupcv,False,svc,5,0,0.23 ± 0.10,"[0.24, 0.30]",0.23,0.26,997
+temporal,loso_groupcv,False,knn,5,0,0.11 ± 0.05,"[0.09, 0.18]",0.11,0.15,249
+temporal,loso_groupcv,False,rf,5,0,0.17 ± 0.09,"[0.16, 0.27]",0.17,0.23,249
+temporal,loso_groupcv,False,svc,5,0,0.15 ± 0.09,"[0.14, 0.24]",0.14,0.19,249
+temporal_features,loso_groupcv,False,knn,5,0,0.16 ± 0.06,"[0.16, 0.21]",0.16,0.18,997
+temporal_features,loso_groupcv,False,rf,5,0,0.25 ± 0.14,"[0.25, 0.31]",0.25,0.30,997
+temporal_features,loso_groupcv,False,svc,5,0,0.23 ± 0.15,"[0.25, 0.31]",0.23,0.26,997

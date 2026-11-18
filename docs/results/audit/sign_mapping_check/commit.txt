@@ -1,0 +1,1 @@
+e4d488b1 sign_mapping_check.py: within-modality control (is duration stable per sign across signers?) and per-clip durations saved

@@ -1,0 +1,42 @@
+                               model_a                            model_b  diff_V1  diff_V2  diff_V3  diff_V4  diff_V5  mean_diff  sd_diff  ci_t_low  ci_t_high  a_better_in  p_paired_t  p_sign_flip  p_paired_t_holm
+       Pose transformer, body-relative Landmarks TSFEL body-relative + RF   0.3495   0.1197   0.1606   0.3028   0.3285     0.2522   0.1047    0.1222     0.3821            5      0.0057       0.0625           0.0631
+   Pose transformer, image coordinates Landmarks TSFEL body-relative + RF   0.3494   0.1044   0.2628   0.3066   0.3796     0.2805   0.1079    0.1466     0.4145            5      0.0044       0.0625           0.0523
+                 ST-GCN, body-relative Landmarks TSFEL body-relative + RF   0.1349   0.0578  -0.0062  -0.0873   0.0821     0.0362   0.0857   -0.0702     0.1427            3      0.3979       0.5000           1.0000
+             ST-GCN, image coordinates Landmarks TSFEL body-relative + RF   0.1055   0.0068  -0.0902  -0.2027   0.0350    -0.0291   0.1198   -0.1779     0.1196            3      0.6157       0.7500           1.0000
+                          SlowFast R50 Landmarks TSFEL body-relative + RF   0.4098   0.4121   0.1391   0.1708   0.2573     0.2778   0.1290    0.1177     0.4380            5      0.0085       0.0625           0.0855
+          ViViT fine-tuned, protocol B Landmarks TSFEL body-relative + RF   0.1052   0.1432  -0.2482  -0.2314  -0.1285    -0.0719   0.1853   -0.3020     0.1581            2      0.4343       0.5000           1.0000
+                Frozen ViViT CLS + SVM Landmarks TSFEL body-relative + RF   0.0262  -0.0047  -0.3748  -0.3744  -0.3540    -0.2163   0.2078   -0.4743     0.0417            1      0.0804       0.1875           0.6433
+Landmarks TSFEL image coordinates + RF Landmarks TSFEL body-relative + RF  -0.0109   0.0026  -0.0271  -0.1434  -0.0133    -0.0384   0.0596   -0.1125     0.0357            1      0.2233       0.1250           1.0000
+               Landmarks Chronos + SVM Landmarks TSFEL body-relative + RF   0.0041   0.0398  -0.0726  -0.1712  -0.0786    -0.0557   0.0819   -0.1574     0.0460            2      0.2030       0.2500           1.0000
+                        IMU TSFEL + RF Landmarks TSFEL body-relative + RF   0.0543   0.0704  -0.1271  -0.1596  -0.3702    -0.1064   0.1802   -0.3302     0.1173            2      0.2571       0.2500           1.0000
+                       Official SPOTER Landmarks TSFEL body-relative + RF   0.2204   0.1145   0.1727   0.1751   0.3084     0.1982   0.0721    0.1087     0.2878            5      0.0036       0.0625           0.0462
+         Late fusion SlowFast + SPOTER                       SlowFast R50  -0.0165  -0.0515   0.1263   0.0832   0.1320     0.0547   0.0841   -0.0497     0.1591            3      0.2193       0.2500           1.0000
+         Late fusion SlowFast + SPOTER         Official SPOTER, seeds 0-2   0.1868   0.2509   0.0679   0.0649   0.0964     0.1334   0.0822    0.0313     0.2354            5      0.0222       0.0625           0.1995
+Landmarks TSFEL body-relative + KNN              seeds 5: 0.220  hierarchical 95% CI [0.141, 0.299]  t-interval [0.099, 0.341]  per signer 0.11 0.12 0.33 0.25 0.28
+Landmarks TSFEL body-relative + RF               seeds 5: 0.287  hierarchical 95% CI [0.140, 0.424]  t-interval [0.065, 0.510]  per signer 0.05 0.14 0.40 0.45 0.40
+Landmarks TSFEL body-relative + SVM              seeds 5: 0.263  hierarchical 95% CI [0.127, 0.392]  t-interval [0.049, 0.477]  per signer 0.02 0.14 0.39 0.38 0.38
+Landmarks TSFEL image coordinates + KNN          seeds 5: 0.160  hierarchical 95% CI [0.101, 0.218]  t-interval [0.070, 0.250]  per signer 0.07 0.10 0.21 0.20 0.23
+Landmarks TSFEL image coordinates + RF           seeds 5: 0.249  hierarchical 95% CI [0.131, 0.363]  t-interval [0.061, 0.437]  per signer 0.04 0.14 0.37 0.30 0.39
+Landmarks TSFEL image coordinates + SVM          seeds 5: 0.231  hierarchical 95% CI [0.098, 0.357]  t-interval [0.024, 0.437]  per signer 0.01 0.11 0.36 0.27 0.40
+Landmarks Chronos + KNN                          seeds 5: 0.187  hierarchical 95% CI [0.111, 0.256]  t-interval [0.071, 0.303]  per signer 0.04 0.15 0.27 0.23 0.25
+Landmarks Chronos + RF                           seeds 5: 0.201  hierarchical 95% CI [0.122, 0.268]  t-interval [0.091, 0.312]  per signer 0.05 0.19 0.28 0.26 0.23
+Landmarks Chronos + SVM                          seeds 5: 0.232  hierarchical 95% CI [0.134, 0.322]  t-interval [0.089, 0.374]  per signer 0.05 0.18 0.32 0.28 0.32
+IMU TSFEL + KNN                                  seeds 5: 0.108  hierarchical 95% CI [0.064, 0.190]  t-interval [0.033, 0.183]  per signer 0.06 0.15 0.11 0.18 0.04
+IMU TSFEL + RF                                   seeds 5: 0.181  hierarchical 95% CI [0.103, 0.299]  t-interval [0.045, 0.317]  per signer 0.10 0.21 0.27 0.29 0.03
+IMU TSFEL + SVM                                  seeds 5: 0.145  hierarchical 95% CI [0.073, 0.253]  t-interval [0.026, 0.265]  per signer 0.06 0.18 0.24 0.22 0.03
+IMU Chronos + KNN                                seeds 5: 0.062  hierarchical 95% CI [0.018, 0.134]  t-interval [-0.009, 0.132]  per signer 0.03 0.15 0.08 0.04 0.00
+IMU Chronos + RF                                 seeds 5: 0.035  hierarchical 95% CI [0.018, 0.071]  t-interval [0.004, 0.067]  per signer 0.02 0.04 0.07 0.04 0.01
+IMU Chronos + SVM                                seeds 5: 0.030  hierarchical 95% CI [0.007, 0.076]  t-interval [-0.008, 0.067]  per signer 0.02 0.08 0.01 0.04 0.00
+Frozen ViViT CLS + KNN                           seeds 1: 0.039  hierarchical 95% CI [0.022, 0.057]  t-interval [0.019, 0.058]  per signer 0.04 0.05 0.01 0.05 0.04
+Frozen ViViT CLS + RF                            seeds 1: 0.049  hierarchical 95% CI [0.035, 0.067]  t-interval [0.034, 0.063]  per signer 0.04 0.06 0.05 0.06 0.03
+Frozen ViViT CLS + SVM                           seeds 1: 0.071  hierarchical 95% CI [0.037, 0.109]  t-interval [0.018, 0.124]  per signer 0.08 0.14 0.02 0.07 0.05
+Pose transformer, image coordinates              seeds 5: 0.568  hierarchical 95% CI [0.376, 0.741]  t-interval [0.276, 0.860]  per signer 0.40 0.25 0.66 0.75 0.78
+Pose transformer, body-relative                  seeds 5: 0.540  hierarchical 95% CI [0.365, 0.705]  t-interval [0.277, 0.802]  per signer 0.40 0.26 0.56 0.75 0.73
+ST-GCN, image coordinates                        seeds 5: 0.258  hierarchical 95% CI [0.170, 0.359]  t-interval [0.110, 0.407]  per signer 0.16 0.15 0.31 0.24 0.44
+ST-GCN, body-relative                            seeds 5: 0.324  hierarchical 95% CI [0.223, 0.423]  t-interval [0.164, 0.483]  per signer 0.19 0.20 0.39 0.36 0.48
+SlowFast R50                                     seeds 3: 0.565  hierarchical 95% CI [0.500, 0.630]  t-interval [0.470, 0.661]  per signer 0.46 0.55 0.54 0.62 0.66
+Official SPOTER                                  seeds 5: 0.486  hierarchical 95% CI [0.323, 0.645]  t-interval [0.226, 0.746]  per signer 0.27 0.26 0.57 0.62 0.71
+Official SPOTER, seeds 0-2                       seeds 3: 0.486  hierarchical 95% CI [0.318, 0.656]  t-interval [0.219, 0.754]  per signer 0.26 0.25 0.59 0.64 0.69
+Late fusion SlowFast + SPOTER                    seeds 3: 0.620  hierarchical 95% CI [0.511, 0.735]  t-interval [0.441, 0.798]  per signer 0.44 0.50 0.66 0.70 0.79
+ViViT fine-tuned, protocol B                     seeds 3: 0.215  hierarchical 95% CI [0.163, 0.271]  t-interval [0.136, 0.294]  per signer 0.16 0.28 0.15 0.22 0.27
+ViViT fine-tuned, protocol A                     seeds 3: 0.117  hierarchical 95% CI [0.085, 0.158]  t-interval [0.066, 0.169]  per signer 0.08 0.16 0.09 0.09 0.16

@@ -37,6 +37,7 @@ def main() -> None:
     parser.add_argument("--test-split", type=float, default=0.2, help="Fraction of clips per class held out for test.")
     parser.add_argument("--num-frames", type=int, default=DEFAULT_NUM_FRAMES, help="Number of frames sampled per clip.")
     parser.add_argument("--checkpoint", default=DEFAULT_VIVIT_CHECKPOINT, help="ViViT checkpoint for the image processor.")
+    parser.add_argument("--seed", type=int, default=42, help="Seed for the per-class random split.")
     parser.add_argument("--limit", type=int, default=None, help="Optional cap on the number of clips processed.")
     args = parser.parse_args()
 
@@ -45,7 +46,7 @@ def main() -> None:
     rows = build_clip_dataset(args.video_dir, processor, limit=args.limit, num_frames=args.num_frames)
 
     print("Splitting")
-    train_rows, test_rows = custom_train_test_split(rows, test_split=args.test_split)
+    train_rows, test_rows = custom_train_test_split(rows, test_split=args.test_split, seed=args.seed)
 
     print("Saving splits")
     save_split(train_rows, args.train_out)

@@ -1,0 +1,1 @@
+f7e7e8a8 prediction_metrics.py: confusion CSVs with 6 significant digits (4 left row sums off by 0.003); make_figures.py: fig_confusion_fusion and fig_per_sign_f1 (supporting information; R1.2, C24), key models in one list

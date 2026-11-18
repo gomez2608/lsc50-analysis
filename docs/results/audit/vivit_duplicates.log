@@ -1,0 +1,3 @@
+train: 1600 rows, 1598 distinct, copies per clip [(1, 1596), (2, 2)]
+test: 400 rows, 100 distinct, copies per clip [(4, 100)]
+distinct test clips also in train: 100 of 100

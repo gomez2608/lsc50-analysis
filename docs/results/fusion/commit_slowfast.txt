@@ -1,0 +1,1 @@
+329c1b5c GPU launchers: use only GPUs 2 and 3 by default (GPUS env), new server rule 2026-10-26

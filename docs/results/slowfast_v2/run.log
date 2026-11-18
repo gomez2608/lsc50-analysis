@@ -1,0 +1,77 @@
+[2026-10-23 14:23] phase 1: selection (15 runs), 0ed82c1 SlowFast: first recipe left 8 of 18 runs untrained (§5.20; results kept, not to be quoted); revised recipe fixed before running (3-epoch warm-up, lr chosen on a training signer as for ST-GCN, training accuracy, diverged runs flagged and counted); ViViT control s0-s3, OOM race (§7.14); track all of docs/results (140 cited files had been git-ignored)
+[2026-10-23 14:24] GPU 1 start slowfast-loso-s0-seed0-val1-lr0.01
+[2026-10-23 14:24] GPU 2 start slowfast-loso-s1-seed0-val2-lr0.01
+[2026-10-23 14:25] GPU 3 start slowfast-loso-s2-seed0-val3-lr0.01
+[2026-10-23 14:36] GPU 2 end slowfast-loso-s1-seed0-val2-lr0.01
+[2026-10-23 14:36] GPU 2 start slowfast-loso-s3-seed0-val4-lr0.01
+[2026-10-23 14:44] GPU 1 end slowfast-loso-s0-seed0-val1-lr0.01
+[2026-10-23 14:44] GPU 1 start slowfast-loso-s4-seed0-val0-lr0.01
+[2026-10-23 15:50] GPU 3 end slowfast-loso-s2-seed0-val3-lr0.01
+[2026-10-23 15:50] GPU 3 start slowfast-loso-s0-seed0-val1-lr0.003
+[2026-10-23 16:02] GPU 2 end slowfast-loso-s3-seed0-val4-lr0.01
+[2026-10-23 16:02] GPU 2 start slowfast-loso-s1-seed0-val2-lr0.003
+[2026-10-23 16:10] GPU 1 end slowfast-loso-s4-seed0-val0-lr0.01
+[2026-10-23 16:10] GPU 1 start slowfast-loso-s2-seed0-val3-lr0.003
+[2026-10-23 17:18] GPU 3 end slowfast-loso-s0-seed0-val1-lr0.003
+[2026-10-23 17:18] GPU 3 start slowfast-loso-s3-seed0-val4-lr0.003
+[2026-10-23 17:31] GPU 2 end slowfast-loso-s1-seed0-val2-lr0.003
+[2026-10-23 17:31] GPU 2 start slowfast-loso-s4-seed0-val0-lr0.003
+[2026-10-23 17:39] GPU 1 end slowfast-loso-s2-seed0-val3-lr0.003
+[2026-10-23 17:39] GPU 1 start slowfast-loso-s0-seed0-val1-lr0.001
+[2026-10-23 18:44] GPU 3 end slowfast-loso-s3-seed0-val4-lr0.003
+[2026-10-23 18:44] GPU 3 start slowfast-loso-s1-seed0-val2-lr0.001
+[2026-10-23 18:57] GPU 2 end slowfast-loso-s4-seed0-val0-lr0.003
+[2026-10-23 18:57] GPU 2 start slowfast-loso-s2-seed0-val3-lr0.001
+[2026-10-23 19:05] GPU 1 end slowfast-loso-s0-seed0-val1-lr0.001
+[2026-10-23 19:05] GPU 1 start slowfast-loso-s3-seed0-val4-lr0.001
+[2026-10-23 20:10] GPU 3 end slowfast-loso-s1-seed0-val2-lr0.001
+[2026-10-23 20:10] GPU 3 start slowfast-loso-s4-seed0-val0-lr0.001
+[2026-10-23 20:24] GPU 2 end slowfast-loso-s2-seed0-val3-lr0.001
+[2026-10-23 20:31] GPU 1 end slowfast-loso-s3-seed0-val4-lr0.001
+[2026-10-23 21:35] GPU 3 end slowfast-loso-s4-seed0-val0-lr0.001
+lr 0.01: mean validation F1 0.192 over 5 folds, diverged 2
+lr 0.003: mean validation F1 0.441 over 5 folds, diverged 0
+lr 0.001: mean validation F1 0.317 over 5 folds, diverged 0
+selected lr 0.003
+[2026-10-24 01:36] phase 2: final (20 runs, lr 0.003)
+[2026-10-24 01:36] GPU 0 start slowfast-loso-s0-seed0
+[2026-10-24 01:37] GPU 1 start slowfast-loso-s1-seed0
+[2026-10-24 01:37] GPU 2 start slowfast-loso-s2-seed0
+[2026-10-24 01:38] GPU 3 start slowfast-loso-s3-seed0
+[2026-10-24 03:28] GPU 0 end slowfast-loso-s0-seed0
+[2026-10-24 03:29] GPU 0 start slowfast-loso-s4-seed0
+[2026-10-24 03:31] GPU 1 end slowfast-loso-s1-seed0
+[2026-10-24 03:31] GPU 3 end slowfast-loso-s3-seed0
+[2026-10-24 03:31] GPU 1 start slowfast-8020-seed0
+[2026-10-24 03:31] GPU 3 start slowfast-loso-s0-seed1
+[2026-10-24 03:31] GPU 2 end slowfast-loso-s2-seed0
+[2026-10-24 03:32] GPU 2 start slowfast-loso-s1-seed1
+[2026-10-24 05:21] GPU 0 end slowfast-loso-s4-seed0
+[2026-10-24 05:21] GPU 0 start slowfast-loso-s2-seed1
+[2026-10-24 05:25] GPU 3 end slowfast-loso-s0-seed1
+[2026-10-24 05:25] GPU 3 start slowfast-loso-s3-seed1
+[2026-10-24 05:25] GPU 1 end slowfast-8020-seed0
+[2026-10-24 05:25] GPU 1 start slowfast-loso-s4-seed1
+[2026-10-24 05:26] GPU 2 end slowfast-loso-s1-seed1
+[2026-10-24 05:26] GPU 2 start slowfast-8020-seed1
+[2026-10-24 07:14] GPU 0 end slowfast-loso-s2-seed1
+[2026-10-24 07:14] GPU 0 start slowfast-loso-s0-seed2
+[2026-10-24 07:18] GPU 3 end slowfast-loso-s3-seed1
+[2026-10-24 07:19] GPU 3 start slowfast-loso-s1-seed2
+[2026-10-24 07:19] GPU 1 end slowfast-loso-s4-seed1
+[2026-10-24 07:20] GPU 1 start slowfast-loso-s2-seed2
+[2026-10-24 07:20] GPU 2 end slowfast-8020-seed1
+[2026-10-24 07:20] GPU 2 start slowfast-loso-s3-seed2
+[2026-10-24 09:06] GPU 0 end slowfast-loso-s0-seed2
+[2026-10-24 09:06] GPU 0 start slowfast-loso-s4-seed2
+[2026-10-24 09:12] GPU 3 end slowfast-loso-s1-seed2
+[2026-10-24 09:12] GPU 3 start slowfast-8020-seed2
+[2026-10-24 09:14] GPU 1 end slowfast-loso-s2-seed2
+[2026-10-24 09:14] GPU 2 end slowfast-loso-s3-seed2
+[2026-10-24 09:14] GPU 1 start slowfast-loso-s0-seed0-shuffled
+[2026-10-24 09:14] GPU 2 start slowfast-8020-seed0-shuffled
+[2026-10-24 10:59] GPU 0 end slowfast-loso-s4-seed2
+[2026-10-24 11:06] GPU 3 end slowfast-8020-seed2
+[2026-10-24 11:08] GPU 1 end slowfast-loso-s0-seed0-shuffled
+[2026-10-24 11:09] GPU 2 end slowfast-8020-seed0-shuffled
+[2026-10-24 11:09] slowfast v2 done

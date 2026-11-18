@@ -1,0 +1,22 @@
+9443 pairs, 84 channels; max relative difference: path cost vs. library 4.1e-16, sqrt(n+m) value vs. main analysis 4.3e-16
+factor sqrt(L/(n+m)) by pair type: {'between': {'min': 0.707, '50%': 0.784, 'mean': 0.789, 'max': 0.949}, 'within': {'min': 0.712, '50%': 0.77, 'mean': 0.775, 'max': 0.924}}
+
+== normalized by sqrt(n + m) (main analysis)
+within 0.9264, between 2.7239; ratio per sign median 2.77 (IQR 2.33-3.82, min 1.55 sign 19); between > within in 50/50 signs; Wilcoxon p = 1.78e-15
+       V1     V2     V3     V4     V5
+V1  2.044  3.846  3.618  3.919  3.854
+V2  3.846  0.826  2.882  2.972  2.948
+V3  3.618  2.882  0.599  1.037  1.098
+V4  3.919  2.972  1.037  0.592  1.035
+V5  3.854  2.948  1.098  1.035  0.555
+group pairs (mean over signs): {'deaf-deaf': 1.056, 'deaf-interpreter': 3.368, 'interpreter-interpreter': 3.846}; deaf-deaf lowest in 50/50 signs
+
+== normalized by the actual path length
+within 1.1929, between 3.4665; ratio per sign median 2.72 (IQR 2.31-3.75, min 1.55 sign 19); between > within in 50/50 signs; Wilcoxon p = 1.78e-15
+       V1     V2     V3     V4     V5
+V1  2.643  4.744  4.646  5.025  5.007
+V2  4.744  1.061  3.612  3.801  3.783
+V3  4.646  3.612  0.764  1.311  1.393
+V4  5.025  3.801  1.311  0.758  1.307
+V5  5.007  3.783  1.393  1.307  0.718
+group pairs (mean over signs): {'deaf-deaf': 1.336, 'deaf-interpreter': 4.316, 'interpreter-interpreter': 4.744}; deaf-deaf lowest in 50/50 signs

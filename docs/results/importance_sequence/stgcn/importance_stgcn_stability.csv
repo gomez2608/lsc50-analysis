@@ -1,0 +1,5 @@
+grouping,folds,n_folds,rho_mean,rho_min,rho_max
+point,all,5,0.23534090909090905,-0.23553321678321681,0.7033653846153846
+point,baseline_ge_0.2,3,0.4386217948717948,0.2826923076923077,0.7033653846153846
+region,all,5,1.0,1.0,1.0
+region,baseline_ge_0.2,3,1.0,1.0,1.0

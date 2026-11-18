@@ -1,0 +1,66 @@
+[2026-10-20 15:31] ~/lsc-revision/venv/bin/python landmarks/scripts/grid_search.py --features-csv ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv --output-dir ~/lsc-revision/WORK/bodynorm --seeds 0 --parts loso --inner-cv group --shuffle-labels
+Processing ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv (seed 0, shuffled labels)
+GridSearchCV LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 0 knn: 100%|██████████| 128/128 [00:10<00:00, 11.76comb/s]
+GridSearchCV LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 svc: 100%|██████████| 72/72 [00:16<00:00,  4.44comb/s]
+GridSearchCV LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 rf: 100%|██████████| 432/432 [09:37<00:00,  1.34s/comb]
+GridSearchCV LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 knn: 100%|██████████| 128/128 [00:08<00:00, 15.58comb/s]
+GridSearchCV LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 svc: 100%|██████████| 72/72 [00:16<00:00,  4.41comb/s]
+GridSearchCV LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 rf: 100%|██████████| 432/432 [09:42<00:00,  1.35s/comb]
+GridSearchCV LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 knn: 100%|██████████| 128/128 [00:08<00:00, 15.29comb/s]
+GridSearchCV LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 svc: 100%|██████████| 72/72 [00:16<00:00,  4.36comb/s]
+GridSearchCV LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 rf: 100%|██████████| 432/432 [14:08<00:00,  1.96s/comb]
+GridSearchCV LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 knn: 100%|██████████| 128/128 [00:12<00:00, 10.36comb/s]
+GridSearchCV LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 3 svc: 100%|██████████| 72/72 [00:27<00:00,  2.57comb/s]
+GridSearchCV LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 rf: 100%|██████████| 432/432 [18:14<00:00,  2.53s/comb]
+GridSearchCV LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 4 knn: 100%|██████████| 128/128 [00:12<00:00, 10.01comb/s]
+GridSearchCV LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 svc: 100%|██████████| 72/72 [00:20<00:00,  3.49comb/s]
+GridSearchCV LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 rf: 100%|██████████| 432/432 [17:12<00:00,  2.39s/comb]
+[2026-10-20 16:42] ~/lsc-revision/venv/bin/python landmarks/scripts/grid_search.py --features-csv ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv --output-dir ~/lsc-revision/WORK/bodynorm --seeds 0 --parts balanced --shuffle-labels
+Processing ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv (seed 0, shuffled labels)
+GridSearchCV balanced knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV balanced knn: 100%|██████████| 128/128 [00:20<00:00,  6.38comb/s]
+GridSearchCV balanced svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV balanced svc: 100%|██████████| 72/72 [00:25<00:00,  2.83comb/s]
+GridSearchCV balanced rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV balanced rf: 100%|██████████| 432/432 [17:19<00:00,  2.41s/comb]
+[2026-10-20 17:01] ~/lsc-revision/venv/bin/python landmarks/scripts/grid_search.py --features-csv ~/lsc-revision/WORK/vivit_frozen/vivit_frozen_cls.csv --output-dir ~/lsc-revision/WORK/vivit_frozen --seeds 0 --parts loso --inner-cv group --shuffle-labels
+Processing ~/lsc-revision/WORK/vivit_frozen/vivit_frozen_cls.csv (seed 0, shuffled labels)
+GridSearchCV LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 0 knn: 100%|██████████| 128/128 [00:14<00:00,  9.06comb/s]
+GridSearchCV LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 svc: 100%|██████████| 72/72 [00:12<00:00,  5.83comb/s]
+GridSearchCV LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 rf: 100%|██████████| 432/432 [18:07<00:00,  2.52s/comb]
+GridSearchCV LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 knn: 100%|██████████| 128/128 [00:08<00:00, 15.73comb/s]
+GridSearchCV LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 svc: 100%|██████████| 72/72 [00:12<00:00,  5.93comb/s]
+GridSearchCV LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 rf: 100%|██████████| 432/432 [18:14<00:00,  2.53s/comb]
+GridSearchCV LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 knn: 100%|██████████| 128/128 [00:04<00:00, 30.77comb/s]
+GridSearchCV LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 svc: 100%|██████████| 72/72 [00:13<00:00,  5.46comb/s]
+GridSearchCV LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 rf: 100%|██████████| 432/432 [17:28<00:00,  2.43s/comb]
+GridSearchCV LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 knn: 100%|██████████| 128/128 [00:06<00:00, 19.44comb/s]
+GridSearchCV LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 svc: 100%|██████████| 72/72 [00:11<00:00,  6.08comb/s]
+GridSearchCV LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 rf: 100%|██████████| 432/432 [17:21<00:00,  2.41s/comb]
+GridSearchCV LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 4 knn: 100%|██████████| 128/128 [00:09<00:00, 13.14comb/s]
+GridSearchCV LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 svc: 100%|██████████| 72/72 [00:10<00:00,  6.84comb/s]
+GridSearchCV LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 rf: 100%|██████████| 432/432 [18:22<00:00,  2.55s/comb]
+[2026-10-20 18:32] ~/lsc-revision/venv/bin/python landmarks/scripts/grid_search.py --features-csv ~/lsc-revision/WORK/vivit_frozen/vivit_frozen_cls.csv --output-dir ~/lsc-revision/WORK/vivit_frozen --seeds 0 --parts balanced --shuffle-labels
+Processing ~/lsc-revision/WORK/vivit_frozen/vivit_frozen_cls.csv (seed 0, shuffled labels)
+GridSearchCV balanced knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV balanced knn: 100%|██████████| 128/128 [00:14<00:00,  8.75comb/s]
+GridSearchCV balanced svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV balanced svc: 100%|██████████| 72/72 [00:11<00:00,  6.03comb/s]
+GridSearchCV balanced rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV balanced rf: 100%|██████████| 432/432 [17:30<00:00,  2.43s/comb]
+[2026-10-20 18:50] ~/lsc-revision/venv/bin/python scripts/revision/linear_probe.py --features-csv ~/lsc-revision/WORK/vivit_frozen/vivit_frozen_cls.csv --output-csv ~/lsc-revision/WORK/vivit_frozen/probe_cls_shuffled.csv --seeds 0 --shuffle-labels
+{'split': '8020', 'seed': 0, 'subject': None, 'C': 10, 'accuracy': 0.025, 'f1_weighted': 0.019353535353535355, 'f1_macro': 0.019353535353535355, 'n_test': 200}
+{'split': 'loso', 'seed': 0, 'subject': 0, 'C': 0.01, 'accuracy': 0.035, 'f1_weighted': 0.005061475409836066, 'f1_macro': 0.005061475409836066, 'n_test': 200}
+{'split': 'loso', 'seed': 0, 'subject': 1, 'C': 0.1, 'accuracy': 0.025, 'f1_weighted': 0.005138888888888888, 'f1_macro': 0.005138888888888888, 'n_test': 200}
+{'split': 'loso', 'seed': 0, 'subject': 2, 'C': 0.1, 'accuracy': 0.0, 'f1_weighted': 0.0, 'f1_macro': 0.0, 'n_test': 200}
+{'split': 'loso', 'seed': 0, 'subject': 3, 'C': 10, 'accuracy': 0.02, 'f1_weighted': 0.0008695652173913043, 'f1_macro': 0.0008695652173913043, 'n_test': 200}
+{'split': 'loso', 'seed': 0, 'subject': 4, 'C': 0.1, 'accuracy': 0.035, 'f1_weighted': 0.012746912002725956, 'f1_macro': 0.012746912002725956, 'n_test': 200}
+8020: F1 weighted 0.02 ± nan (accuracy 0.03, 1 runs)
+loso: F1 weighted 0.00 ± 0.01 (accuracy 0.02, 5 runs)
+[2026-10-20 18:58] controls done

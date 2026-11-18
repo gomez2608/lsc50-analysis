@@ -1,0 +1,1 @@
+42d42b68 fusion.py: record n_train (checked equal in both components); json_runs_summary.py needs it

@@ -78,3 +78,15 @@ logs-train/
 htmlcov/
 .mypy_cache/
 .ruff_cache/
+
+# Revision result tables (small CSVs) are part of the register
+!docs/results/
+!docs/results/*.csv
+
+# docs/results/ is the evidence the revision register cites: track everything in it (2026-10-23;
+# before this, CSV/log/results-folder files there were silently ignored unless force-added)
+!docs/results/**
+
+# Revision figures (charts only; volunteer photos and overlay images never live in the repository)
+!docs/figures/
+!docs/figures/fig_*.png

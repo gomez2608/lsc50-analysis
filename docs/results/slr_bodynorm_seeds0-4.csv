@@ -1,0 +1,7 @@
+features,split,shuffled_labels,model,n_runs,seeds,f1_weighted,f1_ci95,f1_macro,accuracy,n_test
+temporal_features_bodynorm,balanced,False,knn,5,"0,1,2,3,4",0.62 ± 0.05,"[0.59, 0.65]",0.62,0.62,1000
+temporal_features_bodynorm,balanced,False,rf,5,"0,1,2,3,4",0.68 ± 0.03,"[0.66, 0.72]",0.68,0.69,1000
+temporal_features_bodynorm,balanced,False,svc,5,"0,1,2,3,4",0.65 ± 0.04,"[0.62, 0.68]",0.65,0.65,1000
+temporal_features_bodynorm,loso_groupcv,False,knn,25,"0,1,2,3,4",0.22 ± 0.09,"[0.23, 0.26]",0.22,0.25,4985
+temporal_features_bodynorm,loso_groupcv,False,rf,25,"0,1,2,3,4",0.29 ± 0.16,"[0.30, 0.33]",0.29,0.33,4985
+temporal_features_bodynorm,loso_groupcv,False,svc,25,"0,1,2,3,4",0.26 ± 0.15,"[0.30, 0.33]",0.26,0.30,4985

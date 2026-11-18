@@ -1,0 +1,8 @@
+  model_a                model_b  diff_V1  diff_V2  diff_V3  diff_V4  diff_V5  mean_diff  sd_diff  ci_t_low  ci_t_high  a_better_in  p_paired_t  p_sign_flip  p_paired_t_holm
+16 frames Default, body-relative  -0.0150   0.0196  -0.0185  -0.0140   0.0211    -0.0014   0.0199   -0.0261     0.0234            2      0.8853       1.0000           1.0000
+32 frames Default, body-relative  -0.0061   0.0050  -0.0071  -0.0061  -0.0028    -0.0034   0.0050   -0.0096     0.0028            1      0.1987       0.1875           0.5961
+48 frames Default, body-relative   0.0068   0.0100  -0.0064  -0.0067  -0.0143    -0.0021   0.0102   -0.0148     0.0105            2      0.6664       0.7500           1.0000
+Default, body-relative                           seeds 5: 0.540  hierarchical 95% CI [0.372, 0.700]  t-interval [0.277, 0.802]  per signer 0.40 0.26 0.56 0.75 0.73
+16 frames                                        seeds 5: 0.538  hierarchical 95% CI [0.366, 0.702]  t-interval [0.279, 0.798]  per signer 0.38 0.28 0.54 0.74 0.75
+32 frames                                        seeds 5: 0.536  hierarchical 95% CI [0.381, 0.699]  t-interval [0.277, 0.795]  per signer 0.39 0.27 0.55 0.74 0.73
+48 frames                                        seeds 5: 0.537  hierarchical 95% CI [0.378, 0.695]  t-interval [0.287, 0.788]  per signer 0.41 0.27 0.55 0.74 0.72

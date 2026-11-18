@@ -1,0 +1,1 @@
+0ed82c1 SlowFast: first recipe left 8 of 18 runs untrained (§5.20; results kept, not to be quoted); revised recipe fixed before running (3-epoch warm-up, lr chosen on a training signer as for ST-GCN, training accuracy, diverged runs flagged and counted); ViViT control s0-s3, OOM race (§7.14); track all of docs/results (140 cited files had been git-ignored)

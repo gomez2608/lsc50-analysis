@@ -1,0 +1,186 @@
+index, name, memory.total [MiB], driver_version
+0, NVIDIA TITAN X (Pascal), 12288 MiB, 535.288.01
+1, NVIDIA TITAN X (Pascal), 12288 MiB, 535.288.01
+2, NVIDIA TITAN X (Pascal), 12288 MiB, 535.288.01
+3, NVIDIA TITAN X (Pascal), 12288 MiB, 535.288.01
+torch 2.6.0+cu118 cuda 11.8 transformers 4.57.6
+0c2d076 ViViT: log training loss every epoch (learning curves)
+[2026-10-17 21:34] GPU 0 start vivit-s0-seed0
+[2026-10-17 21:35] GPU 1 start vivit-s1-seed0
+[2026-10-17 21:35] GPU 2 start vivit-s2-seed0
+[2026-10-17 21:36] GPU 3 start vivit-s3-seed0
+[2026-10-18 06:37] GPU 0 end vivit-s0-seed0
+[2026-10-18 06:37] GPU 0 start vivit-s4-seed0
+[2026-10-18 06:48] GPU 3 end vivit-s3-seed0
+[2026-10-18 06:48] GPU 3 start vivit-8020-seed0
+[2026-10-18 06:54] GPU 2 end vivit-s2-seed0
+[2026-10-18 06:54] GPU 2 start vivit-s0-seed1
+[2026-10-18 07:02] GPU 1 end vivit-s1-seed0
+[2026-10-18 07:02] GPU 1 start vivit-s1-seed1
+[2026-10-18 11:27] GPU 3 end vivit-8020-seed0
+[2026-10-18 11:27] GPU 3 start vivit-s2-seed1
+[2026-10-18 15:37] GPU 0 end vivit-s4-seed0
+[2026-10-18 15:37] GPU 0 start vivit-s3-seed1
+[2026-10-18 16:08] GPU 2 end vivit-s0-seed1
+[2026-10-18 16:08] GPU 2 start vivit-s4-seed1
+[2026-10-18 16:19] queue 0552f3a ViViT protocol B (--val-mode none: all training signers, fixed epochs, final model); queue launcher that waits for idle GPUs: B:0:0 B:1:0 B:2:0 B:3:0 B:4:0 8020:-:1 B:0:1 B:1:1 B:2:1 B:3:1 B:4:1 A:0:2 A:1:2 A:2:2 A:3:2 A:4:2 8020:-:2 B:0:2 B:1:2 B:2:2 B:3:2 B:4:2
+[2026-10-18 16:25] GPU 1 end vivit-s1-seed1
+[2026-10-18 16:26] GPU 1 start vivit-B-s0-seed0
+[2026-10-18 20:33] GPU 3 end vivit-s2-seed1
+[2026-10-18 20:34] GPU 3 start vivit-B-s1-seed0
+[2026-10-19 00:38] GPU 0 end vivit-s3-seed1
+[2026-10-19 00:38] GPU 0 start vivit-B-s2-seed0
+[2026-10-19 01:23] GPU 2 end vivit-s4-seed1
+      split  subject  seed  n_test                 best_checkpoint  accuracy  f1_weighted  f1_macro
+   balanced      NaN     0     200 vivit-8020-seed0/checkpoint-276     0.645        0.631     0.631
+loso_signer    0.000     0     200   vivit-s0-seed0/checkpoint-182     0.080        0.048     0.048
+loso_signer    1.000     0     200   vivit-s1-seed0/checkpoint-221     0.230        0.176     0.176
+loso_signer    2.000     0     200   vivit-s2-seed0/checkpoint-169     0.145        0.102     0.102
+loso_signer    3.000     0     200   vivit-s3-seed0/checkpoint-234     0.060        0.044     0.044
+loso_signer    4.000     0     200   vivit-s4-seed0/checkpoint-143     0.150        0.088     0.088
+loso_signer    0.000     1     200   vivit-s0-seed1/checkpoint-117     0.080        0.057     0.057
+loso_signer    1.000     1     200   vivit-s1-seed1/checkpoint-156     0.220        0.177     0.177
+loso_signer    2.000     1     200   vivit-s2-seed1/checkpoint-117     0.105        0.076     0.076
+loso_signer    3.000     1     200   vivit-s3-seed1/checkpoint-156     0.190        0.158     0.158
+loso_signer    4.000     1     200   vivit-s4-seed1/checkpoint-182     0.255        0.196     0.196
+
+balanced: 1 runs, seeds [0]: accuracy 0.65 ± 0.00, f1_weighted 0.63 ± 0.00, f1_macro 0.63 ± 0.00
+loso_signer: 10 runs, seeds [0, 1]: accuracy 0.15 ± 0.07, f1_weighted 0.11 ± 0.06, f1_macro 0.11 ± 0.06
+[2026-10-19 01:24] done
+[2026-10-19 01:25] GPU 2 start vivit-B-s3-seed0
+[2026-10-19 04:38] GPU 1 end vivit-B-s0-seed0
+[2026-10-19 04:39] GPU 1 start vivit-B-s4-seed0
+[2026-10-19 08:23] GPU 3 end vivit-B-s1-seed0
+[2026-10-19 08:24] GPU 3 start vivit-8020-seed1
+[2026-10-19 12:18] GPU 0 end vivit-B-s2-seed0
+[2026-10-19 12:18] GPU 0 start vivit-B-s0-seed1
+[2026-10-19 13:02] GPU 3 end vivit-8020-seed1
+[2026-10-19 13:02] GPU 3 start vivit-B-s1-seed1
+[2026-10-19 13:30] GPU 2 end vivit-B-s3-seed0
+[2026-10-19 13:30] GPU 2 start vivit-B-s2-seed1
+[2026-10-19 16:50] GPU 1 end vivit-B-s4-seed0
+[2026-10-19 16:50] GPU 1 start vivit-B-s3-seed1
+[2026-10-20 00:00] GPU 0 end vivit-B-s0-seed1
+[2026-10-20 00:01] GPU 0 start vivit-B-s4-seed1
+[2026-10-20 00:47] GPU 3 end vivit-B-s1-seed1
+[2026-10-20 00:48] GPU 3 start vivit-s0-seed2
+[2026-10-20 01:38] GPU 2 end vivit-B-s2-seed1
+[2026-10-20 01:38] GPU 2 start vivit-s1-seed2
+[2026-10-20 05:08] GPU 1 end vivit-B-s3-seed1
+[2026-10-20 05:09] GPU 1 start vivit-s2-seed2
+[2026-10-20 10:03] GPU 3 end vivit-s0-seed2
+[2026-10-20 10:04] GPU 3 start vivit-s3-seed2
+[2026-10-20 11:10] GPU 2 end vivit-s1-seed2
+[2026-10-20 11:10] GPU 2 start vivit-s4-seed2
+[2026-10-20 11:55] GPU 0 end vivit-B-s4-seed1
+[2026-10-20 11:55] GPU 0 start vivit-8020-seed2
+[2026-10-20 14:49] GPU 1 end vivit-s2-seed2
+[2026-10-20 14:50] GPU 1 start vivit-B-s0-seed2
+[2026-10-20 17:20] GPU 0 end vivit-8020-seed2
+[2026-10-20 17:20] GPU 0 start vivit-B-s1-seed2
+[2026-10-20 22:53] GPU 3 end vivit-s3-seed2
+[2026-10-20 22:54] GPU 3 start vivit-B-s2-seed2
+[2026-10-21 01:09] GPU 2 end vivit-s4-seed2
+[2026-10-21 01:09] GPU 2 start vivit-B-s3-seed2
+[2026-10-21 08:33] GPU 0 end vivit-B-s1-seed2
+[2026-10-21 08:33] GPU 0 start vivit-B-s4-seed2
+[2026-10-21 08:53] GPU 1 end vivit-B-s0-seed2
+[2026-10-21 14:21] GPU 3 end vivit-B-s2-seed2
+[2026-10-21 16:25] GPU 2 end vivit-B-s3-seed2
+[2026-10-21 20:11] GPU 0 end vivit-B-s4-seed2
+      split  subject  seed  n_test                 best_checkpoint  accuracy  f1_weighted  f1_macro
+   balanced      NaN     0     200 vivit-8020-seed0/checkpoint-276     0.645        0.631     0.631
+   balanced      NaN     1     200 vivit-8020-seed1/checkpoint-299     0.535        0.507     0.507
+   balanced      NaN     2     200 vivit-8020-seed2/checkpoint-230     0.630        0.607     0.607
+  loso_none    0.000     0     200                            None     0.195        0.166     0.166
+  loso_none    1.000     0     200                            None     0.345        0.290     0.290
+  loso_none    2.000     0     200                            None     0.200        0.170     0.170
+  loso_none    3.000     0     200                            None     0.235        0.187     0.187
+  loso_none    4.000     0     200                            None     0.310        0.241     0.241
+  loso_none    0.000     1     200                            None     0.200        0.152     0.152
+  loso_none    1.000     1     200                            None     0.325        0.292     0.292
+  loso_none    2.000     1     200                            None     0.215        0.190     0.190
+  loso_none    3.000     1     200                            None     0.320        0.255     0.255
+  loso_none    4.000     1     200                            None     0.365        0.297     0.297
+  loso_none    0.000     2     200                            None     0.155        0.149     0.149
+  loso_none    1.000     2     200                            None     0.335        0.270     0.270
+  loso_none    2.000     2     200                            None     0.110        0.084     0.084
+  loso_none    3.000     2     200                            None     0.255        0.205     0.205
+  loso_none    4.000     2     200                            None     0.345        0.283     0.283
+loso_signer    0.000     0     200   vivit-s0-seed0/checkpoint-182     0.080        0.048     0.048
+loso_signer    1.000     0     200   vivit-s1-seed0/checkpoint-221     0.230        0.176     0.176
+loso_signer    2.000     0     200   vivit-s2-seed0/checkpoint-169     0.145        0.102     0.102
+loso_signer    3.000     0     200   vivit-s3-seed0/checkpoint-234     0.060        0.044     0.044
+loso_signer    4.000     0     200   vivit-s4-seed0/checkpoint-143     0.150        0.088     0.088
+loso_signer    0.000     1     200   vivit-s0-seed1/checkpoint-117     0.080        0.057     0.057
+loso_signer    1.000     1     200   vivit-s1-seed1/checkpoint-156     0.220        0.177     0.177
+loso_signer    2.000     1     200   vivit-s2-seed1/checkpoint-117     0.105        0.076     0.076
+loso_signer    3.000     1     200   vivit-s3-seed1/checkpoint-156     0.190        0.158     0.158
+loso_signer    4.000     1     200   vivit-s4-seed1/checkpoint-182     0.255        0.196     0.196
+loso_signer    0.000     2     200   vivit-s0-seed2/checkpoint-143     0.165        0.135     0.135
+loso_signer    1.000     2     200   vivit-s1-seed2/checkpoint-299     0.165        0.126     0.126
+loso_signer    2.000     2     200   vivit-s2-seed2/checkpoint-234     0.115        0.085     0.085
+loso_signer    3.000     2     200   vivit-s3-seed2/checkpoint-169     0.120        0.082     0.082
+loso_signer    4.000     2     200   vivit-s4-seed2/checkpoint-221     0.250        0.210     0.210
+
+balanced: 3 runs, seeds [0, 1, 2]: accuracy 0.60 ± 0.05, f1_weighted 0.58 ± 0.05, f1_macro 0.58 ± 0.05
+loso_none: 15 runs, seeds [0, 1, 2]: accuracy 0.26 ± 0.08, f1_weighted 0.22 ± 0.06, f1_macro 0.22 ± 0.06
+loso_signer: 15 runs, seeds [0, 1, 2]: accuracy 0.16 ± 0.06, f1_weighted 0.12 ± 0.05, f1_macro 0.12 ± 0.05
+[2026-10-21 20:11] queue done
+[2026-10-21 20:19] queue a632333 run_vivit_queue.sh: GPU usable when >= 9 GB free and none of our processes on it (other users' small jobs no longer block); used by the ViViT control only: BS:0:0 BS:1:0 BS:2:0 BS:3:0 BS:4:0
+[2026-10-21 20:19] GPU 0 start vivit-B-s0-seed0-shuffled
+[2026-10-21 20:20] GPU 1 start vivit-B-s1-seed0-shuffled
+[2026-10-21 20:21] GPU 3 start vivit-B-s2-seed0-shuffled
+[2026-10-21 20:22] GPU 2 start vivit-B-s3-seed0-shuffled
+[2026-10-22 08:03] GPU 0 end vivit-B-s0-seed0-shuffled
+[2026-10-22 08:03] GPU 0 start vivit-B-s4-seed0-shuffled
+[2026-10-22 08:13] GPU 0 FAILED vivit-B-s4-seed0-shuffled
+[2026-10-22 08:13] GPU 0 end vivit-B-s4-seed0-shuffled
+[2026-10-22 09:52] GPU 2 end vivit-B-s3-seed0-shuffled
+[2026-10-22 12:45] GPU 1 end vivit-B-s1-seed0-shuffled
+[2026-10-22 12:46] GPU 3 end vivit-B-s2-seed0-shuffled
+      split  subject  seed  n_test                 best_checkpoint  accuracy  f1_weighted  f1_macro
+   balanced      NaN     0     200 vivit-8020-seed0/checkpoint-276     0.645        0.631     0.631
+   balanced      NaN     1     200 vivit-8020-seed1/checkpoint-299     0.535        0.507     0.507
+   balanced      NaN     2     200 vivit-8020-seed2/checkpoint-230     0.630        0.607     0.607
+  loso_none    0.000     0     200                            None     0.195        0.166     0.166
+  loso_none    0.000     0     200                            None     0.010        0.005     0.005
+  loso_none    1.000     0     200                            None     0.345        0.290     0.290
+  loso_none    1.000     0     200                            None     0.030        0.005     0.005
+  loso_none    2.000     0     200                            None     0.200        0.170     0.170
+  loso_none    2.000     0     200                            None     0.025        0.007     0.007
+  loso_none    3.000     0     200                            None     0.235        0.187     0.187
+  loso_none    3.000     0     200                            None     0.035        0.031     0.031
+  loso_none    4.000     0     200                            None     0.310        0.241     0.241
+  loso_none    0.000     1     200                            None     0.200        0.152     0.152
+  loso_none    1.000     1     200                            None     0.325        0.292     0.292
+  loso_none    2.000     1     200                            None     0.215        0.190     0.190
+  loso_none    3.000     1     200                            None     0.320        0.255     0.255
+  loso_none    4.000     1     200                            None     0.365        0.297     0.297
+  loso_none    0.000     2     200                            None     0.155        0.149     0.149
+  loso_none    1.000     2     200                            None     0.335        0.270     0.270
+  loso_none    2.000     2     200                            None     0.110        0.084     0.084
+  loso_none    3.000     2     200                            None     0.255        0.205     0.205
+  loso_none    4.000     2     200                            None     0.345        0.283     0.283
+loso_signer    0.000     0     200   vivit-s0-seed0/checkpoint-182     0.080        0.048     0.048
+loso_signer    1.000     0     200   vivit-s1-seed0/checkpoint-221     0.230        0.176     0.176
+loso_signer    2.000     0     200   vivit-s2-seed0/checkpoint-169     0.145        0.102     0.102
+loso_signer    3.000     0     200   vivit-s3-seed0/checkpoint-234     0.060        0.044     0.044
+loso_signer    4.000     0     200   vivit-s4-seed0/checkpoint-143     0.150        0.088     0.088
+loso_signer    0.000     1     200   vivit-s0-seed1/checkpoint-117     0.080        0.057     0.057
+loso_signer    1.000     1     200   vivit-s1-seed1/checkpoint-156     0.220        0.177     0.177
+loso_signer    2.000     1     200   vivit-s2-seed1/checkpoint-117     0.105        0.076     0.076
+loso_signer    3.000     1     200   vivit-s3-seed1/checkpoint-156     0.190        0.158     0.158
+loso_signer    4.000     1     200   vivit-s4-seed1/checkpoint-182     0.255        0.196     0.196
+loso_signer    0.000     2     200   vivit-s0-seed2/checkpoint-143     0.165        0.135     0.135
+loso_signer    1.000     2     200   vivit-s1-seed2/checkpoint-299     0.165        0.126     0.126
+loso_signer    2.000     2     200   vivit-s2-seed2/checkpoint-234     0.115        0.085     0.085
+loso_signer    3.000     2     200   vivit-s3-seed2/checkpoint-169     0.120        0.082     0.082
+loso_signer    4.000     2     200   vivit-s4-seed2/checkpoint-221     0.250        0.210     0.210
+
+balanced: 3 runs, seeds [0, 1, 2]: accuracy 0.60 ± 0.06, f1_weighted 0.58 ± 0.07, f1_macro 0.58 ± 0.07
+loso_none: 19 runs, seeds [0, 1, 2]: accuracy 0.21 ± 0.12, f1_weighted 0.17 ± 0.10, f1_macro 0.17 ± 0.10
+loso_signer: 15 runs, seeds [0, 1, 2]: accuracy 0.16 ± 0.06, f1_weighted 0.12 ± 0.06, f1_macro 0.12 ± 0.06
+[2026-10-22 12:46] queue done
+[2026-10-23 13:52] queue ce1ceac Pose transformer study code: split by subjects, input/pooling/schedule/smoothing/augmentation-centre options (defaults unchanged, regression-tested: identical predictions), nested selection, launcher: BS:4:0
+[2026-10-23 13:52] GPU 0 start vivit-B-s4-seed0-shuffled

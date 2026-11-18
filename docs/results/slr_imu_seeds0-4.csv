@@ -1,0 +1,13 @@
+features,split,shuffled_labels,model,n_runs,seeds,f1_weighted,f1_ci95,f1_macro,accuracy,n_test
+general_db_imu,balanced,False,knn,5,"0,1,2,3,4",0.03 ± 0.02,"[0.02, 0.07]",0.03,0.05,250
+general_db_imu,balanced,False,rf,5,"0,1,2,3,4",0.05 ± 0.03,"[0.03, 0.09]",0.05,0.06,250
+general_db_imu,balanced,False,svc,5,"0,1,2,3,4",0.03 ± 0.02,"[0.02, 0.07]",0.03,0.05,250
+general_db_imu,loso,False,knn,25,"0,1,2,3,4",0.03 ± 0.02,"[0.04, 0.07]",0.03,0.06,1245
+general_db_imu,loso,False,rf,25,"0,1,2,3,4",0.03 ± 0.02,"[0.03, 0.06]",0.03,0.05,1245
+general_db_imu,loso,False,svc,25,"0,1,2,3,4",0.04 ± 0.02,"[0.05, 0.08]",0.04,0.07,1245
+temporal,balanced,False,knn,5,"0,1,2,3,4",0.03 ± 0.03,"[0.02, 0.07]",0.03,0.06,250
+temporal,balanced,False,rf,5,"0,1,2,3,4",0.10 ± 0.03,"[0.08, 0.16]",0.10,0.13,250
+temporal,balanced,False,svc,5,"0,1,2,3,4",0.05 ± 0.03,"[0.04, 0.10]",0.05,0.07,250
+temporal,loso,False,knn,25,"0,1,2,3,4",0.11 ± 0.06,"[0.12, 0.15]",0.11,0.15,1245
+temporal,loso,False,rf,25,"0,1,2,3,4",0.15 ± 0.09,"[0.17, 0.21]",0.15,0.21,1245
+temporal,loso,False,svc,25,"0,1,2,3,4",0.09 ± 0.04,"[0.11, 0.15]",0.09,0.12,1245

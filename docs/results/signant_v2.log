@@ -1,0 +1,789 @@
+[2026-10-20 15:57] ~/lsc-revision/venv/bin/python landmarks/scripts/grid_search.py --features-csv ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv --output-dir ~/lsc-revision/WORK/results/signant_bodynorm --seeds 0 1 2 3 4 --parts signant signant_new_schema signant_loso
+Processing ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv (seed 0)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:21<00:00,  5.82comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:20<00:00,  3.58comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [03:44<00:00,  1.92comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:14<00:00,  8.62comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:18<00:00,  3.99comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [03:33<00:00,  2.02comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:08<00:00, 14.29comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:12<00:00,  5.95comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [02:46<00:00,  2.59comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:15<00:00,  8.28comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:20<00:00,  3.44comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [03:36<00:00,  2.00comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:16<00:00,  7.91comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:19<00:00,  3.70comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [03:46<00:00,  1.91comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:14<00:00,  8.60comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:19<00:00,  3.60comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [03:29<00:00,  2.07comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:14<00:00,  8.95comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:18<00:00,  3.79comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [03:20<00:00,  2.15comb/s]
+Processing ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv (seed 1)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:11<00:00, 10.80comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:20<00:00,  3.49comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [03:41<00:00,  1.95comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:14<00:00,  8.89comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:16<00:00,  4.24comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [03:31<00:00,  2.04comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:13<00:00,  9.46comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:13<00:00,  5.53comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [02:26<00:00,  2.94comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:13<00:00,  9.48comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:18<00:00,  3.87comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [03:08<00:00,  2.29comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:12<00:00,  9.92comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:17<00:00,  4.04comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [02:55<00:00,  2.46comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:14<00:00,  9.08comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:19<00:00,  3.74comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [03:14<00:00,  2.22comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:13<00:00,  9.64comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:18<00:00,  3.99comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [03:14<00:00,  2.22comb/s]
+Processing ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv (seed 2)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:13<00:00,  9.37comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:18<00:00,  3.89comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [03:39<00:00,  1.97comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:13<00:00,  9.52comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:17<00:00,  4.10comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [03:42<00:00,  1.94comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:14<00:00,  8.88comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:13<00:00,  5.41comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [02:12<00:00,  3.26comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:15<00:00,  8.07comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:20<00:00,  3.53comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [03:35<00:00,  2.00comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:14<00:00,  8.70comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:18<00:00,  3.87comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [03:41<00:00,  1.95comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:15<00:00,  8.29comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:19<00:00,  3.74comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [03:30<00:00,  2.06comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:14<00:00,  8.88comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:18<00:00,  3.82comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [03:32<00:00,  2.03comb/s]
+Processing ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv (seed 3)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:09<00:00, 13.24comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:16<00:00,  4.29comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [03:35<00:00,  2.00comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:14<00:00,  8.62comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:17<00:00,  4.15comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [03:41<00:00,  1.95comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:14<00:00,  8.81comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:13<00:00,  5.36comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [02:47<00:00,  2.58comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:13<00:00,  9.42comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:18<00:00,  3.86comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [03:28<00:00,  2.07comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:13<00:00,  9.21comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:18<00:00,  3.84comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [03:00<00:00,  2.39comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:14<00:00,  8.79comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:19<00:00,  3.67comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [03:29<00:00,  2.06comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:14<00:00,  8.83comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:18<00:00,  3.94comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [03:27<00:00,  2.09comb/s]
+Processing ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv (seed 4)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:13<00:00,  9.81comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:18<00:00,  3.90comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [03:30<00:00,  2.06comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:14<00:00,  9.08comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:16<00:00,  4.37comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [03:33<00:00,  2.03comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:13<00:00,  9.29comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:13<00:00,  5.39comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [02:12<00:00,  3.26comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:13<00:00,  9.49comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:20<00:00,  3.60comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [03:22<00:00,  2.13comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:13<00:00,  9.36comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:17<00:00,  4.13comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [03:36<00:00,  2.00comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:14<00:00,  9.06comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:18<00:00,  3.87comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [03:27<00:00,  2.08comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:14<00:00,  8.95comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:18<00:00,  3.83comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [03:29<00:00,  2.06comb/s]
+[2026-10-20 18:13] ~/lsc-revision/venv/bin/python landmarks/scripts/grid_search.py --features-csv ~/lsc-revision/WORK/temporal_features.csv ~/lsc-revision/WORK/general_db_lm_chronos.csv --output-dir ~/lsc-revision/WORK/results/signant_landmarks --seeds 1 2 3 4 --parts signant signant_new_schema signant_loso
+Processing ~/lsc-revision/WORK/temporal_features.csv (seed 1)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant knn: 100%|██████████| 128/128 [00:12<00:00, 10.34comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:20<00:00,  3.50comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [02:55<00:00,  2.46comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:15<00:00,  8.48comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:16<00:00,  4.41comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [03:08<00:00,  2.29comb/s]
+~/lsc-revision/venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:409: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:14<00:00,  9.06comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:12<00:00,  5.85comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [02:03<00:00,  3.49comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:14<00:00,  8.97comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:17<00:00,  4.09comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [02:48<00:00,  2.57comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:14<00:00,  8.80comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:17<00:00,  4.05comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [02:50<00:00,  2.53comb/s]
+~/lsc-revision/venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:409: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:14<00:00,  8.80comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:17<00:00,  4.09comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [01:58<00:00,  3.66comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:10<00:00, 12.62comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:19<00:00,  3.64comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [03:00<00:00,  2.39comb/s]
+Processing ~/lsc-revision/WORK/general_db_lm_chronos.csv (seed 1)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:04<00:00, 29.63comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:03<00:00, 18.36comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [04:12<00:00,  1.71comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:04<00:00, 29.23comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:04<00:00, 17.63comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [04:00<00:00,  1.80comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:04<00:00, 28.95comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:02<00:00, 32.79comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [03:37<00:00,  1.99comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:04<00:00, 26.69comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:04<00:00, 17.32comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [03:27<00:00,  2.08comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:04<00:00, 25.70comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:03<00:00, 19.28comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [03:31<00:00,  2.04comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:04<00:00, 29.65comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:03<00:00, 19.39comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [03:21<00:00,  2.15comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:02<00:00, 46.87comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:03<00:00, 23.13comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [02:04<00:00,  3.46comb/s]
+Processing ~/lsc-revision/WORK/temporal_features.csv (seed 2)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:08<00:00, 14.92comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:15<00:00,  4.60comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [01:27<00:00,  4.91comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:08<00:00, 14.55comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:13<00:00,  5.25comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [01:37<00:00,  4.45comb/s]
+~/lsc-revision/venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:409: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:08<00:00, 14.76comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:10<00:00,  6.84comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [01:03<00:00,  6.81comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:08<00:00, 14.51comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:15<00:00,  4.66comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [01:27<00:00,  4.96comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:08<00:00, 14.63comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:14<00:00,  4.82comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [01:29<00:00,  4.82comb/s]
+~/lsc-revision/venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:409: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:09<00:00, 14.09comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:15<00:00,  4.64comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [01:26<00:00,  4.99comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:08<00:00, 14.59comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:14<00:00,  4.80comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [01:27<00:00,  4.96comb/s]
+Processing ~/lsc-revision/WORK/general_db_lm_chronos.csv (seed 2)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:02<00:00, 51.74comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:03<00:00, 21.46comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [02:09<00:00,  3.34comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:02<00:00, 46.50comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:03<00:00, 23.69comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [02:03<00:00,  3.51comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:02<00:00, 48.78comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:01<00:00, 46.29comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [01:48<00:00,  3.97comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:02<00:00, 46.71comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:03<00:00, 23.06comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [02:02<00:00,  3.52comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:02<00:00, 50.05comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:03<00:00, 23.92comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [02:03<00:00,  3.49comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:02<00:00, 49.71comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:03<00:00, 23.10comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [01:58<00:00,  3.63comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:02<00:00, 48.72comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:02<00:00, 24.16comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [02:07<00:00,  3.40comb/s]
+Processing ~/lsc-revision/WORK/temporal_features.csv (seed 3)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:08<00:00, 15.61comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:15<00:00,  4.60comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [01:27<00:00,  4.94comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:08<00:00, 14.81comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:13<00:00,  5.33comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [01:37<00:00,  4.43comb/s]
+~/lsc-revision/venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:409: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:08<00:00, 15.07comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:10<00:00,  6.89comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [01:01<00:00,  6.98comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:08<00:00, 15.08comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:14<00:00,  4.82comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [01:26<00:00,  5.01comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:08<00:00, 14.88comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:14<00:00,  4.84comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [01:27<00:00,  4.93comb/s]
+~/lsc-revision/venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:409: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:08<00:00, 14.95comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:15<00:00,  4.79comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [01:24<00:00,  5.13comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:08<00:00, 15.45comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:15<00:00,  4.73comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [01:23<00:00,  5.17comb/s]
+Processing ~/lsc-revision/WORK/general_db_lm_chronos.csv (seed 3)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:02<00:00, 46.20comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:03<00:00, 22.00comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [02:06<00:00,  3.41comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:02<00:00, 47.19comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:02<00:00, 25.37comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [02:04<00:00,  3.46comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:02<00:00, 48.19comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:01<00:00, 47.34comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [01:48<00:00,  3.98comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:02<00:00, 46.45comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:03<00:00, 20.67comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [02:04<00:00,  3.47comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:02<00:00, 49.89comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:03<00:00, 23.79comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [02:04<00:00,  3.46comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:02<00:00, 48.98comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:02<00:00, 24.61comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [01:58<00:00,  3.64comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:02<00:00, 47.40comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:03<00:00, 21.19comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [02:07<00:00,  3.38comb/s]
+Processing ~/lsc-revision/WORK/temporal_features.csv (seed 4)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:09<00:00, 14.09comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:15<00:00,  4.71comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [01:25<00:00,  5.05comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:08<00:00, 14.39comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:13<00:00,  5.45comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [01:36<00:00,  4.47comb/s]
+~/lsc-revision/venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:409: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:08<00:00, 14.53comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:10<00:00,  7.02comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [01:03<00:00,  6.76comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:09<00:00, 13.62comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:15<00:00,  4.78comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [01:27<00:00,  4.96comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:08<00:00, 14.91comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:15<00:00,  4.78comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [01:30<00:00,  4.77comb/s]
+~/lsc-revision/venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:409: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:08<00:00, 14.65comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:15<00:00,  4.78comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [01:24<00:00,  5.12comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:08<00:00, 14.50comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:15<00:00,  4.78comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [01:31<00:00,  4.71comb/s]
+Processing ~/lsc-revision/WORK/general_db_lm_chronos.csv (seed 4)
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:02<00:00, 49.04comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:03<00:00, 22.12comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [02:08<00:00,  3.36comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:02<00:00, 46.26comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:02<00:00, 24.09comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [02:04<00:00,  3.46comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:02<00:00, 50.25comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:01<00:00, 47.30comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [01:49<00:00,  3.93comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:02<00:00, 49.57comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:03<00:00, 21.92comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [02:04<00:00,  3.47comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:02<00:00, 49.25comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:03<00:00, 23.03comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [02:01<00:00,  3.54comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:02<00:00, 48.79comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:02<00:00, 24.43comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [02:00<00:00,  3.59comb/s]
+GridSearchCV signant new schema knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant new schema knn: 100%|██████████| 128/128 [00:02<00:00, 47.00comb/s]
+GridSearchCV signant new schema svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant new schema svc: 100%|██████████| 72/72 [00:03<00:00, 23.82comb/s]
+GridSearchCV signant new schema rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant new schema rf: 100%|██████████| 432/432 [02:05<00:00,  3.43comb/s]
+[2026-10-20 20:23] ~/lsc-revision/venv/bin/python imu/scripts/grid_search.py --features-csv ~/lsc-revision/WORK/temporal.csv ~/lsc-revision/WORK/general_db_imu_chronos.csv --output-dir ~/lsc-revision/WORK/results/signant_imu --seeds 1 2 3 4 --include-signant
+Processing ~/lsc-revision/WORK/temporal.csv (seed 1)
+Going to LOSO
+GridSearchCV LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 knn: 100%|██████████| 128/128 [00:03<00:00, 34.72comb/s]
+GridSearchCV LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 209.78comb/s]
+GridSearchCV LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 rf: 100%|██████████| 432/432 [00:30<00:00, 14.17comb/s]
+GridSearchCV LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 371.03comb/s]
+GridSearchCV LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 209.93comb/s]
+GridSearchCV LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 rf: 100%|██████████| 432/432 [00:29<00:00, 14.43comb/s]
+GridSearchCV LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 379.22comb/s]
+GridSearchCV LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 203.85comb/s]
+GridSearchCV LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 rf: 100%|██████████| 432/432 [00:32<00:00, 13.48comb/s]
+GridSearchCV LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 346.36comb/s]
+GridSearchCV LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 195.13comb/s]
+GridSearchCV LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 rf: 100%|██████████| 432/432 [00:30<00:00, 14.27comb/s]
+GridSearchCV LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 375.87comb/s]
+GridSearchCV LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 201.56comb/s]
+GridSearchCV LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 rf: 100%|██████████| 432/432 [00:29<00:00, 14.53comb/s]
+Going to signant-nonsignant
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant knn: 100%|██████████| 128/128 [00:00<00:00, 240.20comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:00<00:00, 222.70comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [00:28<00:00, 15.25comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 235.19comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 209.49comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [00:26<00:00, 16.45comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 239.81comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 227.56comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [00:26<00:00, 16.52comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 232.44comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 220.22comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [00:29<00:00, 14.84comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 249.62comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 207.51comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [00:28<00:00, 15.33comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 241.37comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 222.71comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [00:27<00:00, 15.56comb/s]
+Saved ~/lsc-revision/WORK/results/signant_imu/grid_search_results_temporal_seed1.pkl
+Processing ~/lsc-revision/WORK/general_db_imu_chronos.csv (seed 1)
+Going to LOSO
+GridSearchCV LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 174.38comb/s]
+GridSearchCV LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 134.51comb/s]
+GridSearchCV LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 rf: 100%|██████████| 432/432 [00:46<00:00,  9.23comb/s]
+GridSearchCV LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 191.27comb/s]
+GridSearchCV LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 131.31comb/s]
+GridSearchCV LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 rf: 100%|██████████| 432/432 [00:47<00:00,  9.18comb/s]
+GridSearchCV LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 186.02comb/s]
+GridSearchCV LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 110.63comb/s]
+GridSearchCV LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 rf: 100%|██████████| 432/432 [00:47<00:00,  9.08comb/s]
+GridSearchCV LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 189.72comb/s]
+GridSearchCV LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 131.35comb/s]
+GridSearchCV LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 rf: 100%|██████████| 432/432 [00:47<00:00,  9.02comb/s]
+GridSearchCV LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 190.36comb/s]
+GridSearchCV LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 128.14comb/s]
+GridSearchCV LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 rf: 100%|██████████| 432/432 [00:46<00:00,  9.23comb/s]
+Going to signant-nonsignant
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:00<00:00, 148.01comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:00<00:00, 113.82comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [00:39<00:00, 11.02comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 140.68comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 123.07comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [00:36<00:00, 11.95comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 147.82comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 115.69comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [00:35<00:00, 12.28comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:01<00:00, 106.01comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 124.09comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [00:38<00:00, 11.18comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 134.77comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 115.33comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [00:38<00:00, 11.20comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:01<00:00, 118.26comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 111.27comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [00:37<00:00, 11.44comb/s]
+Saved ~/lsc-revision/WORK/results/signant_imu/grid_search_results_general_db_imu_chronos_seed1.pkl
+Processing ~/lsc-revision/WORK/temporal.csv (seed 2)
+Going to LOSO
+GridSearchCV LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 342.86comb/s]
+GridSearchCV LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 201.32comb/s]
+GridSearchCV LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 rf: 100%|██████████| 432/432 [00:30<00:00, 14.01comb/s]
+GridSearchCV LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 346.13comb/s]
+GridSearchCV LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 192.63comb/s]
+GridSearchCV LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 rf: 100%|██████████| 432/432 [00:30<00:00, 14.04comb/s]
+GridSearchCV LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 360.82comb/s]
+GridSearchCV LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 211.84comb/s]
+GridSearchCV LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 rf: 100%|██████████| 432/432 [00:30<00:00, 14.37comb/s]
+GridSearchCV LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 379.92comb/s]
+GridSearchCV LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 188.52comb/s]
+GridSearchCV LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 rf: 100%|██████████| 432/432 [00:32<00:00, 13.46comb/s]
+GridSearchCV LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 375.13comb/s]
+GridSearchCV LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 194.88comb/s]
+GridSearchCV LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 rf: 100%|██████████| 432/432 [00:29<00:00, 14.41comb/s]
+Going to signant-nonsignant
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:00<00:00, 239.88comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:00<00:00, 207.46comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [00:28<00:00, 15.08comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 239.54comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 249.97comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [00:25<00:00, 16.67comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 246.51comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 213.30comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [00:26<00:00, 16.50comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 245.29comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 224.86comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [00:28<00:00, 15.32comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 248.21comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 222.64comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [00:27<00:00, 15.53comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 246.93comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 222.89comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [00:27<00:00, 15.84comb/s]
+Saved ~/lsc-revision/WORK/results/signant_imu/grid_search_results_temporal_seed2.pkl
+Processing ~/lsc-revision/WORK/general_db_imu_chronos.csv (seed 2)
+Going to LOSO
+GridSearchCV LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 204.97comb/s]
+GridSearchCV LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 137.41comb/s]
+GridSearchCV LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 rf: 100%|██████████| 432/432 [00:46<00:00,  9.26comb/s]
+GridSearchCV LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 200.48comb/s]
+GridSearchCV LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 133.51comb/s]
+GridSearchCV LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 rf: 100%|██████████| 432/432 [00:48<00:00,  8.95comb/s]
+GridSearchCV LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 178.68comb/s]
+GridSearchCV LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 125.89comb/s]
+GridSearchCV LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 rf: 100%|██████████| 432/432 [00:47<00:00,  9.05comb/s]
+GridSearchCV LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 190.38comb/s]
+GridSearchCV LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 132.48comb/s]
+GridSearchCV LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 rf: 100%|██████████| 432/432 [00:49<00:00,  8.69comb/s]
+GridSearchCV LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 185.71comb/s]
+GridSearchCV LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 130.13comb/s]
+GridSearchCV LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 rf: 100%|██████████| 432/432 [00:47<00:00,  9.18comb/s]
+Going to signant-nonsignant
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:00<00:00, 144.24comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:00<00:00, 115.63comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [00:39<00:00, 10.96comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 150.24comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 113.62comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [00:35<00:00, 12.11comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 150.31comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 116.37comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [00:35<00:00, 12.12comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 151.88comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 122.27comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [00:38<00:00, 11.24comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:01<00:00, 116.56comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 109.77comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [00:37<00:00, 11.48comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 145.17comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 116.84comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [00:38<00:00, 11.30comb/s]
+Saved ~/lsc-revision/WORK/results/signant_imu/grid_search_results_general_db_imu_chronos_seed2.pkl
+Processing ~/lsc-revision/WORK/temporal.csv (seed 3)
+Going to LOSO
+GridSearchCV LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 392.54comb/s]
+GridSearchCV LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 202.34comb/s]
+GridSearchCV LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 rf: 100%|██████████| 432/432 [00:30<00:00, 13.94comb/s]
+GridSearchCV LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 341.21comb/s]
+GridSearchCV LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 195.40comb/s]
+GridSearchCV LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 rf: 100%|██████████| 432/432 [00:31<00:00, 13.57comb/s]
+GridSearchCV LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 360.52comb/s]
+GridSearchCV LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 165.72comb/s]
+GridSearchCV LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 rf: 100%|██████████| 432/432 [00:31<00:00, 13.93comb/s]
+GridSearchCV LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 342.90comb/s]
+GridSearchCV LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 188.63comb/s]
+GridSearchCV LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 rf: 100%|██████████| 432/432 [00:29<00:00, 14.48comb/s]
+GridSearchCV LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 388.10comb/s]
+GridSearchCV LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 203.98comb/s]
+GridSearchCV LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 rf: 100%|██████████| 432/432 [00:30<00:00, 14.24comb/s]
+Going to signant-nonsignant
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:00<00:00, 254.39comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:00<00:00, 222.19comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [00:28<00:00, 15.25comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 244.16comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 216.06comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [00:26<00:00, 16.28comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 248.53comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 233.24comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [00:26<00:00, 16.32comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 246.85comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 220.92comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [00:27<00:00, 15.44comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 250.90comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 225.42comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [00:28<00:00, 15.19comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 240.05comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 203.32comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [00:27<00:00, 15.64comb/s]
+Saved ~/lsc-revision/WORK/results/signant_imu/grid_search_results_temporal_seed3.pkl
+Processing ~/lsc-revision/WORK/general_db_imu_chronos.csv (seed 3)
+Going to LOSO
+GridSearchCV LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 160.71comb/s]
+GridSearchCV LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 136.73comb/s]
+GridSearchCV LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 rf: 100%|██████████| 432/432 [00:47<00:00,  9.03comb/s]
+GridSearchCV LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 183.09comb/s]
+GridSearchCV LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 132.46comb/s]
+GridSearchCV LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 rf: 100%|██████████| 432/432 [00:47<00:00,  9.18comb/s]
+GridSearchCV LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 189.14comb/s]
+GridSearchCV LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 123.86comb/s]
+GridSearchCV LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 rf: 100%|██████████| 432/432 [00:49<00:00,  8.70comb/s]
+GridSearchCV LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 185.44comb/s]
+GridSearchCV LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 123.60comb/s]
+GridSearchCV LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 rf: 100%|██████████| 432/432 [00:47<00:00,  9.00comb/s]
+GridSearchCV LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 182.03comb/s]
+GridSearchCV LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 136.07comb/s]
+GridSearchCV LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 rf: 100%|██████████| 432/432 [00:48<00:00,  8.84comb/s]
+Going to signant-nonsignant
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:00<00:00, 139.17comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:00<00:00, 107.81comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [00:38<00:00, 11.17comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 144.85comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 123.52comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [00:35<00:00, 12.00comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 138.42comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 117.19comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [00:35<00:00, 12.11comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 153.36comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 118.55comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [00:38<00:00, 11.32comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 141.09comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 120.22comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [00:38<00:00, 11.26comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 143.04comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 113.25comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [00:37<00:00, 11.52comb/s]
+Saved ~/lsc-revision/WORK/results/signant_imu/grid_search_results_general_db_imu_chronos_seed3.pkl
+Processing ~/lsc-revision/WORK/temporal.csv (seed 4)
+Going to LOSO
+GridSearchCV LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 353.04comb/s]
+GridSearchCV LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 201.02comb/s]
+GridSearchCV LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 rf: 100%|██████████| 432/432 [00:30<00:00, 14.17comb/s]
+GridSearchCV LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 364.73comb/s]
+GridSearchCV LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 162.78comb/s]
+GridSearchCV LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 rf: 100%|██████████| 432/432 [00:30<00:00, 14.14comb/s]
+GridSearchCV LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 355.81comb/s]
+GridSearchCV LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 191.21comb/s]
+GridSearchCV LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 rf: 100%|██████████| 432/432 [00:30<00:00, 14.27comb/s]
+GridSearchCV LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 359.34comb/s]
+GridSearchCV LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 204.22comb/s]
+GridSearchCV LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 rf: 100%|██████████| 432/432 [00:30<00:00, 13.97comb/s]
+GridSearchCV LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 371.43comb/s]
+GridSearchCV LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 189.94comb/s]
+GridSearchCV LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 rf: 100%|██████████| 432/432 [00:30<00:00, 14.26comb/s]
+Going to signant-nonsignant
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:00<00:00, 242.73comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:00<00:00, 219.09comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant rf: 100%|██████████| 432/432 [00:28<00:00, 15.20comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 235.77comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 214.33comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [00:26<00:00, 16.35comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 239.61comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 209.05comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [00:26<00:00, 16.24comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 247.23comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 224.09comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [00:28<00:00, 15.43comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 248.50comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 229.64comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [00:28<00:00, 15.03comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 242.33comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 225.28comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [00:27<00:00, 15.75comb/s]
+Saved ~/lsc-revision/WORK/results/signant_imu/grid_search_results_temporal_seed4.pkl
+Processing ~/lsc-revision/WORK/general_db_imu_chronos.csv (seed 4)
+Going to LOSO
+GridSearchCV LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 195.25comb/s]
+GridSearchCV LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 134.41comb/s]
+GridSearchCV LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 0 rf: 100%|██████████| 432/432 [00:49<00:00,  8.76comb/s]
+GridSearchCV LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 189.13comb/s]
+GridSearchCV LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 135.20comb/s]
+GridSearchCV LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 1 rf: 100%|██████████| 432/432 [00:47<00:00,  9.15comb/s]
+GridSearchCV LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 2 knn: 100%|██████████| 128/128 [00:00<00:00, 193.12comb/s]
+GridSearchCV LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 135.51comb/s]
+GridSearchCV LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 2 rf: 100%|██████████| 432/432 [00:48<00:00,  8.93comb/s]
+GridSearchCV LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 184.04comb/s]
+GridSearchCV LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 125.78comb/s]
+GridSearchCV LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 3 rf: 100%|██████████| 432/432 [00:47<00:00,  9.08comb/s]
+GridSearchCV LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 181.25comb/s]
+GridSearchCV LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 126.86comb/s]
+GridSearchCV LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV LOSO subj 4 rf: 100%|██████████| 432/432 [00:49<00:00,  8.81comb/s]
+Going to signant-nonsignant
+GridSearchCV signant knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant knn: 100%|██████████| 128/128 [00:00<00:00, 147.08comb/s]
+GridSearchCV signant svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant svc: 100%|██████████| 72/72 [00:00<00:00, 120.91comb/s]
+GridSearchCV signant rf:   0%|          | 0/432 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant rf: 100%|██████████| 432/432 [00:39<00:00, 11.00comb/s]
+GridSearchCV signant LOSO subj 0 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 knn: 100%|██████████| 128/128 [00:00<00:00, 142.04comb/s]
+GridSearchCV signant LOSO subj 0 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 svc: 100%|██████████| 72/72 [00:00<00:00, 119.86comb/s]
+GridSearchCV signant LOSO subj 0 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 0 rf: 100%|██████████| 432/432 [00:36<00:00, 11.97comb/s]
+GridSearchCV signant LOSO subj 1 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 knn: 100%|██████████| 128/128 [00:00<00:00, 146.89comb/s]
+GridSearchCV signant LOSO subj 1 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 svc: 100%|██████████| 72/72 [00:00<00:00, 101.46comb/s]
+GridSearchCV signant LOSO subj 1 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 1 rf: 100%|██████████| 432/432 [00:35<00:00, 12.10comb/s]
+GridSearchCV signant LOSO subj 2 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 knn: 100%|██████████| 128/128 [00:01<00:00, 122.63comb/s]
+GridSearchCV signant LOSO subj 2 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 svc: 100%|██████████| 72/72 [00:00<00:00, 112.60comb/s]
+GridSearchCV signant LOSO subj 2 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 2 rf: 100%|██████████| 432/432 [00:38<00:00, 11.26comb/s]
+GridSearchCV signant LOSO subj 3 knn:   0%|          | 0/128 [00:00<?, ?comb/s]~/lsc-revision/venv/lib/python3.11/site-packages/numpy/ma/core.py:2820: RuntimeWarning: invalid value encountered in cast
+  _data = np.array(data, dtype=dtype, copy=copy,
+GridSearchCV signant LOSO subj 3 knn: 100%|██████████| 128/128 [00:00<00:00, 145.57comb/s]
+GridSearchCV signant LOSO subj 3 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 svc: 100%|██████████| 72/72 [00:00<00:00, 117.46comb/s]
+GridSearchCV signant LOSO subj 3 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 3 rf: 100%|██████████| 432/432 [00:38<00:00, 11.16comb/s]
+GridSearchCV signant LOSO subj 4 knn:   0%|          | 0/128 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 knn: 100%|██████████| 128/128 [00:00<00:00, 147.70comb/s]
+GridSearchCV signant LOSO subj 4 svc:   0%|          | 0/72 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 svc: 100%|██████████| 72/72 [00:00<00:00, 120.87comb/s]
+GridSearchCV signant LOSO subj 4 rf:   0%|          | 0/432 [00:00<?, ?comb/s]GridSearchCV signant LOSO subj 4 rf: 100%|██████████| 432/432 [00:37<00:00, 11.44comb/s]
+Saved ~/lsc-revision/WORK/results/signant_imu/grid_search_results_general_db_imu_chronos_seed4.pkl
+[2026-10-20 21:17] ~/lsc-revision/venv/bin/python scripts/revision/signant_labeling_permutation.py --features-csv ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv --model rf --output-csv ~/lsc-revision/WORK/results/signant_labeling_permutation_bodynorm_rf.csv
+{'deaf_volunteers': '1+2+3', 'true_grouping': False, 'balanced_accuracy': 0.2549309045226131, 'acc_v1': 1.0, 'acc_v2': 0.3768844221105528, 'acc_v3': 0.03535353535353535, 'acc_v4': 0.05, 'acc_v5': 0.025}
+{'deaf_volunteers': '1+2+4', 'true_grouping': False, 'balanced_accuracy': 0.3830693534450214, 'acc_v1': 0.915, 'acc_v2': 0.7336683417085427, 'acc_v3': 0.2676767676767677, 'acc_v4': 0.025, 'acc_v5': 0.15}
+{'deaf_volunteers': '1+2+5', 'true_grouping': False, 'balanced_accuracy': 0.33521321129856296, 'acc_v1': 1.0, 'acc_v2': 0.8140703517587939, 'acc_v3': 0.050505050505050504, 'acc_v4': 0.035, 'acc_v5': 0.07}
+{'deaf_volunteers': '1+3+4', 'true_grouping': False, 'balanced_accuracy': 0.08191465285286795, 'acc_v1': 0.0, 'acc_v2': 0.09547738693467336, 'acc_v3': 0.23737373737373738, 'acc_v4': 0.075, 'acc_v5': 0.025}
+{'deaf_volunteers': '1+3+5', 'true_grouping': False, 'balanced_accuracy': 0.1902016747554505, 'acc_v1': 0.07, 'acc_v2': 0.035175879396984924, 'acc_v3': 0.5353535353535354, 'acc_v4': 0.04, 'acc_v5': 0.425}
+{'deaf_volunteers': '1+4+5', 'true_grouping': False, 'balanced_accuracy': 0.033797229219143576, 'acc_v1': 0.0, 'acc_v2': 0.005025125628140704, 'acc_v3': 0.020202020202020204, 'acc_v4': 0.045, 'acc_v5': 0.12}
+{'deaf_volunteers': '2+3+4', 'true_grouping': False, 'balanced_accuracy': 0.2888316582914573, 'acc_v1': 0.09, 'acc_v2': 0.18090452261306533, 'acc_v3': 0.4595959595959596, 'acc_v4': 0.955, 'acc_v5': 0.0}
+{'deaf_volunteers': '2+3+5', 'true_grouping': False, 'balanced_accuracy': 0.3149078726968174, 'acc_v1': 0.0, 'acc_v2': 0.2562814070351759, 'acc_v3': 0.7575757575757576, 'acc_v4': 0.0, 'acc_v5': 0.875}
+{'deaf_volunteers': '2+4+5', 'true_grouping': False, 'balanced_accuracy': 0.3501711395038632, 'acc_v1': 0.0, 'acc_v2': 0.6080402010050251, 'acc_v3': 0.005050505050505051, 'acc_v4': 0.925, 'acc_v5': 0.56}
+{'deaf_volunteers': '3+4+5', 'true_grouping': True, 'balanced_accuracy': 0.8696553256049824, 'acc_v1': 0.96, 'acc_v2': 0.6080402010050251, 'acc_v3': 0.9646464646464646, 'acc_v4': 0.975, 'acc_v5': 0.925}
+deaf_volunteers  true_grouping  balanced_accuracy  acc_v1  acc_v2  acc_v3  acc_v4  acc_v5
+          3+4+5           True               0.87    0.96    0.61    0.96    0.97    0.93
+          1+2+4          False               0.38    0.92    0.73    0.27    0.03    0.15
+          2+4+5          False               0.35    0.00    0.61    0.01    0.93    0.56
+          1+2+5          False               0.34    1.00    0.81    0.05    0.04    0.07
+          2+3+5          False               0.31    0.00    0.26    0.76    0.00    0.88
+          2+3+4          False               0.29    0.09    0.18    0.46    0.95    0.00
+          1+2+3          False               0.25    1.00    0.38    0.04    0.05    0.03
+          1+3+5          False               0.19    0.07    0.04    0.54    0.04    0.42
+          1+3+4          False               0.08    0.00    0.10    0.24    0.07    0.03
+          1+4+5          False               0.03    0.00    0.01    0.02    0.04    0.12
+True grouping ranks 1 of 10 (permutation p = 0.1)
+[2026-10-20 21:18] ~/lsc-revision/venv/bin/python scripts/revision/signant_labeling_permutation.py --features-csv ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv --model svm --output-csv ~/lsc-revision/WORK/results/signant_labeling_permutation_bodynorm_svm.csv
+{'deaf_volunteers': '1+2+3', 'true_grouping': False, 'balanced_accuracy': 0.287606783919598, 'acc_v1': 0.995, 'acc_v2': 0.5527638190954773, 'acc_v3': 0.07575757575757576, 'acc_v4': 0.015, 'acc_v5': 0.05}
+{'deaf_volunteers': '1+2+4', 'true_grouping': False, 'balanced_accuracy': 0.4579407890873399, 'acc_v1': 0.985, 'acc_v2': 0.7135678391959799, 'acc_v3': 0.2828282828282828, 'acc_v4': 0.13, 'acc_v5': 0.33}
+{'deaf_volunteers': '1+2+5', 'true_grouping': False, 'balanced_accuracy': 0.33586966552294023, 'acc_v1': 0.97, 'acc_v2': 0.3869346733668342, 'acc_v3': 0.18181818181818182, 'acc_v4': 0.19, 'acc_v5': 0.1}
+{'deaf_volunteers': '1+3+4', 'true_grouping': False, 'balanced_accuracy': 0.10492996705811351, 'acc_v1': 0.03, 'acc_v2': 0.01507537688442211, 'acc_v3': 0.24242424242424243, 'acc_v4': 0.335, 'acc_v5': 0.0}
+{'deaf_volunteers': '1+3+5', 'true_grouping': False, 'balanced_accuracy': 0.2169365721997301, 'acc_v1': 0.015, 'acc_v2': 0.06030150753768844, 'acc_v3': 0.4494949494949495, 'acc_v4': 0.115, 'acc_v5': 0.575}
+{'deaf_volunteers': '1+4+5', 'true_grouping': False, 'balanced_accuracy': 0.03461167086481948, 'acc_v1': 0.005, 'acc_v2': 0.0, 'acc_v3': 0.015151515151515152, 'acc_v4': 0.03, 'acc_v5': 0.15}
+{'deaf_volunteers': '2+3+4', 'true_grouping': False, 'balanced_accuracy': 0.3559463986599665, 'acc_v1': 0.0, 'acc_v2': 0.6130653266331658, 'acc_v3': 0.5505050505050505, 'acc_v4': 0.97, 'acc_v5': 0.0}
+{'deaf_volunteers': '2+3+5', 'true_grouping': False, 'balanced_accuracy': 0.3157453936348409, 'acc_v1': 0.0, 'acc_v2': 0.2864321608040201, 'acc_v3': 0.7575757575757576, 'acc_v4': 0.0, 'acc_v5': 0.85}
+{'deaf_volunteers': '2+4+5', 'true_grouping': False, 'balanced_accuracy': 0.25626043405676124, 'acc_v1': 0.0, 'acc_v2': 0.4472361809045226, 'acc_v3': 0.0, 'acc_v4': 0.665, 'acc_v5': 0.425}
+{'deaf_volunteers': '3+4+5', 'true_grouping': True, 'balanced_accuracy': 0.595613196871778, 'acc_v1': 0.58, 'acc_v2': 0.005025125628140704, 'acc_v3': 0.9242424242424242, 'acc_v4': 0.87, 'acc_v5': 0.9}
+deaf_volunteers  true_grouping  balanced_accuracy  acc_v1  acc_v2  acc_v3  acc_v4  acc_v5
+          3+4+5           True               0.60    0.58    0.01    0.92    0.87    0.90
+          1+2+4          False               0.46    0.98    0.71    0.28    0.13    0.33
+          2+3+4          False               0.36    0.00    0.61    0.55    0.97    0.00
+          1+2+5          False               0.34    0.97    0.39    0.18    0.19    0.10
+          2+3+5          False               0.32    0.00    0.29    0.76    0.00    0.85
+          1+2+3          False               0.29    0.99    0.55    0.08    0.01    0.05
+          2+4+5          False               0.26    0.00    0.45    0.00    0.67    0.42
+          1+3+5          False               0.22    0.01    0.06    0.45    0.12    0.57
+          1+3+4          False               0.10    0.03    0.02    0.24    0.34    0.00
+          1+4+5          False               0.03    0.01    0.00    0.02    0.03    0.15
+True grouping ranks 1 of 10 (permutation p = 0.1)
+[2026-10-20 21:18] ~/lsc-revision/venv/bin/python scripts/revision/signant_labeling_permutation.py --features-csv ~/lsc-revision/WORK/bodynorm/temporal_features_bodynorm.csv --model knn --output-csv ~/lsc-revision/WORK/results/signant_labeling_permutation_bodynorm_knn.csv
+{'deaf_volunteers': '1+2+3', 'true_grouping': False, 'balanced_accuracy': 0.3137311557788945, 'acc_v1': 0.935, 'acc_v2': 0.46733668341708545, 'acc_v3': 0.0707070707070707, 'acc_v4': 0.225, 'acc_v5': 0.045}
+{'deaf_volunteers': '1+2+4', 'true_grouping': False, 'balanced_accuracy': 0.5910038506388369, 'acc_v1': 0.8, 'acc_v2': 0.32663316582914576, 'acc_v3': 0.7272727272727273, 'acc_v4': 0.135, 'acc_v5': 0.795}
+{'deaf_volunteers': '1+2+5', 'true_grouping': False, 'balanced_accuracy': 0.3498984907844733, 'acc_v1': 0.76, 'acc_v2': 0.2613065326633166, 'acc_v3': 0.1414141414141414, 'acc_v4': 0.535, 'acc_v5': 0.06}
+{'deaf_volunteers': '1+3+4', 'true_grouping': False, 'balanced_accuracy': 0.21107534723095364, 'acc_v1': 0.24, 'acc_v2': 0.16080402010050251, 'acc_v3': 0.16161616161616163, 'acc_v4': 0.54, 'acc_v5': 0.055}
+{'deaf_volunteers': '1+3+5', 'true_grouping': False, 'balanced_accuracy': 0.3753489073855207, 'acc_v1': 0.2, 'acc_v2': 0.19597989949748743, 'acc_v3': 0.7474747474747475, 'acc_v4': 0.135, 'acc_v5': 0.81}
+{'deaf_volunteers': '1+4+5', 'true_grouping': False, 'balanced_accuracy': 0.14440176322418136, 'acc_v1': 0.065, 'acc_v2': 0.2914572864321608, 'acc_v3': 0.05555555555555555, 'acc_v4': 0.23, 'acc_v5': 0.05}
+{'deaf_volunteers': '2+3+4', 'true_grouping': False, 'balanced_accuracy': 0.30146984924623116, 'acc_v1': 0.03, 'acc_v2': 0.7386934673366834, 'acc_v3': 0.25252525252525254, 'acc_v4': 0.77, 'acc_v5': 0.0}
+{'deaf_volunteers': '2+3+5', 'true_grouping': False, 'balanced_accuracy': 0.4116352596314908, 'acc_v1': 0.005, 'acc_v2': 0.6733668341708543, 'acc_v3': 0.8383838383838383, 'acc_v4': 0.0, 'acc_v5': 0.95}
+{'deaf_volunteers': '2+4+5', 'true_grouping': False, 'balanced_accuracy': 0.22463318260752846, 'acc_v1': 0.095, 'acc_v2': 0.5326633165829145, 'acc_v3': 0.015151515151515152, 'acc_v4': 0.46, 'acc_v5': 0.19}
+{'deaf_volunteers': '3+4+5', 'true_grouping': True, 'balanced_accuracy': 0.631124215220325, 'acc_v1': 0.675, 'acc_v2': 0.02512562814070352, 'acc_v3': 0.9292929292929293, 'acc_v4': 0.865, 'acc_v5': 0.94}
+deaf_volunteers  true_grouping  balanced_accuracy  acc_v1  acc_v2  acc_v3  acc_v4  acc_v5
+          3+4+5           True               0.63    0.68    0.03    0.93    0.86    0.94
+          1+2+4          False               0.59    0.80    0.33    0.73    0.14    0.80
+          2+3+5          False               0.41    0.01    0.67    0.84    0.00    0.95
+          1+3+5          False               0.38    0.20    0.20    0.75    0.14    0.81
+          1+2+5          False               0.35    0.76    0.26    0.14    0.54    0.06
+          1+2+3          False               0.31    0.94    0.47    0.07    0.23    0.04
+          2+3+4          False               0.30    0.03    0.74    0.25    0.77    0.00
+          2+4+5          False               0.22    0.10    0.53    0.02    0.46    0.19
+          1+3+4          False               0.21    0.24    0.16    0.16    0.54    0.06
+          1+4+5          False               0.14    0.07    0.29    0.06    0.23    0.05
+True grouping ranks 1 of 10 (permutation p = 0.1)
+[2026-10-20 21:18] ~/lsc-revision/venv/bin/python scripts/revision/signant_summary.py --pkl Landmarks TSFEL body-relative=~/lsc-revision/WORK/results/signant_bodynorm/grid_search_results_temporal_features_bodynorm_chronos_seed?.pkl --pkl Landmarks TSFEL image coordinates=~/lsc-revision/WORK/results/signant_landmarks/grid_search_results_temporal_features_chronos_seed?.pkl --pkl Landmarks Chronos=~/lsc-revision/WORK/results/signant_landmarks/grid_search_results_general_db_lm_chronos_chronos_seed?.pkl --pkl IMU TSFEL=~/lsc-revision/WORK/results/signant_imu/grid_search_results_temporal_seed?.pkl --pkl IMU Chronos=~/lsc-revision/WORK/results/signant_imu/grid_search_results_general_db_imu_chronos_seed?.pkl --output-prefix ~/lsc-revision/WORK/results/signant_summary
+                                         n_seeds  rows_8020_f1_mean  signs_heldout_f1_mean  signer_heldout_bal_acc_mean  signer_heldout_bal_acc_sd  acc_V1_mean  acc_V2_mean  acc_V3_mean  acc_V4_mean  acc_V5_mean
+features                          model                                                                                                                                                                            
+Landmarks TSFEL body-relative     SVM          5              0.995                  0.983                        0.693                      0.000        0.960        0.005        0.924        0.870        0.915
+                                  RF           5              0.984                  0.944                        0.839                      0.036        0.944        0.502        0.965        0.968        0.932
+                                  KNN          5              0.988                  0.974                        0.611                      0.000        0.590        0.025        0.934        0.855        0.950
+Landmarks TSFEL image coordinates SVM          5              0.997                  0.995                        0.551                      0.000        0.265        0.010        0.949        0.985        0.960
+                                  RF           5              0.990                  0.972                        0.933                      0.015        1.000        0.785        0.988        1.000        0.930
+                                  KNN          5              0.983                  0.980                        0.680                      0.000        0.780        0.010        0.980        0.935        0.980
+Landmarks Chronos                 SVM          5              0.931                  0.869                        0.469                      0.000        0.365        0.141        0.859        0.615        0.585
+                                  RF           5              0.849                  0.805                        0.443                      0.020        0.317        0.064        0.866        0.607        0.612
+                                  KNN          5              0.881                  0.807                        0.464                      0.000        0.160        0.025        0.914        0.790        0.805
+IMU TSFEL                         SVM          5              0.976                    NaN                        0.206                      0.000        0.000        0.060        0.620        0.460        0.061
+                                  RF           5              0.972                    NaN                        0.068                      0.014        0.000        0.000        0.136        0.184        0.086
+                                  KNN          5              0.916                    NaN                        0.144                      0.000        0.000        0.000        0.300        0.360        0.204
+IMU Chronos                       SVM          5              0.846                    NaN                        0.139                      0.000        0.020        0.000        0.440        0.360        0.000
+                                  RF           5              0.743                    NaN                        0.109                      0.009        0.020        0.004        0.276        0.336        0.000
+                                  KNN          5              0.781                    NaN                        0.179                      0.000        0.020        0.040        0.520        0.420        0.041
+[2026-10-20 21:18] signant v2 done
