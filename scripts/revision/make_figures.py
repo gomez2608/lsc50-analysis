@@ -69,7 +69,7 @@ def grid_x(ax) -> None:
 
 def fig_loso_models(ci: pd.DataFrame, out: str) -> None:
     d = ci[~ci.model.isin(HELPER_ROWS)].sort_values("mean_f1")
-    fig, ax = plt.subplots(figsize=(6.3, 0.26 * len(d) + 0.8))
+    fig, ax = plt.subplots(figsize=(3.6, 0.3 * len(d) + 0.6))
     y = np.arange(len(d))
     for i, (_, r) in enumerate(d.iterrows()):
         pts = [r[f"V{s}"] for s in range(1, 6)]
@@ -77,16 +77,13 @@ def fig_loso_models(ci: pd.DataFrame, out: str) -> None:
         ax.plot([r.ci_t_low, r.ci_t_high], [i, i], color=BLUE, linewidth=2, solid_capstyle="round", zorder=3)
         ax.scatter([r.mean_f1], [i], s=28, color=BLUE, edgecolors="white", linewidths=0.8, zorder=4)
         ax.text(1.005, i, f"{r.mean_f1:.2f} [{max(r.ci_t_low, 0):.2f}, {min(r.ci_t_high, 1):.2f}]", transform=ax.get_yaxis_transform(),
-                va="center", ha="left", color=INK2, fontsize=7)
+                va="center", ha="left", color=INK2, fontsize=8)
     ax.set_yticks(y, [LABELS.get(m, m) for m in d.model])
     ax.set_xlim(0, 1)
     ax.axvline(0.02, color=MUTED, linewidth=0.6, linestyle=(0, (2, 2)))
-    ax.text(0.025, len(d) - 0.4, "chance", color=MUTED, fontsize=7, va="bottom")
+    ax.text(0.025, len(d) - 0.4, "chance", color=MUTED, fontsize=8, va="bottom")
     ax.set_xlabel("Weighted F1 on the held-out signer")
-    ax.set_title("Signer-independent recognition (leave one signer out)")
     grid_x(ax)
-    fig.text(0.01, -0.02, "Blue: mean over 5 held-out signers with 95% t-interval over signers (clipped to [0, 1]). Grey: each signer.",
-             color=MUTED, fontsize=6.5, va="top")
     save(fig, out, "fig_loso_models")
 
 
@@ -99,12 +96,11 @@ def fig_loso_per_signer(ci: pd.DataFrame, out: str, picks: list[tuple[str, str, 
             continue
         vals = [r.iloc[0][f"V{s}"] for s in x]
         ax.plot(x, vals, color=colour, linewidth=2, marker="o", markersize=5, markeredgecolor="white", markeredgewidth=0.8)
-        ax.text(5.15, vals[-1], label, color=INK, fontsize=7, va="center")
+        ax.text(5.15, vals[-1], label, color=INK, fontsize=8, va="center")
     ax.set_xticks(x, [f"V{s}\n{GROUP[s]}" for s in x])
     ax.set_xlim(0.7, 5.1)
     ax.set_ylim(0, 1)
     ax.set_ylabel("Weighted F1 on the held-out signer")
-    ax.set_title("Per held-out signer")
     ax.grid(axis="y", color=GRID, linewidth=0.6)
     ax.set_axisbelow(True)
     save(fig, out, "fig_loso_per_signer")
@@ -119,7 +115,7 @@ def fig_dtw(path: str, out: str) -> None:
     for i in range(len(m)):
         for j in range(len(m)):
             v = m.values[i, j]
-            ax.text(j, i, f"{v:.2f}", ha="center", va="center", fontsize=7,
+            ax.text(j, i, f"{v:.2f}", ha="center", va="center", fontsize=8,
                     color="white" if v > 0.55 * m.values.max() else INK, fontweight="bold" if i == j else "normal")
     ax.set_xticks(range(len(m)), labels)
     ax.set_yticks(range(len(m)), labels)
@@ -129,7 +125,6 @@ def fig_dtw(path: str, out: str) -> None:
     cb = fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
     cb.outline.set_visible(False)
     cb.set_label("Per-step DTW cost (lower = more similar)", color=INK2)
-    ax.set_title("Signer similarity (diagonal = own repetitions)")
     save(fig, out, "fig_dtw_matrix")
 
 
@@ -148,8 +143,6 @@ def fig_importance_pose(paths: list[tuple[str, str]], out: str) -> None:
         ax.set_xlabel("Drop in weighted F1 when permuted")
         ax.set_title(title)
         grid_x(ax)
-    fig.text(0.01, -0.06, "Bars: mean over the 5 held-out signers; dots: each signer. Hands as labelled by MediaPipe.",
-             color=MUTED, fontsize=6.5)
     fig.tight_layout()
     save(fig, out, "fig_importance_pose")
 
@@ -171,8 +164,6 @@ def fig_importance(path: str, out: str) -> None:
         ax.set_xlabel("Drop in weighted F1 when permuted")
         ax.set_title(title)
         grid_x(ax)
-    fig.text(0.01, -0.04, "Bars: mean over the 5 held-out signers; dots: each signer. Random Forest, body-relative landmarks.",
-             color=MUTED, fontsize=6.5)
     fig.tight_layout()
     save(fig, out, "fig_importance")
 

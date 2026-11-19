@@ -110,7 +110,7 @@ for ax, (L, lab, subjects) in zip(axes, PANELS):
             va="center", fontsize=10, color=INK, fontweight="bold", zorder=6)
     ax.set_title(f"$\\bf{{{L}}}$   {lab}", loc="left", fontsize=10, color=INK, pad=4)
     ax.text(0.0, 0.0, f"Head tilt {abs(head[peak] - head[0]):.0f}°, shoulder line {abs(sh[peak] - sh[0]):.0f}°",
-            transform=ax.transAxes, fontsize=7.5, color=INK2, va="bottom")
+            transform=ax.transAxes, fontsize=8, color=INK2, va="bottom")
     ax.set_aspect("equal"); ax.axis("off")
     ax.set_xlim(-1.45, 1.45); ax.set_ylim(-1.75, 1.15)
 
